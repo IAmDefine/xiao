@@ -1,0 +1,61 @@
+<view class="container">
+  <!--头部搜索框-->
+  <view class="header">
+    <view class="search_container">
+      <form>
+        <view class="search_word">
+          <view class="search_icon">
+            <image src="/images/search_icon.png"></image>
+          </view>
+          <input type="text" placeholder="请输入艺人姓名" class="search" placeholder-style="color:#B0B0B0" bindconfirm="search_submit" bindinput="input_value" value="{{search_con}}" />
+        </view>
+        <view class="submit_button" style="background-color:{{submit_bg}};font-family:'微软雅黑'" bindtap="submit_click">{{submit_value}}</view>
+      </form>
+    </view>
+  </view>
+
+  <!--历史搜索+热门搜索-->
+  <view class="search_info" style="display:{{search_info}}">
+    <view class="search_con">
+      <view class="search_history" style="display:{{history_state}}">
+        <view class="history_title">
+          <view class="history_con">历史搜索</view>
+          <view class="history_icon" bindtap="button_del">
+            清除
+          </view>
+        </view>
+        <view class="history_box">
+          <block>
+            <view class="history_item" wx:for="{{history_items}}" data-hi="{{item}}" bindtap="seek">
+              {{item}}
+            </view>
+          </block>
+        </view>
+      </view>
+      <view class="hot_history">
+        <view class="hot_title">
+          <view class="hot_con">热门搜索</view>
+          <view class="hot_icon" bindtap="hot_button">
+            换一批
+          </view>
+        </view>
+        <view class="hot_box">
+          <block>
+            <view class="hot_item" wx:for="{{hot_items}}" data-hi="{{item.names}}" bindtap="hot1" wx:if="{{hot_items}}">
+              {{item.names}}
+            </view>
+            <view wx:if="{{!hot_items}}" style="font-size:14px;">暂无数据~</view>
+          </block>
+        </view>
+      </view>
+    </view>
+  </view>
+<!--查询出的内容  -->
+<view style='display:{{search_content}}'>
+  <view wx:if="{{star_message}}">
+    <image src="{{star_message.img}}"></image>
+  </view>
+  <view wx:else> 没有数据 </view>
+</view>
+
+</view>

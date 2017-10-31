@@ -1,0 +1,21 @@
+/*顶部搜索  */
+.topbar{width: 710rpx;height: 64rpx;padding: 20rpx;border-top: 1rpx solid #DBDBDB;}
+.search_link{width: 513rpx;height: 62rpx;border: 1rpx solid #EAEAEA;float: left;border-radius: 10rpx;background-color: #ffffff;padding-left: 55rpx;position: relative;color: #B0B0B0;font-size: 26rpx;line-height: 62rpx;margin-left:18rpx}
+.search_link_icon{display: block;width: 26rpx;height: 26rpx;position: absolute;top: 18rpx;left: 20rpx;}
+.filter{width: 118rpx; height: 62rpx;border: 1rpx solid #EAEAEA;text-align: center;line-height: 62rpx;border-radius: 10rpx;font-size: 26rpx;color: #666666;float: left;background-color: #ffffff;}
+
+.img_con{
+  width: 750rpx;
+  background: #CCCCCC;
+}
+.starcon{
+  margin:0 auto;
+  width: 800rpx;
+  height: 960rpx;
+  background-color: #eeeeee;
+  margin-top: 5px;
+}
+.starcon >image{
+  width:100%;
+  height: 100%;
+}

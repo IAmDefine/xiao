@@ -1,0 +1,16 @@
+<view class="page">
+     <!--顶部搜索框-->
+  <view class="topbar">
+    <view class="filter" bindtap="filter">筛选</view>
+    <view class="search_link" data-a='1' bindtap="search_link">
+      请输入艺人姓名
+      <image src="/images/search_icon.png" class="search_link_icon"></image>
+    </view>
+  </view>
+
+  <view class='img_con'>
+    <view style="" class='starcon' wx:for="{{starinfo}}" wx:for-item="value" wx:key="id">
+      <image  src="{{value.imgs}}"></image>
+    </view>
+  </view>
+</view>
