@@ -16,7 +16,6 @@ Page({
   },
   onLoad: function (options) {
     var history = wx.getStorageSync('history');
-    console.log(history);
     if (!history){
       this.setData({
         'history_state':'none'
@@ -26,7 +25,24 @@ Page({
         'history_items': history
       })
     }
+  //查询热门搜索
+    var url = '/inter/hotkeys/lists';
+    var postData = { showrow: 10}
+    function doSuccess(res) {
+      console.log(res.data);
+      // if (res.data.status == 1) {
+      //   that.setData({
+      //     hot_items: res.data.data.data,
 
+      //   })
+      // } else {
+      //   that.setData({
+      //     hot_items: ""
+      //   })
+      // }
+    }
+
+    app.yxkRequest(url, postData, doSuccess);
   },
 
   // 点击清除执行
@@ -165,31 +181,9 @@ Page({
     var seek = e.target.dataset.hi //历史搜索内容清空
     var url = "/search/index.php";
    
-    var postData = { keys: seek};
-    //成功执行函数
-    // function doSuccess(res) {
-    //   if (res.data.status == 1) {
-    //     that.setData({
-    //       result_item: res.data.data.data,
-    //       search_con: seek,
-    //       search_info: "none",//历史搜索、热门搜索消失
-    //       search_content: "block",//搜索内容出现
-    //     })
-    //   } else {
-    //     that.setData({
-    //       search_con: seek,
-    //       search_info: "none",//历史搜索、热门搜索消失
-    //       search_content: "block",//搜索内容出现
-    //       result_item: "",
-    //       img: "/images/no_con.png",
-    //       text: "没有搜索到产品~"
-    //     })
-    //   }
-    // }
-    // app.yxkRequest(url, postData, doSuccess); //调用查询接口 
+    var postData = { keys: seek}; 
     //成功执行函数
     function doSuccess(res) {
-      console.log(res);
       if (res.data.result.items[0]) {
         var info = res.data.result.items[0].fields;
         that.setData({
@@ -198,7 +192,8 @@ Page({
         })
       } else {
         that.setData({
-          'star_message': ''
+          'star_message': '',
+          'search_con': seek
         })
       }
      
@@ -207,6 +202,7 @@ Page({
     this.setData({
       search_info: "none",//历史搜索、热门搜索消失
       search_content: "block",//搜索内容出现
+      
     })
   },
   //点击热门搜索
