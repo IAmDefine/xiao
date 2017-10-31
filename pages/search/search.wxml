@@ -21,7 +21,7 @@
         <view class="history_title">
           <view class="history_con">历史搜索</view>
           <view class="history_icon" bindtap="button_del">
-            清除
+            <image src='/images/search_delete.png'></image>
           </view>
         </view>
         <view class="history_box">
@@ -36,7 +36,7 @@
         <view class="hot_title">
           <view class="hot_con">热门搜索</view>
           <view class="hot_icon" bindtap="hot_button">
-            换一批
+           <image src='/images/search_fresh.png'></image>
           </view>
         </view>
         <view class="hot_box">
@@ -51,8 +51,8 @@
     </view>
   </view>
 <!--查询出的内容  -->
-<view style='display:{{search_content}}'>
-  <view wx:if="{{star_message}}">
+<view style='display:{{search_content}}' class='resPic'>
+  <view wx:if="{{star_message}}" class='resPicItem'>
     <image src="{{star_message.img}}"></image>
   </view>
   <view wx:else> 没有数据 </view>

@@ -8,7 +8,7 @@ Page({
     history_state: "block",//搜索历史默认出现
     search_con: "",//搜索内容的value值
     search_info: "block",//整个下方搜索历史、刷新
-    submit_bg: "#CCCCCC",//搜索按钮为灰色状态
+    submit_bg: "#FFFFFF",//搜索按钮为灰色状态
     submit_value: "取消",//搜索按钮文字为取消
     star_message:"",//查询出来的明星信息
     search_content:"none"
@@ -54,7 +54,6 @@ Page({
       history_state: "none",//历史搜索框消失
       history_items: [],//历史搜索内容清空
       search_con: "",//搜索框内容清空
-      submit_bg: "#CCCCCC",//搜索按钮背景颜色为灰色
     })
   },
   // 点击换一批执行
@@ -161,7 +160,6 @@ Page({
       this.setData({
         search_info: "block",
         //  搜索按钮颜色变为灰色
-        submit_bg: "#CCCCCC",
         submit_value: "取消",
         search_content:"none",
         star_message:""
@@ -170,7 +168,6 @@ Page({
       //输入框有内容时执行
       this.setData({
         // 搜索按钮变为红色
-        submit_bg: "#EB2000",
         submit_value: "搜索",
       })
     }

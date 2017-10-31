@@ -1,11 +1,37 @@
+.page{font-family: '微软雅黑';background-color: #F5F5F5;border-top: 1rpx solid #EAEAEA;}
+.page div{box-sizing: border-box;}
+.infoPicWrap{width: 100;padding: 65rpx 30rpx;background-color: #F3394A;margin: 20rpx 0;}
+.infoPicWrap>image{width: 120rpx;height: 120rpx;float: left;margin-right: 24rpx;border-radius: 50%;}
+.infoPicWrap>text{font-size: 30rpx;color: #FFFFFF;line-height: 120rpx;}
 
-.photo{
-  margin-right: 5px;
-  vertical-align: middle;
-  width:50px;
-  height: 50px;
-  border-radius: 50%;
-}
-.weui-cell{
-  padding:15px 15px;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

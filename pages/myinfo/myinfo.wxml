@@ -1,29 +1,15 @@
-<view class="page">
-  <view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__hd">
-        <image src="{{myinfo.photo}}" class='photo' style=""></image>
-      </view>
-      <view class="weui-cell__bd">{{myinfo.nickname}}</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">个人中心</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">我的收藏</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">我的消息</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">设置</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-   </view>
+<view class='page'>
+  <view class='infoPicWrap clear'>
+    <image src='/images/33.png'></image>
+    <text>陈紫函</text>
+  </view>  
 </view>
+
+
+
+
+
+
+
+
+

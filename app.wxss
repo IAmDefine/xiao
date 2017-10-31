@@ -8,3 +8,4 @@
   /* padding: 200rpx 0; */
   box-sizing: border-box;
 }
+.clear:after{content:"";height:0;visibility:hidden;display:block;clear:both;}
