@@ -1,13 +1,10 @@
 {
   "pages":[
-"pages/index/index",
+    "pages/myinfo/myinfo",
     "pages/filter/filter",
     "pages/search/search",
     "pages/index/index",
-    "pages/personal/personal",
-    "pages/myinfo/myinfo"
-    "pages/personal/personal",
-    "pages/myinfo/myinfo"
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
