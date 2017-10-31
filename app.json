@@ -1,8 +1,9 @@
 {
   "pages":[
+    "pages/myinfo/myinfo",
+    
     "pages/myinfo/changeName/changeName",
     "pages/myinfo/infoCenter/infoCenter",
-    "pages/myinfo/myinfo",
     "pages/filter/filter",
     "pages/search/search",
     "pages/index/index",
