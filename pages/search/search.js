@@ -1,10 +1,9 @@
 var app = getApp();
 Page({
   data: {
+    page:"1",
     history_items:[],
-    hot_items: [
-      {'names':'田赛'}
-    ],
+    hot_items: [],
     history_state: "block",//搜索历史默认出现
     search_con: "",//搜索内容的value值
     search_info: "block",//整个下方搜索历史、刷新
@@ -15,6 +14,7 @@ Page({
     
   },
   onLoad: function (options) {
+    var that = this;
     var history = wx.getStorageSync('history');
     if (!history){
       this.setData({
@@ -29,17 +29,17 @@ Page({
     var url = '/inter/hotkeys/lists';
     var postData = { showrow: 10}
     function doSuccess(res) {
-      console.log(res.data);
-      // if (res.data.status == 1) {
-      //   that.setData({
-      //     hot_items: res.data.data.data,
+      // console.log(res.data.data.data);
+      if (res.data.status == 1) {
+        that.setData({
+          hot_items: res.data.data.data,
 
-      //   })
-      // } else {
-      //   that.setData({
-      //     hot_items: ""
-      //   })
-      // }
+        })
+      } else {
+        that.setData({
+          hot_items: ""
+        })
+      }
     }
 
     app.yxkRequest(url, postData, doSuccess);
@@ -57,44 +57,36 @@ Page({
     })
   },
   // 点击换一批执行
-  // hot_button: function () {
-  //   var that = this;
-  //   var page = that.data.page * 1 + 1;
-  //   var url = '/inter/hotkeys/lists';
-  //   var timestr = Date.parse(new Date()) / 1000;//当前时间戳
-  //   var token = url + timestr + "qianfeng2017"
-  //   var md5str = md5.hexMD5(token);
-  //   var postData = { showrow: 8, timestr: timestr, md5str: md5str, page: page }
-  //   function doSuccess(res) {
-  //     if (res.data.status == 1) {
-  //       that.setData({
-  //         hot_items: res.data.data.data,
-  //         page: page
-  //       })
-  //     } else {
+  hot_button: function () {
+    var that = this;
+    var page = that.data.page * 1 + 1;
+    var url = '/inter/hotkeys/lists';
+    var postData = { showrow: 8, page: page }
+    function doSuccess(res) {
+      if (res.data.status == 1) {
+        that.setData({
+          hot_items: res.data.data.data,
+          page: page
+        })
+      } else {
 
-  //       var page = 1;
-  //       var url = '/inter/hotkeys/lists';
-  //       var timestr = Date.parse(new Date()) / 1000;//当前时间戳
-  //       var token = url + timestr + "qianfeng2017"
-  //       var md5str = md5.hexMD5(token);
-  //       var postData = { showrow: 8, timestr: timestr, md5str: md5str, page: page }
+        var page = 1;
+        var url = '/inter/hotkeys/lists';
 
-  //       function a(res) {
-  //         console.log(res)
-  //         that.setData({
-  //           hot_items: res.data.data.data,
-  //           page: page
-  //         })
-  //       }
-  //       app.yxkRequest(url, postData, a)
+        var postData = { showrow: 8, page: page }
+        function a(res) {
+          console.log(res);
+          that.setData({
+            hot_items: res.data.data.data,
+            page: page
+          })
+        }
+        app.yxkRequest(url, postData, a)
 
-  //     }
-  //   }
-
-  //   app.yxkRequest(url, postData, doSuccess)
-
-  // },
+      }
+    }
+    app.yxkRequest(url, postData, doSuccess)
+  },
   search_submit: function (e) {
     this.setData({
       // 点击提交时，历史搜索页面消失，搜索结果页面出来
@@ -138,9 +130,14 @@ Page({
         search_content: "block",//搜索内容出现
       })
     } else {
-
+     
     }
-
+    var a = that.data.submit_value;
+    if(a=='取消'){
+      wx.navigateBack({
+        delta: 1
+      })
+    }
   },
   // 用户输入时执行
   input_value: function (q) {
@@ -206,7 +203,7 @@ Page({
   hot1: function (e) {
     var that = this
     var hot = e.target.dataset.hi
-    
+   
     //历史搜索追加到缓存
     var history = wx.getStorageSync('history') || []
     var a = history.indexOf(hot)
@@ -214,32 +211,31 @@ Page({
       history.unshift(hot)
       wx.setStorageSync('history', history);
     }
-    var url = "/inter/searchstar/searinfo"
+    var url = "/search/index.php";
    
     var postData = { keys: hot}
+    
     //成功执行函数
-    console.log(postData)
     function doSuccess(res) {
-      console.log(res.data)
-      if (res.data.status == 1) {
+      if (res.data.result.items[0]) {
+        var info = res.data.result.items[0].fields;
         that.setData({
-          search_con: hot,
-          result_item: res.data.data.data,
-          search_info: "none",//历史搜索、热门搜索消失
-          search_content: "block",//搜索内容出现
-        })  //放入查询结果
+          'star_message': info,
+          'search_con': hot
+        })
       } else {
         that.setData({
-          search_info: "none",//历史搜索、热门搜索消失
-          search_content: "block",//搜索内容出现
-          result_item: "",
-          img: "/images/no_con.png",
-          text: "没有搜索到产品~"
+          'star_message': '',
+          'search_con': hot
         })
       }
-
     }
-    app.yxkRequest(url, postData, doSuccess); //调用查询接口 
+    app.yxkRequest(url, postData, doSuccess); //调用查询接口
+    //输入框内容不为空的时候
+    this.setData({
+      search_info: "none",//历史搜索、热门搜索消失
+      search_content: "block",//搜索内容出现
+    })
   },
 
 

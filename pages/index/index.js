@@ -31,6 +31,12 @@ Page({
     wx.navigateTo({
       url: '/pages/search/search'
     })
-  }
+  },
 
+  //筛选按钮
+  filter: function () {
+    wx.navigateTo({
+      url: '/pages/filter/filter'
+    })
+  },
 })

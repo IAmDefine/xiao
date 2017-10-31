@@ -1,0 +1,64 @@
+<view class="page">
+  <view class="weui-cells weui-cells_after-title">
+    <view class="weui-cell weui-cell_access" bindtap='click_type'>
+      <view class="weui-cell__hd">
+        <view>产品类型</view>
+      </view>
+      <view class="weui-cell__bd"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">肖像照片</view>
+    </view>
+
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">使用时长</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">333</view>
+    </view>
+  </view>
+
+  <view class="weui-cells weui-cells_after-title" style='margin-top:10px'>
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <view>性别</view>
+      </view>
+      <view class="weui-cell__bd"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">男</view>
+    </view>
+
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">年龄</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">18</view>
+    </view>
+     <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">家庭身份</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">18</view>
+    </view>
+  </view>
+
+    <view class="weui-cells weui-cells_after-title" style='margin-top:10px'>
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <view>艺人地区</view>
+      </view>
+      <view class="weui-cell__bd"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">北京</view>
+    </view>
+  </view>
+
+    <view class="weui-cells weui-cells_after-title" style='margin-top:10px'>
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__hd">
+        <view>性别</view>
+      </view>
+      <view class="weui-cell__bd"></view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">男</view>
+    </view>
+
+    <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">年龄</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">18</view>
+    </view>
+     <view class="weui-cell weui-cell_access">
+      <view class="weui-cell__bd">家庭身份</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access">18</view>
+    </view>
+  </view>
+</view>
