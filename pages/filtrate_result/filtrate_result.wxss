@@ -1,0 +1,15 @@
+.img_con{
+  box-sizing: border-box;
+  padding: 0 20rpx;
+  width: 750rpx;
+}
+.starcon{
+  width: 100%;
+  height: 980rpx;
+  margin-bottom: 20rpx;
+  box-shadow:0 -1px 10px rgba(224,224,224,0.8);
+}
+.starcon >image{
+  width:100%;
+  height: 100%;
+}

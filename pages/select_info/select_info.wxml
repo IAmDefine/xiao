@@ -1,0 +1,66 @@
+<view class='content'>
+  <view class="div" style="width:{{deviceWidth}}">
+    <view class="num">已选行业类别
+      <text>{{num}}个</text>
+    </view>
+    <view class="tex_container">
+
+      <view class="tex" wx:for="{{allvalue}}">{{item.value}}
+        <image class="de_img" src="/images/delete.png" data-id="{{item.sid}}" bindtap="del_job"></image>
+      </view>
+    </view>
+    <!--<view class="fan" bindtap="fan_job">返回</view>-->
+    <view class="ok_container">
+      <view class="ok" bindtap="yes_job">确定</view>
+    </view>
+  </view>
+  <view class='left_view'>
+
+    <view class="sel_all">
+      <view class="checkbox" bindtap="sel_all">
+        <icon style="display:{{all_dis}}" type="success_no_circle" size="15" color="red" />
+      </view>
+      全部
+    </view>
+
+    <scroll-view scroll-y="true" class="scroll" style="height:{{deviceHeight}}px;">
+      <view class="box_text {{left_style==item.id?'style':''}}" wx:for="{{one_class}}" bindtap="one_class" id="{{item.id}}">
+        <view class="checkbox" bindtap="select" data-sid="{{item.sid}}" data-value="{{item.values}}">
+          <icon style="display:{{item.icon}}" type="success_no_circle" size="15" color="red" />
+        </view>
+        <view>{{item.values}}</view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="middle_view" style="display: {{middle_show}};">
+    <view class="sel_all">
+      <view class="checkbox" bindtap="click_twoall">
+        <icon style="display:{{two_dis}}" type="success_no_circle" size="15" color="red" />
+      </view>
+      全部
+    </view>
+    <scroll-view scroll-y="true" class="middle_scroll" style="height:{{deviceHeight}}px;">
+      <view class="middle_text {{middle_style==item.id?'middle_style':''}}" style="{{style_img}}" wx:for="{{two_class}}" bindtap="two_class" id="{{item.id}}" data-sid="{{item.sid}}" data-value="{{item.values}}">
+        <view class="checkbox" bindtap="select_two" data-sid="{{item.sid}}" data-value="{{item.values}}">
+          <icon style="display:{{item.icon}}" type="success_no_circle" size="15" color="red" />
+        </view>
+        <view>{{item.values}}</view>
+      </view>
+    </scroll-view>
+  </view>
+
+  <view class="right_view" style="display: block;">
+    <scroll-view scroll-y="true" class="left_scroll" style="height:{{deviceHeight}}px;">
+      <view class="left_text" wx:for="{{three_class}}" id="{{item.id}}" data-sid="{{item.sid}}" data-value="{{item.values}}">
+        <view class="checkbox" bindtap="select_three" data-sid="{{item.sid}}" data-value="{{item.values}}">
+          <icon style="display:{{item.icon}}" type="success_no_circle" size="15" color="red" />
+        </view>
+        <view>{{item.values}}</view>
+        <view class='three_yes' style="display:{{item.yes}}">√</view>
+
+      </view>
+
+    </scroll-view>
+  </view>
+</view>

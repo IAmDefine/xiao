@@ -1,0 +1,10 @@
+<view class='page'>
+  <view class='img_con' wx:if="{{sinfo}}">
+    <view class='starcon' wx:for="{{sinfo}}" wx:for-item="value" wx:key="id">
+      <image src="{{value.fields.img}}"></image>
+    </view>
+  </view>
+<view wx:else>
+  没有数据
+</view>
+</view>

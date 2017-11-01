@@ -1,0 +1,153 @@
+.content{
+  width:100%;
+}
+.left_view{
+  width:30%;
+  float: left;
+  position: relative;
+  top: 370rpx;
+}
+.scroll{
+  background:#C7C7C7;
+}
+.box_text{
+  padding:20rpx 0rpx 20rpx 30rpx;
+  border-bottom: 1rpx solid white;
+  font-size: 14px;
+}
+.sel_all{
+  padding:20rpx 0rpx 20rpx 30rpx;
+  border-bottom: 1rpx solid white;
+  font-size: 14px;
+}
+.style{
+  background-color: white;
+
+}
+.yin{
+
+   overflow:hidden;  text-overflow:ellipsis; white-space:nowrap; 
+}
+
+.middle_view{
+  width:30%;
+  float: left;
+   position: relative;
+  top: 370rpx;
+}
+.middle_scroll{
+  background:#DBDBDB;
+}
+.middle_text{
+  padding:20rpx 0rpx 20rpx 30rpx;
+  border-bottom: 1rpx solid white;
+  font-size: 14px;
+}
+.middle_style{
+  background-color: white;
+}
+.right_view{
+  width:40%;
+  float: left;
+   position: relative;
+  top: 370rpx;
+}
+.left_text{
+  padding:20rpx 0rpx 20rpx 30rpx;
+  border-bottom: 1rpx solid #dbdbdb;
+  font-size: 14px;
+}
+.yes{
+  color: red;
+  float: right;
+  position: relative;
+  right: 15rpx;
+  top: 10rpx;
+  display: none;
+}
+.three_yes{
+   color: red;
+  float: right;
+  position: relative;
+  right: 15rpx;
+  top: 10rpx;
+  display: none;
+}
+.div {
+  height: 370rpx;
+  border: 1rpx solid #dbdbdb;
+  background: white;
+  position: fixed;
+  width: 750rpx;
+  z-index: 111
+}
+.tex {
+  float: left;
+  font-size: 14px;
+  border: 1rpx solid #dbdbdb;
+  margin: 20rpx 0 10rpx 5rpx;
+  padding: 2rpx 2rpx 2rpx 15rpx;
+}
+.num {
+  font-size: 14px;
+  padding-left: 20rpx;
+}
+
+.num >text {
+  color: red;
+}
+.de_img {
+  width: 25rpx;
+  height: 25rpx;
+  padding-left: 10rpx;
+  padding-right: 10rpx;
+  line-height: 26px;
+}
+.ok_container{
+  width: 100%;
+  overflow: hidden
+}
+.ok {
+  float: right;
+  border-radius: 8rpx;
+  background: red;
+  color: white;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 14px;
+  text-align: center;
+  margin-right: 80rpx;
+  /*position: absolute;*/
+  /*left: 590rpx;*/
+  /*top: 220rpx;*/
+}
+.fan{
+    float: left;
+  border-radius: 8rpx;
+  background: red;
+  color: white;
+  width: 100rpx;
+  height: 60rpx;
+  line-height: 60rpx;
+  font-size: 14px;
+  text-align: center;
+  position: absolute;
+  left: 478rpx;
+  top: 220rpx;
+}
+.checkbox{
+  width: 30rpx;
+  height: 30rpx;
+  border: 1rpx solid #000000;
+  border-radius: 10%;
+  float: left;
+  position: relative;
+  top: 2rpx;
+  margin-right: 14rpx;
+}
+.tex_container{
+  width: 100%;
+  height: 246rpx;
+  overflow: hidden;
+}
