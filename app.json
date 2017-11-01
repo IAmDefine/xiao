@@ -1,7 +1,10 @@
 {
   "pages":[
+    "pages/myinfo/telNum/telNum",
+    "pages/myinfo/infoSet/infoSet",
+    "pages/myinfo/myNews/myNews",
+    "pages/myinfo/myCollect/myCollect",
     "pages/myinfo/myinfo",
-    
     "pages/myinfo/changeName/changeName",
     "pages/myinfo/infoCenter/infoCenter",
     "pages/filter/filter",

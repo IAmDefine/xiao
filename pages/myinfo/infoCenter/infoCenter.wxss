@@ -1,4 +1,4 @@
-html{background-color: #F5F5F5;}
+page{background-color: #F5F5F5;}
 .page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
 .page view{box-sizing: border-box;}
 .infoCenterWrap{width: 100%;margin-top: 20rpx;border-top: 1rpx solid #EAEAEA;border-bottom: 1rpx solid #EAEAEA;background-color: #FFFFFF;}

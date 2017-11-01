@@ -1,0 +1,16 @@
+<view class='page'>
+  <view class='setWrap'>
+    <view class='setItem clear'>
+      <text>手机账号</text>
+      <image src='/images/myInfoIcon_right.png'></image>
+    </view>
+    <view class='setItem clear'>
+      <text>客服电话</text>
+      <text class='phone'>010-85952988</text>
+    </view>
+    <view class='setItem mbn clear'>
+      <text>关于优星库</text>
+      <image src='/images/myInfoIcon_right.png'></image>
+    </view>
+  </view>
+</view>
