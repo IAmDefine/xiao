@@ -1,7 +1,8 @@
 var md5 = require('./utils/md5.js');
 App({
-  https: "https://api.youxingku.cn",
+  https: "http://demo.api.youxingku.cn",
   onLaunch: function () {
+    var that = this;
     // wx.authorize({
     //   scope: 'scope.userInfo',
     //   success() {
@@ -20,11 +21,27 @@ App({
             'content-type': 'application/x-www-form-urlencoded'
           },
           success: function (res) {
-            var openid = res.data['openid']
+            var unionid = res.data['unionid'];
             wx.setStorage({
-              key: "openid",
-              data: openid
+              key: "unionid",
+              data: unionid
             })
+          //用unionid查询有没有这个用户
+            var url = '/inter/index/userdetail';
+            var postData = { wxid: unionid};
+            function doSuccess(res){
+              if(res.data.status==1){
+                var info = res.data.data[0];
+                var myinfo = { wx_headportr: info.wx_headportr, wx_nickname: info.wx_nickname, mobile: info.mobile,id:info.id}
+                wx.setStorage({
+                  key: "myinfo",
+                  data: myinfo
+                })
+              }
+            }
+
+            that.yxkRequest(url,postData,doSuccess);
+          
           },
           complete: function () {
            

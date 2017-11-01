@@ -1,7 +1,9 @@
 <view class='page'>
   <view class='infoPicWrap clear'>
-    <image src='/images/33.png'></image>
-    <text>陈紫函</text>
+    <image src='{{photo}}' wx:if="{{photo}}"></image>
+    <image src='/images/33.png' wx:else></image>
+    <text wx:if="{{nickname}}">{{nickname}}</text>
+     <text wx:else>游客</text> 
   </view>  
   <view class='selectChoiceWrap'>
     <view class='selectChoiceItem'>
@@ -10,14 +12,14 @@
           <view class='selectChoiceIcon'>
             <image src='/images/myInfoIcon1.png' class='myInfoIcon1'></image>
           </view>
-          <view class='selectChoiceCon'>
+          <view class='selectChoiceCon' bindtap='jump_infoCenter'>
             <text>个人中心</text>
             <image src='/images/myInfoIcon_right.png'></image>
           </view>
         </view>
       </view>
     </view>
-    <view class='selectChoiceItem'>
+    <view class='selectChoiceItem' bindtap='jump_Collect'>
       <view class='selectChoiceInWrap'>
         <view class='selectChoice'>
           <view class='selectChoiceIcon'>
@@ -30,7 +32,7 @@
         </view>
       </view>
     </view>
-    <view class='selectChoiceItem'>
+    <view class='selectChoiceItem' bindtap='jump_news'>
       <view class='selectChoiceInWrap'>
         <view class='selectChoice'>
           <view class='selectChoiceIcon'>
@@ -59,7 +61,7 @@
         </view>
       </view>
     </view>
-    <view class='selectChoiceItem'>
+    <view class='selectChoiceItem' bindtap='jump_set'>
       <view class='selectChoiceInWrap'>
         <view class='selectChoice'>
           <view class='selectChoiceIcon'>
