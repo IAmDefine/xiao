@@ -1,0 +1,434 @@
+<view class='page'>
+  <!-- swiper -->
+  <view class='swiperWrap'>
+    <swiper bindchange='swiperEvent'>
+      <block wx:for="{{imgUrls}}">
+        <swiper-item>
+          <image src="{{item}}" class="slide-image swiperPic"/>
+        </swiper-item>
+      </block>
+    </swiper>
+    <view class='swiperIndexWrap'>
+      <text class='dyIndex'>{{dyIndex}}</text>
+      <text>/</text>
+      <text>{{indexLength}}</text>
+    </view>
+  </view>
+  <!-- 艺人介绍 -->
+  <view class='introWrap'>
+    <view class='introitem clear'>
+      <view class='introitemPic clear'>
+        <image src='/images/111.png'></image>
+        <text>张学友</text>
+      </view>
+      <view class='introitemCollectWrap clear'>
+        <image src='/images/detailCollectIcon.png'></image>
+        <text>收藏</text>
+      </view>
+    </view>
+    <view class='introLabel clear'>
+      <view>演员</view>
+      <view>歌手</view>
+      <view>主持人</view>
+    </view>
+  </view>
+  <!-- 基本信息 -->
+  <view class='basicInfo'>
+    <view class='basicInfoTitle'>基本信息</view>
+    <view class='basicInfoCon'>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>姓名：</text>
+          <text>陈伟霆</text>
+        </view>
+        <view class='tableMid'>
+          <text>别名：</text>
+          <text>陈伟霆</text>
+        </view>
+      </view>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>外文名：</text>
+          <text>陈伟霆</text>
+        </view>
+        <view class='tableMid'>
+          <text>国籍：</text>
+          <text>中国</text>
+        </view>
+      </view>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>民族：</text>
+          <text>汉</text>
+        </view>
+        <view class='tableMid'>
+          <text>出生日期：</text>
+          <text>1928年11月22日</text>
+        </view>
+      </view>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>星座：</text>
+          <text>狮子座</text>
+        </view>
+        <view class='tableMid'>
+          <text>血型：</text>
+          <text>B型</text>
+        </view>
+      </view>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>身高：</text>
+          <text>190cm</text>
+        </view>
+        <view class='tableMid'>
+          <text>体重：</text>
+          <text>22kg</text>
+        </view>
+      </view>
+      <view class='basicInfoItem clear'>
+        <view class='tableMid'>
+          <text>出生地：</text>
+          <text>香港</text>
+        </view>
+        <view class='tableMid'>
+          <text>职业：</text>
+          <text>演员、歌手演员、歌手演员、歌手</text>
+        </view>
+      </view>
+      <view class='basicInfoItemAll clear'>
+        <view class='tableAll' >毕业院校：</view>
+        <view class='tableAllCon'>
+          <text>香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大</text>
+        </view>
+      </view>
+      <view class='basicInfoItemAll clear'>
+        <view class='tableAll' >个人爱好：</view>
+        <view class='tableAllCon'>
+          <text>读书、乒乓球</text>
+        </view>
+      </view>
+      <view class='basicInfoItemAll clear'>
+        <view class='tableAll' >婚姻状况：</view>
+        <view class='tableAllCon'>
+          <text>未婚</text>
+        </view>
+      </view>
+      <view class='basicInfoItemAll clear clearBLine'>
+        <view class='tableAll' >自我评价：</view>
+        <view class='tableAllCon'>
+          <text>活泼、开朗</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 照片视频 -->
+  <view class='photoVideo'>
+    <view class='basicInfoTitle'>照片视频</view>
+    <!-- 电影 -->
+    <view class='movieWrap'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie1.png' class='detailMovie1'></image>
+          <text>电影</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 电视剧 -->
+    <view class='movieWrap'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie2.png' class='detailMovie2'></image>
+          <text>电视剧</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 综艺 -->
+    <view class='movieWrap clearMb'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie3.png' class='detailMovie3'></image>
+          <text>综艺</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/111.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 演绎经历 -->
+  <view class='photoVideo'>
+    <view class='basicInfoTitle'>演绎经历</view>
+    <!-- 近期上线作品 -->
+    <view class='movieWrap'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie4.png' class='detailMovie4'></image>
+          <text>近期上线作品</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='opusWrap'>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>类型：</text>
+              <text>电视剧</text>
+            </view>
+            <view class='opusList'>
+              <text>名称：</text>
+              <text>老九门</text>
+            </view>
+            <view class='opusList'>
+              <text>饰演：</text>
+              <text>张启山</text>
+            </view>
+            <view class='opusList'>
+              <text>日期：</text>
+              <text>2017.01.09</text>
+            </view>
+          </view>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>类型：</text>
+              <text>电视剧</text>
+            </view>
+            <view class='opusList'>
+              <text>名称：</text>
+              <text>老九门</text>
+            </view>
+            <view class='opusList'>
+              <text>饰演：</text>
+              <text>张启山</text>
+            </view>
+            <view class='opusList'>
+              <text>日期：</text>
+              <text>2017.01.09</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 获奖记录 -->
+    <view class='movieWrap'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie5.png' class='detailMovie5'></image>
+          <text>获奖记录</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='opusWrap'>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>评选活动：</text>
+              <text>建军大业</text>
+            </view>
+            <view class='opusList'>
+              <text>获得奖项：</text>
+              <text>陈长生</text>
+            </view>
+            <view class='opusList'>
+              <text>获奖时间：</text>
+              <text>2017.01.09</text>
+            </view>
+          </view>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>评选活动：</text>
+              <text>建军大业</text>
+            </view>
+            <view class='opusList'>
+              <text>获得奖项：</text>
+              <text>陈长生</text>
+            </view>
+            <view class='opusList'>
+              <text>获奖时间：</text>
+              <text>2017.01.09</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+    <!-- 所有作品 -->
+    <view class='movieWrap clearMb'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie6.png' class='detailMovie6'></image>
+          <text>所有作品</text>
+        </view>
+        <view class='movieCaptionLink clear'>
+          <text>查看全部</text>
+          <image src='/images/myInfoIcon_right.png'></image>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='opusWrap'>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>类型：</text>
+              <text>电视剧</text>
+            </view>
+            <view class='opusList'>
+              <text>名称：</text>
+              <text>因为爱情有幸福</text>
+            </view>
+            <view class='opusList'>
+              <text>饰演：</text>
+              <text>阿山</text>
+            </view>
+            <view class='opusList'>
+              <text>日期：</text>
+              <text>2017.08.09</text>
+            </view>
+          </view>
+          <view class='opusItem'>
+            <view class='opusItemPic'>
+              <image src='/images/111.png'></image>
+            </view>
+            <view class='opusList'>
+              <text>类型：</text>
+              <text>电视剧</text>
+            </view>
+            <view class='opusList'>
+              <text>名称：</text>
+              <text>因为爱情有幸福</text>
+            </view>
+            <view class='opusList'>
+              <text>饰演：</text>
+              <text>阿山</text>
+            </view>
+            <view class='opusList'>
+              <text>日期：</text>
+              <text>2017.08.09</text>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 全部商务 -->
+  <view class='photoVideo'>
+    <view class='basicInfoTitle'>全部商务</view>
+    <view class='business'>
+      <view class='businessItem clear'>
+        <view class='businessList '>
+          <text>类型</text>
+        </view>
+        <view class='businessCon '>
+          <text class='businessConTitle'>产品</text>
+        </view>
+      </view>
+      <view class='businessConItem clear'>
+        <view class='businessList '>
+          <text>商演活动</text>
+        </view>
+        <view class='businessDetail'>
+          <view>老男孩代言老男孩代言老男孩代言老男孩代言老男孩代言老男孩代言老男孩代言老男孩代言老</view>
+        </view>
+      </view>
+      <view class='businessConItem clear'>
+        <view class='businessList '>
+          <text>形象代言</text>
+        </view>
+        <view class='businessDetail'>
+          <view>形象代言啊</view>
+        </view>
+      </view>
+      <view class='businessConItem clear'>
+        <view class='businessList '>
+          <text>自媒体</text>
+        </view>
+        <view class='businessDetail'>
+          <view>自媒体代言</view>
+        </view>
+      </view>
+      <view class='businessConItem clear clearBb'>
+        <view class='businessList '>
+          <text>肖像照片</text>
+        </view>
+        <view class='businessDetail'>
+          <view>肖像照片代言</view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 评价 -->
+  <view class='photoVideo'>
+    <view class='basicInfoTitle'>评价</view>
+    
+  </view>
+</view>
