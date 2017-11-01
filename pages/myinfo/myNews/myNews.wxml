@@ -1,0 +1,46 @@
+<view class='page'>
+  <view class='myNewsWrap'>
+    <view class='myNews'>
+      <view class='myNewsTipsWrap'>
+        <image src='/images/myNewsTips.png' class='myNewsTips'></image>
+      </view>
+      <view class='myNewsConWrap'>
+        <view class='myNewsTittle clear'>
+          <text class='myNewsTittleCon'>通知消息</text>
+          <view class='myNewsTittleTime'>
+            <text></text>
+            <text>11:40</text>
+          </view>
+        </view>
+        <view class='myNewsDetail'>
+          <text>很遗憾，您的认证失败!</text>
+        </view>
+      </view>
+    </view>
+    <view class='myNews'>
+      <view class='myNewsTipsWrap'>
+        <image src='/images/myNews.png' class='myNewsIcon'></image>
+      </view>
+      <view class='myNewsConWrap'>
+        <view class='myNewsTittle clear'>
+          <text class='myNewsTittleCon'>通知消息</text>
+          <view class='myNewsTittleTime'>
+            <text>昨天</text>
+            <text>11:40</text>
+          </view>
+        </view>
+        <view class='myNewsDetail'>
+          <text>恭喜你，你的认证成功!</text>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='isNull'  style='display:none'>
+    <view class='inNullCon'>
+      <image src='/images/myNewsNull.png'></image>
+      <view class='inNullText'>
+        <text>暂无消息</text>
+      </view>
+    </view>
+  </view>
+</view>

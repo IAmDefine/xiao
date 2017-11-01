@@ -2,7 +2,7 @@ page {
   line-height: 1.6;
   font-family: -apple-system-font, "Helvetica Neue", sans-serif;
    /* height: 100%; */
-  background:RGB(240,240,240);
+   background:RGB(240,240,240); 
 }
 icon {
   vertical-align: middle;

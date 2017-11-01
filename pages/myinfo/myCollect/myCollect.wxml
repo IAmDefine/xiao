@@ -1,0 +1,88 @@
+<view class='page'>
+  <!-- 有内容 -->
+  <view class='isNotNull'>
+    <view class='isNotNullCaption clear' >
+      <view class='isNotNullCaptionItem'>
+        <view class='clickMark'  data-index='0'  bindtap='tabClick'></view>
+        <text class="{{tabArr.btnIndex=='0'?'ischeckedCon':'notcheckedCon'}}">星库</text>
+        <view class='partingLine'>|</view>
+        <view class="ischeckedIcon {{tabArr.btnIndex=='0'?'':'isDisappear'}}"></view>
+      </view>
+      <view class='isNotNullCaptionItem'>
+        <view class='clickMark'  data-index='1'  bindtap='tabClick'></view>
+        <text class="{{tabArr.btnIndex=='1'?'ischeckedCon':'notcheckedCon'}}">星讯</text>
+        <view class="ischeckedIcon {{tabArr.btnIndex=='1'?'':'isDisappear'}}"></view>
+      </view>
+    </view>
+    <view class='isNotNullCon'>
+      <!-- 星库 -->
+      <view class="isNotNullConItem {{tabArr.btnIndex=='0'?'isAappear':'isDisappear'}}">
+        <view class='starDepot'>
+          <view class='starDepotItem'>
+            <image src='/images/111.png'></image>
+          </view>
+          <view class='starDepotItem'>
+            <image src='/images/111.png'></image>
+          </view> 
+        </view>
+      </view>
+      <!-- 星讯 -->
+      <view class="isNotNullConItem {{tabArr.btnIndex=='1'?'isAappear':'isDisappear'}}">
+        <view class='starInfo'>
+          <view class='starInfoItem'>
+            <view class='starInfoItemCon'>
+              <view class='starInfoItemPic'>
+                <image src='/images/111.png'></image>
+              </view>
+              <view class='starInfoItemConDetail'>
+                <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
+                <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
+                <view class='otherInfoWrap clear'>
+                  <view class='otherInfoTime clear'>
+                    <image src='/images/myCollectTimeIcon.png'></image>
+                    <text>2017.08.06</text>
+                  </view>
+                  <view class='otherInfoCom clear'>
+                    <image src='/images/myCollectCommentIcon.png'></image>
+                    <text>2017.08.06</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+          <view class='starInfoItem'>
+            <view class='starInfoItemCon'>
+              <view class='starInfoItemPic'>
+                <image src='/images/111.png'></image>
+              </view>
+              <view class='starInfoItemConDetail'>
+                <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
+                <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
+                <view class='otherInfoWrap clear'>
+                  <view class='otherInfoTime clear'>
+                    <image src='/images/myCollectTimeIcon.png'></image>
+                    <text>2017.08.06</text>
+                  </view>
+                  <view class='otherInfoCom clear'>
+                    <image src='/images/myCollectCommentIcon.png'></image>
+                    <text>2017.08.06</text>
+                  </view>
+                </view>
+              </view>
+            </view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <!-- 无内容 -->
+  <view class='isNull'  style='display:none'>
+    <view class='inNullCon'>
+      <image src='/images/myCollectNull.png'></image>
+      <view class='inNullText'>
+        <text>您还没有收藏任何艺人哦，</text>
+        <text class='inNullTextLink'>快去挑选吧!</text>
+      </view>
+    </view>
+  </view>
+</view>

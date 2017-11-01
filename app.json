@@ -1,12 +1,15 @@
 {
   "pages":[
     "pages/index/index",
-    
     "pages/filter/filter",
     "pages/filtrate_result/filtrate_result",
     "pages/select_tag/select_tag",
     "pages/select_profession/select_profession",
     "pages/select_info/select_info",
+    "pages/myinfo/telNum/telNum",
+    "pages/myinfo/infoSet/infoSet",
+    "pages/myinfo/myNews/myNews",
+    "pages/myinfo/myCollect/myCollect",
     "pages/myinfo/myinfo",
     "pages/myinfo/changeName/changeName",
     "pages/myinfo/infoCenter/infoCenter",
