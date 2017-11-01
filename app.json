@@ -1,11 +1,12 @@
 {
   "pages":[
-    "pages/filter/filter",
-    
     "pages/index/index",
+    "pages/myinfo/myinfo",
+    "pages/myinfo/changeName/changeName",
+    "pages/myinfo/infoCenter/infoCenter",
+    "pages/filter/filter",
     "pages/search/search",
-    "pages/personal/personal",
-    "pages/myinfo/myinfo"
+    "pages/personal/personal"
   ],
   "window":{
     "backgroundTextStyle":"light",
@@ -20,26 +21,26 @@
     "backgroundColor": "#FFFFFF",
     "list": [
       {
-        "selectedIconPath": "images/11.png",
-        "iconPath": "images/22.png",
+        "selectedIconPath": "images/111.png",
+        "iconPath": "images/111.png",
         "pagePath": "pages/index/index",
         "text": "星库"
       },
       {
-        "selectedIconPath": "images/111.png",
-        "iconPath": "images/222.png",
+        "selectedIconPath": "images/22.png",
+        "iconPath": "images/22.png",
         "pagePath": "pages/index/index",
         "text": "案例"
       },
       {
-        "selectedIconPath": "images/111.png",
-        "iconPath": "images/222.png",
+        "selectedIconPath": "images/33.png",
+        "iconPath": "images/33.png",
         "pagePath": "pages/index/index",
         "text": "星讯"
       },
       {
-        "selectedIconPath": "images/a.png",
-        "iconPath": "images/b.png",
+        "selectedIconPath": "images/44.png",
+        "iconPath": "images/44.png",
         "pagePath": "pages/myinfo/myinfo",
         "text": "我的"
       }

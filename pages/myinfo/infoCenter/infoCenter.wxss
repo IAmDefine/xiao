@@ -1,0 +1,27 @@
+html{background-color: #F5F5F5;}
+.page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
+.page view{box-sizing: border-box;}
+.infoCenterWrap{width: 100%;margin-top: 20rpx;border-top: 1rpx solid #EAEAEA;border-bottom: 1rpx solid #EAEAEA;background-color: #FFFFFF;}
+.infoCenterWrap>view{width: 100%;padding: 0 30rpx;}
+.infoCenterHeaderPicItem{width: 100%}
+.infoCenterHeaderPic,.nickNameWrap{width: 100%;border-bottom: 1rpx solid #EAEAEA;height: 160rpx;line-height: 160rpx;position: relative;}
+.infoCenterHeaderPic>text{float: left;}
+.infoCenterHeaderIcon,.nikeNameIcon{float: right;width: 12rpx;height: 20rpx;margin-top: 70rpx;}
+.headerPic{width: 120rpx;height: 120rpx;border-radius: 50%;position: absolute;top: 20rpx;right: 32rpx;}
+.nickNameWrap{height:90rpx;line-height: 90rpx;border-bottom: 0; }
+.nikeNameIcon{margin-top: 35rpx;}
+.nickNameCon{position: absolute;top: 0;right: 32rpx;color: #999999;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

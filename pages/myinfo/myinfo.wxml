@@ -1,29 +1,85 @@
-<view class="page">
-  <view class="weui-cells weui-cells_after-title">
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__hd">
-        <image src="{{myinfo.photo}}" class='photo' style=""></image>
+<view class='page'>
+  <view class='infoPicWrap clear'>
+    <image src='/images/33.png'></image>
+    <text>陈紫函</text>
+  </view>  
+  <view class='selectChoiceWrap'>
+    <view class='selectChoiceItem'>
+      <view class='selectChoiceInWrap'>
+        <view class='selectChoice'>
+          <view class='selectChoiceIcon'>
+            <image src='/images/myInfoIcon1.png' class='myInfoIcon1'></image>
+          </view>
+          <view class='selectChoiceCon'>
+            <text>个人中心</text>
+            <image src='/images/myInfoIcon_right.png'></image>
+          </view>
+        </view>
       </view>
-      <view class="weui-cell__bd">{{myinfo.nickname}}</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">个人中心</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">我的收藏</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">我的消息</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-    <navigator url="" class="weui-cell weui-cell_access" hover-class="weui-cell_active">
-      <view class="weui-cell__bd">设置</view>
-      <view class="weui-cell__ft weui-cell__ft_in-access"></view>
-    </navigator>
-   </view>
+    </view>
+    <view class='selectChoiceItem'>
+      <view class='selectChoiceInWrap'>
+        <view class='selectChoice'>
+          <view class='selectChoiceIcon'>
+            <image src='/images/myInfoIcon2.png' class='myInfoIcon2'></image>
+          </view>
+          <view class='selectChoiceCon'>
+            <text>我的收藏</text>
+            <image src='/images/myInfoIcon_right.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='selectChoiceItem'>
+      <view class='selectChoiceInWrap'>
+        <view class='selectChoice'>
+          <view class='selectChoiceIcon'>
+            <image src='/images/myInfoIcon3.png' class='myInfoIcon3'></image>
+          </view>
+          <view class='selectChoiceCon infoNewsTips'>
+            <text>我的消息</text>
+            <view class='infoNewsIcon'>7</view>
+            <image src='/images/myInfoIcon_right.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class='selectChoiceWrap'>
+    <view class='selectChoiceItem'>
+      <view class='selectChoiceInWrap'>
+        <view class='selectChoice'>
+          <view class='selectChoiceIcon'>
+            <image src='/images/myInfoIcon4.png' class='myInfoIcon4'></image>
+          </view>
+          <view class='selectChoiceCon'>
+            <text>联系客服</text>
+            <image src='/images/myInfoIcon_right.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+    <view class='selectChoiceItem'>
+      <view class='selectChoiceInWrap'>
+        <view class='selectChoice'>
+          <view class='selectChoiceIcon'>
+            <image src='/images/myInfoIcon1.png' class='myInfoIcon4'></image>
+          </view>
+          <view class='selectChoiceCon infoNewsTips'>
+            <text>设置</text>
+            <image src='/images/myInfoIcon_right.png'></image>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
 </view>
+
+
+
+
+
+
+
+
+
