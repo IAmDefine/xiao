@@ -5,7 +5,7 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    nickname:""
   },
 
   /**
@@ -21,47 +21,56 @@ Page({
   onReady: function () {
 
   },
+  //获取昵称
+  nickname:function(e){
+    var value = e.detail.value;//获取用户输入的内容
+    this.setData({
+      nickname: value//value值变为用户输入内容
+    })
+  },
+  
+  //提交
+  up:function(){
+    var that = this;
+    var url = '/inter/index/useredit';
+    var myinfo = wx.getStorageSync('myinfo');
+    var nickname = that.data.nickname;
+    if (nickname==''){
+      wx.showToast({
+        title: '请输入昵称',
+        icon: 'success',
+        duration: 1500,
+      })
+      return;
+    }
+    var postData = { uid: myinfo.id, wx_nickname:nickname}
+    function doSuccess(res){
+      if(res.data.status==1){
+        wx.showToast({
+          title: '成功',
+          icon: 'success',
+          duration: 2000,
+        })
+        setTimeout(function () {
+             wx.navigateBack({
+              delta: 1
+            })
+        }, 2000)
+       
+      }
+    }
 
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
+    app.yxkRequest(url, postData, doSuccess);
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  //删除文字
+  del:function(){
+    this.setData({
+      nickname:""
+    })
   }
+
+
+
 })
 

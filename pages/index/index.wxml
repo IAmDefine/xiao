@@ -11,7 +11,7 @@
 
   <view class='img_con'>
     <view style="" class='starcon' wx:for="{{starinfo}}" wx:for-item="value" wx:key="id">
-      <image  src="{{value.imgs}}"></image>
+      <image  src="{{value.home_pic}}"></image>
     </view>
   </view>
 </view>

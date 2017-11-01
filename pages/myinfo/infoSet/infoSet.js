@@ -5,62 +5,45 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    mobile:""
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
   onLoad: function (options) {
+ 
+
 
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
-
+    //从缓存获取个人信息查询是否绑定过账号
+    var that = this;
+    var myinfo = wx.getStorageSync('myinfo');
+    if (myinfo) {
+      that.setData({
+        mobile: myinfo.mobile
+      })
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面隐藏
-   */
-  onHide: function () {
-
+  phone:function(e){
+    var mobile = this.data.mobile
+    if(!mobile){
+      wx.navigateTo({
+        url: '/pages/myinfo/telNum/telNum'
+      })
+    }
   },
 
-  /**
-   * 生命周期函数--监听页面卸载
-   */
-  onUnload: function () {
-
-  },
-
-  /**
-   * 页面相关事件处理函数--监听用户下拉动作
-   */
-  onPullDownRefresh: function () {
-
-  },
-
-  /**
-   * 页面上拉触底事件的处理函数
-   */
-  onReachBottom: function () {
-
-  },
-
-  /**
-   * 用户点击右上角分享
-   */
-  onShareAppMessage: function () {
-
+  //拨打电话
+  tel:function(){
+    wx.makePhoneCall({
+      phoneNumber: '010-85952988' 
+    })
   }
+
 })

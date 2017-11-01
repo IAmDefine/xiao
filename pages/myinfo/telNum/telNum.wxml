@@ -6,7 +6,7 @@
         <image src='/images/telNum1.png' class='telNumIcon1'></image>
       </view>
       <view class='telNumItemCon'>
-        <input placeholder='请输入手机号'></input>
+        <input placeholder='请输入手机号' bindinput="phone"></input>
       </view>
     </view>
     <view class='telNumItem'>
@@ -15,8 +15,8 @@
         <image src='/images/telNum2.png' class='telNumIcon2'></image>
       </view>
       <view class='telNumItemCon verCodeWrao'>
-        <input placeholder='请输入验证码' class='verCodeInput'></input>
-        <view class='verCode'>获取验证码</view>
+        <input name="the_code" placeholder='请输入验证码' class='verCodeInput' bindinput='code'></input>
+        <view class='verCode' bindtap="codeClick">获取验证码</view>
       </view>
     </view>
     <view class='telNumItem'>
@@ -25,7 +25,7 @@
         <image src='/images/telNum3.png' class='telNumIcon3'></image>
       </view>
       <view class='telNumItemCon'>
-        <input placeholder='请输入密码'></input>
+        <input placeholder='请输入密码' type="password" name="password" bindinput="password"></input>
       </view>
     </view>
     <view class='telNumItem'>
@@ -34,9 +34,9 @@
         <image src='/images/telNum3.png' class='telNumIcon3'></image>
       </view>
       <view class='telNumItemCon'>
-        <input placeholder='请再次输入密码'></input>
+        <input placeholder='请再次输入密码' type="password" name="aginpass" bindinput="aginpass"></input>
       </view>
     </view>
-    <view class='subBtn'>确认</view>
+    <view class='subBtn' bindtap='register'>确认</view>
   </view>
 </view>

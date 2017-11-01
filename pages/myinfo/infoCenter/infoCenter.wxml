@@ -1,15 +1,15 @@
 <view class='page'>
   <view class='infoCenterWrap'>
     <view class='infoCenterHeaderPicItem'>
-      <view class='infoCenterHeaderPic'>
+      <view class='infoCenterHeaderPic' bindtap='edit_photo'>
         <text>头像</text>
         <image src='/images/myInfoIcon_right.png' class='infoCenterHeaderIcon'></image>
-        <image src='/images/111.png' class='headerPic'></image>
+        <image src='{{photo}}' class='headerPic'></image>
       </view>
-    <view class='nickNameWrap'>
+    <view class='nickNameWrap' bindtap='jump_editname'>
       <text>昵称</text>
       <image src='/images/myInfoIcon_right.png' class='nikeNameIcon'></image>
-      <view class='nickNameCon'>刘德华</view>
+      <view class='nickNameCon'>{{nickname}}</view>
     </view>
     </view>
   </view> 
