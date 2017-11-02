@@ -16,7 +16,7 @@ page{background-color: #F5F5F5;}
 .starDepotItem image{width: 100%;height: 100%;}
 .starInfo{width: 100%;}
 .starInfoItem{width: 100%;margin-top: 20rpx;background-color: #FFFFFF;padding:20rpx;}
-.starInfoItemCon{width: 100%;height: 280rpx;padding-left: 260rpx;position: relative;}
+.starInfoItemCon{width: 100%;height: 240rpx;padding-left: 260rpx;position: relative;}
 .starInfoItemPic{width: 240rpx;height: 240rpx;position: absolute;left: 0;top: 0;}
 .starInfoItemPic>image{width: 100%;height: 100%;}
 .starInfoItemConDetail{width: 100%;height: 100%; position: relative;}
@@ -28,7 +28,8 @@ page{background-color: #F5F5F5;}
 .otherInfoCom{float: right;color: #555555;font-size: 22rpx;}
 .otherInfoCom image{width: 19rpx;height: 18rpx;margin-right: 10rpx;}
 /* 为空 */
-.isNull{width: 100%;height: 100%;position: absolute;left: 0;top: 0;display: flex;align-items: center;justify-content: center;}
-.inNullCon>image{display: block; width: 178rpx;height: 146rpx;margin: 0 auto 35rpx auto;}
+.isNull{width: 100%;height: 100%;position: absolute;left: 0;top: 0;}
+.inNullCon{width: 100%;height: 100%;padding-top: 80rpx; position: absolute;left: 0;top: 0;display: flex;align-items: center;justify-content: center;}
+.inNullCon image{display: block; width: 178rpx;height: 146rpx;margin: 0 auto 35rpx auto;}
 .inNullText{text-align: center;color: #666666;}
 .inNullTextLink{color: #DC3B31;text-decoration: underline;}

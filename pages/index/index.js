@@ -16,7 +16,7 @@ Page({
       var url = '/inter/star/getprogramindex';
       var postData = { page: 1, showrow:'2'}
       function dosa(res) {
-       console.log(res.data.data)
+      // console.log(res.data.data)
         if (res.data.status == 1) {
           var info = res.data.data.data
           // console.log(info)

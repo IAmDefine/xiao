@@ -3,7 +3,8 @@ Page({
 
   data: {
     nickname:"",
-    photo:""
+    photo:"",
+    msgnum:""//未读消息数量
   },
 
   onLoad: function (options) {
@@ -54,8 +55,27 @@ Page({
           }
         }
       }
-
       app.yxkRequest(url, postData, doSuccess);
+      //程序走这里说明用户已经绑定过账号了，调用查询消息
+      var url = '/inter/infomation/lookmsgs';
+      var postData = { recuid: myinfo.id, showrow: '10000', ifdel: "1" }
+      function msginfo(res){
+        if(res.data.status==1){
+          var msgnum = 0
+          var msg = res.data.data.data;
+          for(let i in msg){
+            if(msg[i].ifread=='1'){
+              msgnum++;
+            }
+          }
+        }
+        that.setData({
+          msgnum:msgnum
+        })
+      }
+
+      app.yxkRequest(url, postData, msginfo);
+
     }else{
       var value = wx.getStorageSync('wxinfo');
       if (value) {
@@ -65,6 +85,9 @@ Page({
         })
       }
     }
+
+   
+
   },
 
   //跳转个人中心
