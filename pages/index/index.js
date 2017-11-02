@@ -73,4 +73,12 @@ Page({
     }
     app.yxkRequest(url, postData, pdata)
   },
+
+  //跳转详情
+  detail:function(e){
+    var id = e.currentTarget.id
+    wx.navigateTo({
+      url: '/pages/detail/detail?id='+id,
+    })
+  }
 })

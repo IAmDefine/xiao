@@ -1,19 +1,14 @@
 {
   "pages": [
-    "pages/starNews/starNewsDetail/starNewsDetail",
-    
     "pages/index/index",
-    
+    "pages/detail/detailMovieList/detailMovieList",
+    "pages/detail/detail",
+    "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/starNews/starNews",
     "pages/myinfo/myCollect/myCollect",
     "pages/detail/deductiveExper/deductiveExper",
-    "pages/detail/detail",
-    "pages/detail/detailMovieList/detailMovieList",
     "pages/myinfo/myinfo",
-    
     "pages/myinfo/myNews/myNews",
-    
-    "pages/detail/detail",
     "pages/myinfo/infoCenter/infoCenter",
     "pages/myinfo/changeName/changeName",
     "pages/myinfo/telNum/telNum",

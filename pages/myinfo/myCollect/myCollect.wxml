@@ -18,7 +18,7 @@
       <!-- 星库 -->
       <view class="isNotNullConItem {{tabArr.btnIndex=='0'?'isAappear':'isDisappear'}}">
         <view class='starDepot'>
-          <view class='starDepotItem' wx:for="{{collect}}" wx:for-item="value" wx:key="id">
+          <view class='starDepotItem' wx:for="{{collect}}" wx:for-item="value" bindtap='jump_detail' id='{{value.id}}'>
             <image src='{{value.home_pic}}' wx:if="{{value.home_pic}}"></image>
             <image src='{{value.imgs}}' wx:else></image>
           </view>
@@ -30,7 +30,7 @@
         <view class='starInfo'>
 
 
-           <view class='starInfoItem' wx:if="{{news}}" wx:for="{{news}}" wx:for-item="value">
+           <view class='starInfoItem' wx:if="{{news}}" wx:for="{{news}}" wx:for-item="value" bindtap='jump_xingxun' id='{{value.id}}'>
             <view class='starInfoItemCon'>
               <view class='starInfoItemPic'>
                 <image src='/images/111.png'></image>

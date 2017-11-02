@@ -28,7 +28,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onShow: function (options) {
     var that = this;
     var myinfo = wx.getStorageSync('myinfo');
     if(myinfo){
@@ -44,7 +44,8 @@ Page({
           })
         }else{
           that.setData({
-            dis:"block"
+            dis:"block",
+            collect:""
           })
         }
       }
@@ -109,9 +110,6 @@ Page({
       })
     }
   },
-
-
-
   /**
  * 页面上拉触底事件的处理函数
  */
@@ -143,7 +141,21 @@ Page({
       }
       app.yxkRequest(url, postData, pdata)
     }
-
   },
+
+  //跳转详情页面
+  jump_detail:function(e){
+    var id = e.currentTarget.id;
+    wx.navigateTo({
+      url: '/pages/detail/detail?id=' + id
+    })
+  },
+  //跳转星讯
+  jump_xingxun:function(e){
+    var id = e.currentTarget.id;
+    wx.navigateTo({
+      // url: '/pages/detail/detail?id=' + id
+    })
+  }
 })
 

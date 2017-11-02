@@ -57,6 +57,7 @@
           <view class='selectChoiceCon' >
             <text>联系客服</text>
             <image src='/images/myInfoIcon_right.png'></image>
+            <button open-type="contact" class='contactBtn'>1</button>
           </view>
         </view>
       </view>
@@ -79,8 +80,7 @@
 
 
 
-
-
+<!-- <contact-button type="default-dark" size="20"session-from="weapp"></contact-button> -->
 
 
 

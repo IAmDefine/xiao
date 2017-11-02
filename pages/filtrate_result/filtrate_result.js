@@ -90,5 +90,11 @@ Page({
     var url = '/search/index.php';
     app.yxkRequest(url, postData, pdata)
   },
-
+  //跳转详情页面
+  jump_detail: function (e) {
+    var id = e.currentTarget.id;
+    wx.navigateTo({
+      url: '/pages/detail/detail?id=' + id
+    })
+  },
 })

@@ -12,7 +12,8 @@ page{background-color: #F5F5F5;}
 .selectChoice{width: 100%;padding-left: 54rpx;position: relative;}
 .selectChoiceIcon{width: 54rpx;height: 92rpx;position: absolute;left: 0;top: 0;display: flex;align-items: center;}
 .myInfoIcon1{width: 27rpx;height: 31rpx;}
-.selectChoiceCon{width: 100%;height: 92rpx;line-height: 92rpx;border-bottom: 1rpx solid #EAEAEA;}
+.selectChoiceCon{width: 100%;height: 92rpx;line-height: 92rpx;border-bottom: 1rpx solid #EAEAEA;position: relative;}
+.contactBtn{width: 100%;height: 100%;position: absolute;left: 0;top: 0;opacity: 0;}
 .myInfoIcon2{width: 30rpx;height: 26rpx;}
 .myInfoIcon3{width: 30rpx;height: 30rpx;}
 .infoNewsTips{border-bottom:0;position: relative;}

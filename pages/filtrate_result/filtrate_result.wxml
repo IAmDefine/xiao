@@ -1,6 +1,6 @@
 <view class='page'>
   <view class='img_con' wx:if="{{sinfo}}">
-    <view class='starcon' wx:for="{{sinfo}}" wx:for-item="value" wx:key="id">
+    <view class='starcon' wx:for="{{sinfo}}" wx:for-item="value" bindtap='jump_detail' id='{{value.fields.id}}'>
       <image src="{{value.fields.img}}"></image>
     </view>
   </view>
