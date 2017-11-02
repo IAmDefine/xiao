@@ -1,0 +1,32 @@
+<view class='page'>
+  <view class='starNewsCaption'>
+    
+    <!-- 操作 -->
+    <view class='starNewsOperation clear'>
+      <view class='starNewsOperationItem'>
+        <view class='starNewsBtn'>
+          <image src='/images/starNewsDetail1.png' class='starNewsDetail1'></image>
+          <view>1190</view>
+        </view>
+      </view>
+      <view class='starNewsOperationItem'>
+        <view class='starNewsBtn'>
+          <image src='/images/starNewsDetail2.png' class='starNewsDetail2'></image>
+          <view>1190</view>
+        </view>
+      </view>
+      <view class='starNewsOperationItem' bindtap='thumbsClick'>
+        <view class='starNewsBtn'>
+          <image src='{{thumbsSrc}}' class='starNewsDetail3'></image>
+          <view>1190</view>
+        </view>
+      </view>
+      <view class='starNewsOperationItem' bindtap='collectClick'>
+        <view class='starNewsBtn'>
+          <image src='{{collectSrc}}' class='starNewsDetail4Unchecked'></image>
+          <view>收藏</view>
+        </view>
+      </view>
+    </view>
+  </view>
+</view>

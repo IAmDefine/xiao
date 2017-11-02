@@ -1,0 +1,51 @@
+page{background-color: #F5F5F5;}
+.page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
+.page view{box-sizing: border-box;}
+/* 照片视频 */
+.photoVideo{width: 100%;}
+.movieWrap{width: 100%;margin: 20rpx 0;}
+.movieCaption{width: 100%;height: 88rpx;padding: 0 20rpx;background-color: #FFFFFF;border-bottom: 1rpx solid #EAEAEA;line-height: 88rpx;color: #555555;}
+.detailMovie1{width: 28rpx;height: 28rpx;}
+.movieCaptionIcon{float: left; height: 88rpx;display: flex;align-items: center;}
+.movieCaptionIcon>image{float: left;margin-right: 20rpx;}
+.movieCon{width: 100%;background-color: #FFFFFF;padding-right: 6rpx;}
+.movieConItem{width: 50%;float: left;padding-left: 6rpx;padding-top: 6rpx;}
+.movieCon{width: 100%;}
+.movieCon>image{width: 100%;height: 440rpx;display: block;}
+.movieConText{width: 100%;text-align: center;height: 80rpx;line-height: 80rpx;color: #555555;font-size: 26rpx;text-overflow: ellipsis;white-space: nowrap;overflow: hidden;}
+.detailMovie2{width: 30rpx;height: 30rpx;}
+.detailMovie3{width: 30rpx;height: 36rpx;}
+.detailMovie4{width: 29rpx;height: 28rpx;}
+/* 演绎经历 */
+.opusWrap{width: 100%; padding: 0 20rpx;background-color: #FFFFFF;}
+.opusItem{width: 100%;height: 440rpx;padding: 20rpx 0 0 330rpx;border-bottom: 1rpx solid #EAEAEA;position: relative;}
+.opusItemPic{width: 300rpx;height: 400rpx;margin-right: 30rpx;position: absolute;left: 0;top: 20rpx;}
+.opusItemPic>image{width: 100%;height: 100%;}
+.opusList{width: 100%;font-size: 26rpx; color: #555555;margin-bottom: 9rpx;}
+.opusItem:nth-last-child(1){border:0;}
+.detailMovie5{width: 30rpx;height: 32rpx;}
+.detailMovie6{width: 29rpx;height: 29rpx;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
