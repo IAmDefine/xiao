@@ -1,19 +1,19 @@
 {
   "pages": [
+    "pages/myinfo/infoSet/aboutUs/aboutUs",
+    "pages/myinfo/infoSet/infoSet",
+    "pages/myinfo/myinfo",
+    "pages/myinfo/telNum/telNum",
+    "pages/starNews/leaveMes/leaveMes",
     "pages/starNews/starNewsDetail/starNewsDetail",
-    
-    "pages/index/index",
-    
-    "pages/starNews/starNews",
     "pages/myinfo/myCollect/myCollect",
+    "pages/index/index",
+    "pages/starNews/starNews",
     "pages/detail/deductiveExper/deductiveExper",
     "pages/detail/detail",
     "pages/detail/detailMovieList/detailMovieList",
-    "pages/myinfo/myinfo",
     "pages/myinfo/infoCenter/infoCenter",
     "pages/myinfo/changeName/changeName",
-    "pages/myinfo/telNum/telNum",
-    "pages/myinfo/infoSet/infoSet",
     "pages/filter/filter",
     "pages/filtrate_result/filtrate_result",
     "pages/select_tag/select_tag",

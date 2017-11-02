@@ -5,15 +5,19 @@ function countdown(that) {
   if (code_time == 0) {
     that.setData({
       code_time: "60",
-      cr_block: "none",
-      cl_block: "block"
+      codeStatus: 'block',
+      timeStatus:'none',
+      codeBg: '#DC3B31',
     });
     return;
   }
   var time = setTimeout(function () {
     that.setData({
-      code_time: code_time - 1
-
+      code_time: code_time - 1,
+      codeStatus: 'none',
+      timeStatus: 'block',
+      codeBg: '#DBDBDB',
+      
     });
     countdown(that);
   }
@@ -22,12 +26,14 @@ function countdown(that) {
 Page({
   data: {
     code_time: 60,//倒计时事件控制
+    codeStatus:'block',
+    timeStatus:'none',
+    codeBg:'#DC3B31',
     phone_value:"",//填写的手机号
     code:"",//输入的code
     ra_num:"",//随机生成的验证码
     password:"",
     repassword:""
-
   },
 
   onLoad: function (options) {

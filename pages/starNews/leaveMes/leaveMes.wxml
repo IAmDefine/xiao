@@ -1,0 +1,37 @@
+<view class='page'>
+  <view class='leaverMesWrap'>
+    <view class='leaverMesWrapItem'>
+      <!-- 您的姓名 -->
+      <view class='leaverMesItem'>
+        <view class='leaverMes clear' bindtap='nameClick'>
+          <text class='leaverMesTips'>您的姓名</text>
+          <view class='leaverMesConUp' style='display:{{nameStatusR}}'>{{nameCon}}</view>
+          <input class='leaverMesCon' placeholder='{{nameHolder}}' style='display:{{nameStatusF}}' focus='{{nameFocusStatus}}' bindblur='nameBlur' value='{{nameValue}}' bindfocus='nameFocus'></input>
+        </view>
+      </view>
+      <!-- 您的预算 -->
+      <view class='leaverMesItem'>
+        <view class='leaverMes clear' bindtap='budgetClick'>
+          <text class='leaverMesTips'>您的预算</text>
+          <view class='leaverMesConUp' style='display:{{budgetStatusR}}'>{{budgetCon}}</view>
+          <input class='leaverMesCon' placeholder='{{budgetHolder}}' style='display:{{budgetStatusF}}' focus='{{budgetFocusStatus}}' bindblur='budgetBlur' value='{{budgetValue}}' bindfocus='budgetFocus'></input>
+        </view>
+      </view>
+      <!-- 联系电话 -->
+      <view class='leaverMesItem'>
+        <view class='leaverMes clear' bindtap='phoneClick'>
+          <view class='leaverMesTips'>
+            <text class='imporTips'>*</text>
+            <text>您的联系电话是？</text>
+          </view>
+          <view class='leaverMesConUp' style='display:{{phoneStatusR}}'>{{phoneCon}}</view>
+          <input class='leaverMesCon' placeholder='{{phoneHolder}}' style='display:{{phoneStatusF}}' focus='{{phoneFocusStatus}}' bindblur='phoneBlur' value='{{phoneValue}}' bindfocus='phoneFocus'></input>
+        </view>
+      </view>
+    </view>
+    <view class='activeRequirementWrap'>
+      <textarea placeholder='您对提供艺人的服务有什么要求呢？'></textarea>
+    </view>
+    <view class='subBtn'>提交</view>
+  </view>
+</view>

@@ -16,7 +16,10 @@
       </view>
       <view class='telNumItemCon verCodeWrao'>
         <input name="the_code" placeholder='请输入验证码' class='verCodeInput' bindinput='code'></input>
-        <view class='verCode' bindtap="codeClick">获取验证码</view>
+        <view class='verCode' bindtap="codeClick" style='background-color:{{codeBg}}'>
+          <text style='display:{{codeStatus}}'>获取验证码</text>
+          <text style='display:{{timeStatus}}'>{{code_time}}s</text>
+        </view>
       </view>
     </view>
     <view class='telNumItem'>
