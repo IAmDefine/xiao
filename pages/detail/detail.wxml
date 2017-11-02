@@ -18,11 +18,11 @@
   <view class='introWrap'>
     <view class='introitem clear'>
       <view class='introitemPic clear'>
-        <image src='/images/111.png'></image>
+        <image src='/images/myNewsNull.png'></image>
         <text>张学友</text>
       </view>
-      <view class='introitemCollectWrap clear'>
-        <image src='/images/detailCollectIcon.png'></image>
+      <view class='introitemCollectWrap clear' bindtap='collectClick'>
+        <image src='{{collectIcon}}'></image>
         <text>收藏</text>
       </view>
     </view>
@@ -140,13 +140,13 @@
       <view class='movieCon clear'>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
@@ -167,13 +167,13 @@
       <view class='movieCon clear'>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
@@ -194,13 +194,13 @@
       <view class='movieCon clear'>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
         <view class='movieConItem'>
           <view class='movieCon'>
-            <image src='/images/111.png'></image>
+            <image src='/images/myNewsNull.png'></image>
              <view class='movieConText'>那件疯狂的小事叫爱情</view> 
           </view>
         </view>
@@ -226,7 +226,7 @@
         <view class='opusWrap'>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
@@ -247,7 +247,7 @@
           </view>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
@@ -285,7 +285,7 @@
         <view class='opusWrap'>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>评选活动：</text>
@@ -302,7 +302,7 @@
           </view>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>评选活动：</text>
@@ -336,7 +336,7 @@
         <view class='opusWrap'>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
@@ -357,7 +357,7 @@
           </view>
           <view class='opusItem'>
             <view class='opusItemPic'>
-              <image src='/images/111.png'></image>
+              <image src='/images/myNewsNull.png'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
@@ -429,6 +429,52 @@
   <!-- 评价 -->
   <view class='photoVideo'>
     <view class='basicInfoTitle'>评价</view>
-    
+    <view class='evalWrap'>
+      <view class='evalItem'>
+        <view class='evalPic clear'>
+          <image src='/images/myNewsNull.png'></image>
+          <text>极品刘德华</text>
+        </view>
+        <view class='evalIcon clear'>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+        </view>
+        <view class='evalCon'>服务非常好，期待下次合作！</view>
+        <view class='evalImg clear'>
+          <image src='/images/myNewsNull.png'></image>
+          <image src='/images/myNewsNull.png'></image>
+          <image src='/images/myNewsNull.png'></image>
+        </view>
+        <view class='evalTime clear'>
+          <text>2017.09.08</text>
+          <text>12:09</text>
+        </view>
+      </view>
+      <view class='evalItem'>
+        <view class='evalPic clear'>
+          <image src='/images/myNewsNull.png'></image>
+          <text>极品刘德华</text>
+        </view>
+        <view class='evalIcon clear'>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+        </view>
+        <view class='evalCon'>服务非常好，期待下次合作！</view>
+        <view class='evalImg clear'>
+          <image src='/images/myNewsNull.png'></image>
+          <image src='/images/myNewsNull.png'></image>
+          <image src='/images/myNewsNull.png'></image>
+        </view>
+        <view class='evalTime clear'>
+          <text>2017.09.08</text>
+          <text>12:09</text>
+        </view>
+      </view>
+    </view>
   </view>
+  <view class='subBtn'>立即签约</view>
 </view>

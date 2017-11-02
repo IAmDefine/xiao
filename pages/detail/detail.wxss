@@ -1,4 +1,4 @@
-page{background-color: #F5F5F5;padding-bottom: 200px;}
+page{background-color: #F5F5F5;padding-bottom: 138rpx;}
 .page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
 .page view{box-sizing: border-box;}
 /* 滑动轮播 */
@@ -65,3 +65,18 @@ swiper{width:100%; height: 900rpx;}
 .businessConItem{width: 100%;border-bottom: 1rpx solid #EAEAEA;display: flex;color: #555555;}
 .clearMb{margin-bottom: 0;}
 .clearBb{border-bottom: 0;}
+/* 评价 */
+.evalWrap{width: 100%;}
+.evalItem{width: 100%;padding: 20rpx;background-color: #FFFFFF;margin-bottom: 20rpx;}
+.evalItem:nth-last-of-type(1){margin-bottom: 0;}
+.evalPic{width: 100%;line-height: 80rpx;margin-bottom: 30rpx;}
+.evalPic>image{width: 80rpx;height: 80rpx;margin-right: 20rpx;float: left;border-radius: 50%;}
+.evalIcon{width: 100%;margin-bottom: 30rpx;}
+.evalIcon>image{width: 24rpx;height: 22rpx;float: left;margin-right: 10rpx;}
+.evalCon{color: #555555; font-size: 26rpx;margin-bottom: 30rpx;}
+.evalImg{width: 100%;margin-bottom: 30rpx;}
+.evalImg>image{width: 210rpx;height: 210rpx;float: left;margin:0 10rpx 20rpx 0;}
+.evalTime{width: 100%;font-size: 24rpx;color: #999999;}
+.evalTime>text{float: left; margin-right:20rpx; }
+/* 签约按钮 */
+.subBtn{width: 100%;height: 88rpx;background-color: #DC3B31;color: #FFFFFF;text-align: center;line-height: 88rpx;position: fixed;left: 0;bottom: 0;}

@@ -1,0 +1,30 @@
+<view class='page'>
+  <view class='movieWrap'>
+      <view class='movieCaption clear'>
+        <view class='movieCaptionIcon clear'>
+          <image src='/images/detailMovie1.png' class='detailMovie1'></image>
+          <text>电影</text>
+        </view>
+      </view>
+      <view class='movieCon clear'>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/myNewsNull.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/myNewsNull.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+        <view class='movieConItem'>
+          <view class='movieCon'>
+            <image src='/images/myNewsNull.png'></image>
+             <view class='movieConText'>那件疯狂的小事叫爱情</view> 
+          </view>
+        </view>
+      </view>
+    </view>
+</view>

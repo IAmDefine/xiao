@@ -1,9 +1,6 @@
 page{background-color: #F5F5F5;}
 .page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
 .page view{box-sizing: border-box;}
-.isNotNullCaption{width: 100%;background-color: #FFFFFF;position: fixed;left: 0;top: 0;z-index: 99;}
-.isNotNullCaptionItem{width: 50%;height: 80rpx;float: left;text-align: center;line-height: 80rpx;font-size: 26rpx;position: relative;}
-.isNotNullConItem{padding-top: 80rpx;}
 .partingLine{width: 1rpx;height: 26rpx;color: #EAEAEA;position: absolute;right: 0;top: 0;}
 .ischeckedIcon{width: 40rpx;height: 3rpx;background-color: #DC3B32;position: absolute;bottom: 0;left: 50%;margin-left: -20rpx;}
 .ischeckedCon{color: #DC3B32;}
@@ -14,11 +11,14 @@ page{background-color: #F5F5F5;}
 .starDepot{width: 100%;padding: 0 20rpx;}
 .starDepotItem{width: 100%;height: 980rpx;box-shadow:0 10rpx 30rpx rgba(0,0,0,0.2);margin-top: 20rpx;}
 .starDepotItem image{width: 100%;height: 100%;}
-.starInfo{width: 100%;}
-.starInfoItem{width: 100%;margin-top: 20rpx;background-color: #FFFFFF;padding:20rpx;}
+.starInfo{width: 100%;padding-bottom: 100rpx;}
+.starInfoItem{width: 100%;margin-bottom: 20rpx;background-color: #FFFFFF;padding:20rpx;}
 .starInfoItemCon{width: 100%;height: 240rpx;padding-left: 260rpx;position: relative;}
-.starInfoItemPic{width: 240rpx;height: 240rpx;position: absolute;left: 0;top: 0;}
+.starInfoItemPic,.starInfoItemVie{width: 240rpx;height: 240rpx;position: absolute;left: 0;top: 0;}
 .starInfoItemPic>image{width: 100%;height: 100%;}
+.starInfoItemViePic{width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 1;}
+.playMsak{width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 2;background-color: rgba(0,0,0,.5);display: flex;align-items: center;justify-content: center;}
+.playMsak>image{width: 70rpx;height: 71rpx;}
 .starInfoItemConDetail{width: 100%;height: 100%; position: relative;}
 .starInfoItemConDetailTittle{color: #222222;font-size: 30rpx;line-height: 42rpx;}
 .starInfoItemConDetailText{color: #555555;font-size: 26rpx;line-height: 42rpx;}
@@ -27,8 +27,24 @@ page{background-color: #F5F5F5;}
 .otherInfoTime image{width: 18rpx;height: 18rpx;margin-right: 10rpx;}
 .otherInfoCom{float: right;color: #555555;font-size: 22rpx;}
 .otherInfoCom image{width: 19rpx;height: 18rpx;margin-right: 10rpx;}
-/* 为空 */
-.isNull{width: 100%;height: 100%;position: absolute;left: 0;top: 0;display: flex;align-items: center;justify-content: center;}
-.inNullCon>image{display: block; width: 178rpx;height: 146rpx;margin: 0 auto 35rpx auto;}
-.inNullText{text-align: center;color: #666666;}
-.inNullTextLink{color: #DC3B31;text-decoration: underline;}
+/* 按钮 */
+.subBtn{width: 100%;height: 80rpx;font-size: 26rpx;color: #FFFFFF;text-align: center;line-height: 80rpx;opacity: .9;position: fixed;left: 0;bottom: 0;z-index: 99;background-color: #DF4E46;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
