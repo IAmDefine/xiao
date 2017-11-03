@@ -9,11 +9,11 @@ Page({
     },
     dis:"none",
     collect:"",//收藏的艺人
-    o_page: "2",//下一页
+    o_page: "1",//下一页
     one_page: "",//总页数
     //资讯
     two_page:"",//总页数
-    t_page:"2",//下一页
+    t_page:"1",//下一页
     news:"",//收藏的星讯
 
   },
@@ -80,11 +80,10 @@ Page({
     var myinfo = wx.getStorageSync('myinfo');
     if (myinfo) {
       var url = '/inter/index/collectlist';
-      var postData = { uid: myinfo.id, types: '5', showrow:"100" }
+      var postData = { uid: myinfo.id, types: '5', showrow:"5" }
       function doSuccess(res) {
         if (res.data.status == 1) {
           var cinfo = res.data.data.data
-          console.log(cinfo)
           for(let i in cinfo){
             cinfo[i].instime = app.timetransform(cinfo[i].instime)
             if(cinfo[i].starnews_con.length>30){
@@ -93,6 +92,7 @@ Page({
           }
 
           that.setData({
+            t_page:"1",
             dis:"none",
             news: cinfo,
             two_page: res.data.data.totalPage
@@ -118,8 +118,9 @@ Page({
     var types = that.data.tabArr.btnIndex;
     var myinfo = wx.getStorageSync('myinfo');
     if(types=='0'){
-      var page = that.data.o_page++
-      if (page > that.data.one_page * 1 + 1) {
+      var page = that.data.o_page
+      page = page*1 + 1;
+      if (page > that.data.one_page) {
         return;
       }
       var url = '/inter/index/collectlist';
@@ -135,11 +136,47 @@ Page({
           var main_con = that.data.collect
           var a = main_con.concat(info)
           that.setData({
-            collect: a
+            collect: a,
+            o_page:page
           })
         }
       }
       app.yxkRequest(url, postData, pdata)
+    }else{
+      //查星迅
+      var tpage = that.data.t_page
+      tpage = tpage * 1 + 1;
+      if (tpage > that.data.two_page) {
+        return;
+      }
+      if (myinfo) {
+        var url = '/inter/index/collectlist';
+        var postData = { uid: myinfo.id, types: '5', showrow: "5", page: tpage }
+        function doSuccess(res) {
+          if (res.data.status == 1) {
+            wx.showToast({
+              title: '加载中',
+              icon: 'loading',
+              duration: 500
+            })
+            var cinfo = res.data.data.data
+            for (let i in cinfo) {
+              cinfo[i].instime = app.timetransform(cinfo[i].instime)
+              if (cinfo[i].starnews_con.length > 30) {
+                cinfo[i].starnews_con = cinfo[i].starnews_con.slice(0, 40) + '...';
+              }
+            }
+            var main_con = that.data.news
+            var a = main_con.concat(cinfo)
+
+            that.setData({
+              news: a,
+              t_page:tpage
+            })
+          }
+        }
+        app.yxkRequest(url, postData, doSuccess);
+      }
     }
   },
 

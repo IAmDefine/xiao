@@ -1,7 +1,24 @@
 page{background-color: #F5F5F5;}
 .page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
 .page view{box-sizing: border-box;}
-
+.starNewsCaption{padding-bottom: 108rpx;}
+/* 图文详情 */
+.starNewsPicWrap{width: 100%;padding: 20rpx;background-color: #FFFFFF;}
+.starNewsTitle{font-size: 32rpx;color: #222222;}
+.otherInfoTime{color: #555555;font-size: 22rpx;margin-top: 10rpx;}
+.otherInfoTime image{width: 18rpx;height: 18rpx;margin-right: 10rpx;}
+.starNewsPic{width: 100%;height: 426rpx;margin-top: 20rpx;}
+.starNewsPic image{width: 100%;height: 100%;}
+.starNewsText{font-size: 26rpx;color: #555555;margin-top:20rpx; }
+/* 视频详情 */
+.starNewsVideoWrap{width:100%;background-color: #FFFFFF; }
+.videoWrap{width: 100%;height: 420rpx;position: relative;}
+.videoWrap>image{width: 100%;height: 100%;position: absolute;left: 0;top: 0;z-index: 1;}
+.videoMask{width: 100%;height: 100%;background-color: rgba(0,0,0,.5);position: absolute;left: 0;top: 0;z-index: 2;display: flex;align-items: center;justify-content: center}
+.videoMask>image{width: 86rpx;height: 87rpx;}
+.viewConWrap{width: 100%;padding: 20rpx;}
+.viewTitle{width:100%;color: #222222;font-size: 30rpx;line-height: 42rpx;margin-bottom: 6rpx; }
+.viewCon{max-width: 450rpx; font-size: 26rpx;color: #555555;line-height: 42rpx;margin-bottom: 32rpx;}
 /* 操作 */
 .starNewsOperation{width: 100%;height: 110rpx;background-color: #FFFFFF;border-top: 1rpx solid #EAEAEA;}
 .starNewsOperationItem{width: 25%;float: left;display: flex;align-items: center;justify-content: center;padding-top: 20rpx;}
@@ -11,11 +28,13 @@ page{background-color: #F5F5F5;}
 .starNewsDetail2{width: 31rpx;height: 28rpx;}
 .starNewsDetail3{width: 28rpx;height: 28rpx;}
 .starNewsDetail4Unchecked{width: 32rpx;height: 29rpx;}
-
-
-
-
-
-
-
-
+/* 回复内容 */
+.replyWrap{width: 100%;}
+.replyItem{width: 100%;padding:20rpx;background-color: #FFFFFF;margin-top: 20rpx;}
+.replayTitle{width: 100%;line-height: 80rpx;margin-bottom: 20rpx;}
+.replayTitle>image{width: 80rpx;height: 80rpx;border-radius: 50%;float: left;margin-right: 20rpx;}
+.replayCon{width: 100%;font-size: 26rpx;color: #555555;margin-bottom: 30rpx;}
+.replyTime{width: 100%;color: #888888;font-size: 24rpx;}
+.replyTime>text{float: left;margin-right: 20rpx;}
+/* 评论按钮 */
+.subBtn{width: 100%;height: 88rpx;color: #FFFFFF;background-color: #DC3B32;text-align: center;line-height: 88rpx;position: fixed;left: 0;bottom: 0;z-index: 99;}

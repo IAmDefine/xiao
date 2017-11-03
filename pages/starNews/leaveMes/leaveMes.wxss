@@ -1,0 +1,16 @@
+page{background-color: #F5F5F5;}
+.page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
+.page view{box-sizing: border-box;}
+.leaverMesWrap{width: 100%;}
+.leaverMesWrapItem{width: 100%;margin: 20rpx 0;}
+.leaverMesItem{width: 100%; background-color: #FFFFFF;padding-left: 20rpx;}
+.leaverMes{width: 100%;height: 90rpx;line-height: 90rpx;position: relative;border-bottom: 1rpx solid #EAEAEA;}
+.leaverMesTips{float: left;position: relative;}
+.leaverMesConUp{float: right;color: #CCCCCC;font-size: 26rpx;margin-right: 20rpx;flex: 1;}
+.leaverMesCon{position: absolute;right: 20rpx;top: 0;width: 50%;height: 100%;font-size: 26rpx;margin-right: 20rpx;}
+.imporTips{color: #DC3B31;position: absolute;left: -12rpx;}
+.activeRequirementWrap{width: 100%;background-color: #FFFFFF;padding: 20rpx;}
+.activeRequirementWrap>textarea{width: 100%;height: 230rpx;}
+.leaverMesItem:nth-last-of-type(1) .leaverMes{border-bottom:0;font-size: 28rpx;}
+/* 提交按钮 */
+.subBtn{width: 100%;height: 88rpx;background-color: #DC3B31;color: #FFFFFF;text-align: center;line-height: 88rpx;position: fixed;left: 0;bottom: 0;}

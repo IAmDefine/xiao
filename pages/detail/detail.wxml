@@ -4,7 +4,7 @@
     <swiper bindchange='swiperEvent'>
       <block wx:for="{{imgUrls}}">
         <swiper-item>
-          <image src="{{item}}" class="slide-image swiperPic" />
+          <image src="{{item}}?x-oss-process=style/wxprod" class="slide-image swiperPic" />
         </swiper-item>
       </block>
     </swiper>
@@ -18,8 +18,8 @@
   <view class='introWrap'>
     <view class='introitem clear'>
       <view class='introitemPic clear'>
-        <image src='/images/myNewsNull.png'></image>
-        <text>张学友</text>
+        <image src='{{sinfo.head}}'></image>
+        <text>{{sinfo.names}}</text>
       </view>
       <view class='introitemCollectWrap clear' bindtap='collectClick'>
         <image src='{{collectIcon}}'></image>
@@ -27,9 +27,7 @@
       </view>
     </view>
     <view class='introLabel clear'>
-      <view>演员</view>
-      <view>歌手</view>
-      <view>主持人</view>
+      <view wx:if="{{sinfo.jobs!=''}}" wx:for="{{sinfo.jobs}}" wx:for-item="value">{{value}}</view>
     </view>
   </view>
   <!-- 基本信息 -->
@@ -39,94 +37,111 @@
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>姓名：</text>
-          <text>陈伟霆</text>
+         <text wx:if="{{sinfo.names}}">{{sinfo.names}}</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>别名：</text>
-          <text>陈伟霆</text>
+           <text wx:if="{{sinfo.oldname}}">{{sinfo.oldname}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>外文名：</text>
-          <text>陈伟霆</text>
+          <text wx:if="{{sinfo.enname}}">{{sinfo.enname}}</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>国籍：</text>
-          <text>中国</text>
+          <text wx:if="{{sinfo.country}}">{{sinfo.country}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>民族：</text>
-          <text>汉</text>
+          <text wx:if="{{sinfo.nation}}">{{sinfo.nation}}</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>出生日期：</text>
-          <text>1928年11月22日</text>
+          <text wx:if="{{sinfo.birthdate}}">{{sinfo.birthdate}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>星座：</text>
-          <text>狮子座</text>
+          <text wx:if="{{sinfo.astr}}">{{sinfo.astr}}</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>血型：</text>
-          <text>B型</text>
+          <text wx:if="{{sinfo.blood}}">{{sinfo.blood}}型</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>身高：</text>
-          <text>190cm</text>
+          <text wx:if="{{sinfo.height}}">{{sinfo.height}}cm</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>体重：</text>
-          <text>22kg</text>
+          <text wx:if="{{sinfo.weight}}">{{sinfo.weight}}kg</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItem clear'>
         <view class='tableMid'>
           <text>出生地：</text>
-          <text>香港</text>
+          <text wx:if="{{sinfo.birthplace}}">{{sinfo.birthplace}}</text>
+          <text wx:else>-</text>
         </view>
         <view class='tableMid'>
           <text>职业：</text>
-          <text>演员、歌手演员、歌手演员、歌手</text>
+          <text wx:if="{{job}}">{{job}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItemAll clear'>
         <view class='tableAll'>毕业院校：</view>
         <view class='tableAllCon'>
-          <text>香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大学香港什么什么大</text>
+          <text wx:if="{{sinfo.graduinst}}">{{sinfo.graduinst}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItemAll clear'>
         <view class='tableAll'>个人爱好：</view>
         <view class='tableAllCon'>
-          <text>读书、乒乓球</text>
+          <text wx:if="{{hid}}">{{hid}}</text>
+          <text wx:else>-</text>
         </view>
       </view>
       <view class='basicInfoItemAll clear'>
         <view class='tableAll'>婚姻状况：</view>
         <view class='tableAllCon'>
-          <text>未婚</text>
+          <text wx:if="{{sinfo.marriage==1}}">未婚</text>
+          <text wx:if="{{sinfo.marriage==2}}">已婚未育</text>
+          <text wx:if="{{sinfo.marriage==3}}">已婚已育</text>
         </view>
       </view>
-      <view class='basicInfoItemAll clear clearBLine'>
+       <view class='basicInfoItemAll clear clearBLine'>
         <view class='tableAll'>自我评价：</view>
         <view class='tableAllCon'>
-          <text>活泼、开朗</text>
+          <text wx:if="{{sinfo.selfass}}">{{sinfo.selfass}}</text>
+          <text wx:else>-</text>
         </view>
-      </view>
+      </view> 
     </view>
   </view>
   <!-- 照片视频 -->
-  <view class='photoVideo'>
+  <view class='photoVideo'  wx:if="{{sinfo.stars_work.one != '' && sinfo.stars_work.two !=''}}">
     <view class='basicInfoTitle'>照片视频</view>
     <!-- 电影 -->
-    <view class='movieWrap'>
+    <view class='movieWrap' wx:if="{{sinfo.stars_work.one != ''}}">
       <view class='movieCaption clear'>
         <view class='movieCaptionIcon clear'>
           <image src='/images/detailMovie1.png' class='detailMovie1'></image>
@@ -137,23 +152,19 @@
           <image src='/images/myInfoIcon_right.png'></image>
         </view>
       </view>
+
       <view class='movieCon clear'>
-        <view class='movieConItem'>
+        <view class='movieConItem' wx:for="{{sinfo.stars_work.one}}" wx:for-item="value">
           <view class='movieCon'>
-            <image src='/images/myNewsNull.png'></image>
-            <view class='movieConText'>那件疯狂的小事叫爱情</view>
+            <image src='{{value.img}}'></image>
+            <view class='movieConText'>{{value.names}}</view>
           </view>
         </view>
-        <view class='movieConItem'>
-          <view class='movieCon'>
-            <image src='/images/myNewsNull.png'></image>
-            <view class='movieConText'>那件疯狂的小事叫爱情</view>
-          </view>
-        </view>
+
       </view>
     </view>
     <!-- 电视剧 -->
-    <view class='movieWrap'>
+    <view class='movieWrap' wx:if="{{sinfo.stars_work.two != ''}}">
       <view class='movieCaption clear'>
         <view class='movieCaptionIcon clear'>
           <image src='/images/detailMovie2.png' class='detailMovie2'></image>
@@ -165,28 +176,22 @@
         </view>
       </view>
       <view class='movieCon clear'>
-        <view class='movieConItem'>
+        <view class='movieConItem' wx:for="{{sinfo.stars_work.two}}" wx:for-item="value">
           <view class='movieCon'>
-            <image src='/images/myNewsNull.png'></image>
-            <view class='movieConText'>那件疯狂的小事叫爱情</view>
+            <image src='{{value.img}}'></image>
+            <view class='movieConText'>{{value.names}}</view>
           </view>
         </view>
-        <view class='movieConItem'>
-          <view class='movieCon'>
-            <image src='/images/myNewsNull.png'></image>
-            <view class='movieConText'>那件疯狂的小事叫爱情</view>
-          </view>
-        </view>
+    
       </view>
     </view>
-
   </view>
   <!-- 演绎经历 -->
-  <view class='photoVideo'>
+  <view class='photoVideo' wx:if="{{recent}}">
     <view class='basicInfoTitle'>演绎经历</view>
     <!-- 近期上线作品 -->
     <view class='movieWrap'>
-      <view class='movieCaption clear'>
+      <view class='movieCaption clear'  bindtap='jump_new'>
         <view class='movieCaptionIcon clear'>
           <image src='/images/detailMovie4.png' class='detailMovie4'></image>
           <text>近期上线作品</text>
@@ -198,55 +203,39 @@
       </view>
       <view class='movieCon clear'>
         <view class='opusWrap'>
-          <view class='opusItem'>
+
+          <view class='opusItem' wx:for="{{recent}}" wx:for-item="value">
             <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
+              <image src='{{value.img}}'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
-              <text>电视剧</text>
+              <text wx:if="{{value.types==1}}">电影</text>
+              <text wx:if="{{value.types==2}}">电视剧</text>
             </view>
             <view class='opusList'>
               <text>名称：</text>
-              <text>老九门</text>
+              <text>{{value.names}}</text>
             </view>
             <view class='opusList'>
               <text>饰演：</text>
-              <text>张启山</text>
+              <text>{{value.rolename}}</text>
             </view>
             <view class='opusList'>
               <text>日期：</text>
-              <text>2017.01.09</text>
+              <text>{{value.years}}</text>
             </view>
           </view>
-          <view class='opusItem'>
-            <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
-            </view>
-            <view class='opusList'>
-              <text>类型：</text>
-              <text>电视剧</text>
-            </view>
-            <view class='opusList'>
-              <text>名称：</text>
-              <text>老九门</text>
-            </view>
-            <view class='opusList'>
-              <text>饰演：</text>
-              <text>张启山</text>
-            </view>
-            <view class='opusList'>
-              <text>日期：</text>
-              <text>2017.01.09</text>
-            </view>
-          </view>
+
+    
+
         </view>
       </view>
     </view>
 
 
     <!-- 综艺 -->
-    <view class='photoVideo'>
+    <view class='photoVideo' wx:if="{{sinfo.stars_work.three!=''}}">
       <view class='basicInfoTitle'>综艺</view>
       <view class='business'>
         <view class='businessItem clear'>
@@ -257,43 +246,20 @@
             <text class='businessConTitle'>节目名称</text>
           </view>
         </view>
-        <view class='businessConItem clear'>
+
+        <view class='businessConItem clear' wx:for="{{sinfo.stars_work.three}}" wx:for-item="value">
           <view class='businessList '>
-            <text>2017</text>
+            <text>{{value.years}}</text>
           </view>
           <view class='businessDetail'>
-            <view>男孩代言老男孩代代言老</view>
-          </view>
-        </view>
-        <view class='businessConItem clear'>
-          <view class='businessList '>
-            <text>2018</text>
-          </view>
-          <view class='businessDetail'>
-            <view>形象代言啊</view>
-          </view>
-        </view>
-        <view class='businessConItem clear'>
-          <view class='businessList '>
-            <text>2019</text>
-          </view>
-          <view class='businessDetail'>
-            <view>自媒体代言</view>
-          </view>
-        </view>
-        <view class='businessConItem clear clearBb'>
-          <view class='businessList '>
-            <text>2001</text>
-          </view>
-          <view class='businessDetail'>
-            <view>肖像照片代言</view>
+            <view>{{value.names}}</view>
           </view>
         </view>
       </view>
     </view>
 
     <!-- 获奖记录 -->
-    <view class='photoVideo'>
+    <view class='photoVideo' wx:if="{{sinfo.stars_work.five!=''}}">
       <view class='basicInfoTitle'>获奖记录</view>
       <view class='business'>
         <view class='businessItem clear'>
@@ -304,44 +270,24 @@
             <text class='businessConTitle'>名称</text>
           </view>
         </view>
-        <view class='businessConItem clear'>
+
+        <view class='businessConItem clear' wx:for="{{sinfo.stars_work.five}}" wx:for-item="value">
           <view class='businessList '>
-            <text>2017</text>
+            <text>{{value.years}}</text>
           </view>
           <view class='businessDetail'>
-            <view>男孩代言老男孩代言老男孩代言老男孩代言老</view>
+            <view>{{value.rolename}}</view>
           </view>
         </view>
-        <view class='businessConItem clear'>
-          <view class='businessList '>
-            <text>2018</text>
-          </view>
-          <view class='businessDetail'>
-            <view>形象代言啊</view>
-          </view>
-        </view>
-        <view class='businessConItem clear'>
-          <view class='businessList '>
-            <text>2019</text>
-          </view>
-          <view class='businessDetail'>
-            <view>自媒体代言</view>
-          </view>
-        </view>
-        <view class='businessConItem clear clearBb'>
-          <view class='businessList '>
-            <text>2001</text>
-          </view>
-          <view class='businessDetail'>
-            <view>肖像照片代言</view>
-          </view>
-        </view>
+
       </view>
     </view>
 
   </view>
+
+
   <!-- 全部商务 -->
-  <view class='photoVideo'>
+  <view class='photoVideo' wx:if="{{sinfo.stars_work.seven !=''}}">
     <view class='basicInfoTitle'>全部商务</view>
     <view class='business'>
       <view class='businessItem clear'>
@@ -352,89 +298,104 @@
           <text class='businessConTitle'>产品</text>
         </view>
       </view>
-      <view class='businessConItem clear'>
-        <view class='businessList '>
-          <text>商演活动</text>
-        </view>
-        <view class='businessDetail'>
-          <view>老男孩代言老男代言老男孩代言老男孩代言老男孩代言老</view>
-        </view>
-      </view>
-      <view class='businessConItem clear'>
-        <view class='businessList '>
-          <text>形象代言</text>
-        </view>
-        <view class='businessDetail'>
-          <view>形象代言啊</view>
-        </view>
-      </view>
-      <view class='businessConItem clear'>
-        <view class='businessList '>
-          <text>自媒体</text>
-        </view>
-        <view class='businessDetail'>
-          <view>自媒体代言</view>
-        </view>
-      </view>
-      <view class='businessConItem clear clearBb'>
+
+      <view class='businessConItem clear clearBb' wx:for="{{sinfo.stars_work.seven}}" wx:for-item="value">
         <view class='businessList '>
           <text>肖像照片</text>
         </view>
         <view class='businessDetail'>
-          <view>肖像照片代言</view>
+          <view>{{value.names}}</view>
         </view>
       </view>
+
     </view>
   </view>
+
+
   <!-- 评价 -->
-  <view class='photoVideo'>
+  <view class='photoVideo' wx:if="{{msginfo != ''}}">
     <view class='basicInfoTitle'>评价</view>
     <view class='evalWrap'>
-      <view class='evalItem'>
+
+
+      <view class='evalItem' wx:for="{{msginfo}}" wx:for-item="value">
         <view class='evalPic clear'>
-          <image src='/images/myNewsNull.png'></image>
-          <text>极品刘德华</text>
+          <image src='{{value.blogo}}'></image>
+          <text>{{value.names}}</text>
         </view>
-        <view class='evalIcon clear'>
+        <view class='evalIcon clear' wx:if="{{value.starnum==5}}">
+          <image src='/images/detailEvalIcon.png'></image>
+           <image src='/images/detailEvalIcon.png'></image>
           <image src='/images/detailEvalIcon.png'></image>
           <image src='/images/detailEvalIcon.png'></image>
           <image src='/images/detailEvalIcon.png'></image>
+          <text class='evalTime'>{{value.instime}}</text>          
+        </view>
+        <view class='evalIcon clear' wx:if="{{value.starnum==4}}">
           <image src='/images/detailEvalIcon.png'></image>
+           <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <text class='evalTime'>{{value.instime}}</text>          
         </view>
-        <view class='evalCon'>服务非常好，期待下次合作！</view>
-        <view class='evalImg clear'>
-          <image src='/images/myNewsNull.png'></image>
-          <image src='/images/myNewsNull.png'></image>
-          <image src='/images/myNewsNull.png'></image>
+        <view class='evalIcon clear' wx:if="{{value.starnum==3||value.starnum==2||value.starnum==1}}">
+          <image src='/images/detailEvalIcon.png'></image>
+           <image src='/images/detailEvalIcon.png'></image>
+          <image src='/images/detailEvalIcon.png'></image>
+          <text class='evalTime'>{{value.instime}}</text>
         </view>
-        <view class='evalTime clear'>
-          <text>2017.09.08</text>
-          <text>12:09</text>
+        <view class='evalCon clear'>
+          <text>{{value.conts}}</text>
         </view>
+        <view class='evalImg clear' wx:if="{{value.evaimg}}"> 
+          <image src='{{value.urls}}' wx:for="{{value.evaimg}}" wx:for-item="value" data-u="{{value.urls}}" bindtap="look"></image> 
+        </view>
+
+        <view class='replySet replySystem' wx:if="{{value.backcont}}">
+          <view class='replySystemTitle clear'>
+            <text>系统回复：</text>
+            <text class='evalTime'>{{value.backtime}}</text>
+          </view>
+          <view>{{value.backcont}}</view>
+        </view>
+
+        <view class='replySet replySystem' wx:if="{{value.strbackcont}}">
+          <view class='replyStarTitle clear'>
+            <text>明星回复：</text>
+            <text class='evalTime'>{{value.strbacktime}}</text>
+          </view>
+          <view>{{value.strbackcont}}</view>
+        </view>
+<view  wx:if="{{value.additionaldiscuss !=''}}">
+        <view class='replySet replySystem'>
+          <view class='replyUserTitle clear'>
+            <text>用户追评：</text>
+            <text class='evalTime'>{{value.additionaldiscuss[0].instime}}</text>
+          </view>
+          <view>{{value.additionaldiscuss[0].conts}}</view>
+        </view>
+
+        <view class='replySet replySystem' wx:if="{{value.additionaldiscuss[0].backcont}}">
+          <view class='replySystemTitle clear'>
+            <text>系统回复：</text>
+            <text class='evalTime'>{{value.additionaldiscuss[0].backtime}}</text>
+          </view>
+          <view>{{value.additionaldiscuss[0].backcont}}</view>
+        </view>
+
+        <view class='replySet replySystem' wx:if="{{value.additionaldiscuss[0].strbackcont}}">
+          <view class='replyStarTitle clear'>
+            <text>明星回复：</text>
+            <text class='evalTime'>{{value.additionaldiscuss[0].strbacktime}}</text>
+          </view>
+          <view>{{value.additionaldiscuss[0].strbackcont}}</view>
+        </view>
+</view>
       </view>
-      <view class='evalItem'>
-        <view class='evalPic clear'>
-          <image src='/images/myNewsNull.png'></image>
-          <text>极品刘德华</text>
-        </view>
-        <view class='evalIcon clear'>
-          <image src='/images/detailEvalIcon.png'></image>
-          <image src='/images/detailEvalIcon.png'></image>
-          <image src='/images/detailEvalIcon.png'></image>
-          <image src='/images/detailEvalIcon.png'></image>
-        </view>
-        <view class='evalCon'>服务非常好，期待下次合作！</view>
-        <view class='evalImg clear'>
-          <image src='/images/myNewsNull.png'></image>
-          <image src='/images/myNewsNull.png'></image>
-          <image src='/images/myNewsNull.png'></image>
-        </view>
-        <view class='evalTime clear'>
-          <text>2017.09.08</text>
-          <text>12:09</text>
-        </view>
-      </view>
+     
+
+
     </view>
   </view>
-  <view class='subBtn'>立即签约</view>
+  <view class='subBtn' bindtap='sign'>立即签约</view>
 </view>

@@ -1,0 +1,30 @@
+<view class='page'>
+  <view class='aboutUs'>
+    <view class='aboutUsCaption'>
+      <image src='/images/aboutUs.png'></image>
+      <text>优星库</text>
+    </view>
+    <view class='aboutUsCon'>
+      <view>前锋锐吉（北京）传媒有限公司开创国内明星商务行业之先河17年来成功操作多行业品牌-合作案例，在营销界、演艺界均享有极高的信誉和威望。近年来，策联进一步整合各界资源，主营业务范围覆盖明星商务、影视植入、品牌娱乐营销等娱乐产业链各环节。</view>
+      <view>目前，独家签约十余位知名艺人，组成多维度商业价值的明星阵容，同时与国内众多极具商业价值的明星均保持直接、高效、持久的合作关系，并且与CAA、KEYEAST等国际知名经纪公司保持良好的合作关系，及时密切的掌握艺人动态，为品牌客户提供最具价值性的明星商务合作方案。</view>
+      <view>多年来，与诸多品牌客户保持着高粘度的合作关系，倍受赞誉，更以多年经验、专业服务将前锋瑞吉打造成为业内领军品牌。</view>
+    </view>
+    <view class='company'>
+      <view>
+        <text>公司全称：前锋瑞吉（北京）传媒有限公司</text>
+      </view>
+      <view>
+        <text>客服电话：</text>
+        <text>010-58952988</text>
+      </view>
+      <view>
+        <text>网址：</text>
+        <text>www.youxingku.cn</text>
+      </view>
+      <view>
+        <text>当前版本：</text>
+        <text>1.0</text>
+      </view>
+    </view>
+  </view>
+</view>

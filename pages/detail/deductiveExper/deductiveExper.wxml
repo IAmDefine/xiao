@@ -8,90 +8,30 @@
       </view>
       <view class='movieCon clear'>
         <view class='opusWrap'>
-          <view class='opusItem'>
+
+          <view class='opusItem' wx:for="{{info}}" wx:for-item='value'>
             <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
+              <image src='{{value.img}}'></image>
             </view>
             <view class='opusList'>
               <text>类型：</text>
-              <text>电视剧</text>
+              <text wx:if="{{value.types==1}}">电影</text>
+              <text wx:if="{{value.types==2}}">电视剧</text>
             </view>
             <view class='opusList'>
               <text>名称：</text>
-              <text>老九门</text>
+              <text>{{value.names}}</text>
             </view>
             <view class='opusList'>
               <text>饰演：</text>
-              <text>张启山</text>
+              <text>{{value.rolename}}</text>
             </view>
             <view class='opusList'>
               <text>日期：</text>
-              <text>2017.01.09</text>
+              <text>{{value.years}}</text>
             </view>
           </view>
-          <view class='opusItem'>
-            <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
-            </view>
-            <view class='opusList'>
-              <text>类型：</text>
-              <text>电视剧</text>
-            </view>
-            <view class='opusList'>
-              <text>名称：</text>
-              <text>老九门</text>
-            </view>
-            <view class='opusList'>
-              <text>饰演：</text>
-              <text>张启山</text>
-            </view>
-            <view class='opusList'>
-              <text>日期：</text>
-              <text>2017.01.09</text>
-            </view>
-          </view>
-          <view class='opusItem'>
-            <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
-            </view>
-            <view class='opusList'>
-              <text>类型：</text>
-              <text>电视剧</text>
-            </view>
-            <view class='opusList'>
-              <text>名称：</text>
-              <text>老九门</text>
-            </view>
-            <view class='opusList'>
-              <text>饰演：</text>
-              <text>张启山</text>
-            </view>
-            <view class='opusList'>
-              <text>日期：</text>
-              <text>2017.01.09</text>
-            </view>
-          </view>
-          <view class='opusItem'>
-            <view class='opusItemPic'>
-              <image src='/images/myNewsNull.png'></image>
-            </view>
-            <view class='opusList'>
-              <text>类型：</text>
-              <text>电视剧</text>
-            </view>
-            <view class='opusList'>
-              <text>名称：</text>
-              <text>老九门</text>
-            </view>
-            <view class='opusList'>
-              <text>饰演：</text>
-              <text>张启山</text>
-            </view>
-            <view class='opusList'>
-              <text>日期：</text>
-              <text>2017.01.09</text>
-            </view>
-          </view>
+
         </view>
       </view>
     </view>

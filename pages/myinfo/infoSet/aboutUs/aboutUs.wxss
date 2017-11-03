@@ -1,0 +1,26 @@
+page{background-color: #F5F5F5;}
+.page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
+.page view{box-sizing: border-box;}
+.aboutUs{width: 100%;}
+.aboutUsCaption{width: 100%;padding: 70rpx 0 50rpx 0;background-color: #FFFFFF;margin-bottom: 20rpx;border-bottom: 1rpx solid #EAEAEA;text-align: center;font-size: 30rpx;}
+.aboutUsCaption>image{width: 120rpx;height: 120rpx;margin: 0 auto;display: block;margin-bottom: 8rpx;}
+.aboutUsCon{width: 100%;padding: 30rpx 20rpx 30rpx 30rpx;border-top: 1rpx solid #EAEAEA;border-bottom: 1rpx solid #EAEAEA;background-color: #FFFFFF;font-size: 26rpx;margin-bottom: 20rpx;
+line-height: 40rpx;}
+.aboutUsCon>view{text-indent: 58rpx;}
+.company{width: 100%;padding:30rpx;background-color: #FFFFFF;border-top: 1rpx solid #EAEAEA;font-size: 26rpx;}
+.company>view{margin-bottom: 12rpx;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

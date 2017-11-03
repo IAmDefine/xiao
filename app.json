@@ -1,24 +1,32 @@
 {
   "pages": [
     "pages/index/index",
-    "pages/detail/detailMovieList/detailMovieList",
-    "pages/detail/detail",
-    "pages/starNews/starNewsDetail/starNewsDetail",
+    
     "pages/starNews/starNews",
-    "pages/myinfo/myCollect/myCollect",
+    
+    "pages/starNews/starNewsDetail/starNewsDetail",
+    "pages/starNews/leaveMes/leaveMes",
+    
+
+
+
     "pages/detail/deductiveExper/deductiveExper",
+    "pages/myinfo/infoSet/aboutUs/aboutUs",
+    "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
-    "pages/myinfo/myNews/myNews",
+    "pages/myinfo/telNum/telNum",
+    "pages/myinfo/myCollect/myCollect",
+    "pages/detail/detail",
+    "pages/detail/detailMovieList/detailMovieList",
     "pages/myinfo/infoCenter/infoCenter",
     "pages/myinfo/changeName/changeName",
-    "pages/myinfo/telNum/telNum",
-    "pages/myinfo/infoSet/infoSet",
     "pages/filter/filter",
     "pages/filtrate_result/filtrate_result",
     "pages/select_tag/select_tag",
     "pages/select_profession/select_profession",
     "pages/select_info/select_info",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/myinfo/myNews/myNews"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -47,7 +55,7 @@
       {
         "selectedIconPath": "images/the_star1.png",
         "iconPath": "images/the_star.png",
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/starNews/starNews",
         "text": "星讯"
       },
       {

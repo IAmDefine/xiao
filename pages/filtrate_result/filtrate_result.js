@@ -2,7 +2,8 @@ var app = getApp();
 Page({
   data: {
     sinfo:"",
-    page:'2'
+    page:'1',
+    allpage:""//总页
   },
   /**
    * 生命周期函数--监听页面加载
@@ -11,7 +12,7 @@ Page({
     var that = this;
     var postData = wx.getStorageSync('filtrate');
         function pdata(res){
-      // console.log(res.data.result.items);
+      // console.log(res.data);
       if (res.data.result.items){
         var sinfo = res.data.result.items;
         that.setData({
@@ -67,7 +68,8 @@ Page({
   onReachBottom: function () {
     var that = this;
     var postData = wx.getStorageSync('filtrate');
-    var page = this.data.page++
+    var page = this.data.page;
+    page = page*1+1
     var postData = wx.getStorageSync('filtrate');
     postData.page = page;
     function pdata(res) {
@@ -81,10 +83,9 @@ Page({
         var main_con = that.data.sinfo
         var a = main_con.concat(info)
         that.setData({
-          sinfo: a
+          sinfo: a,
+          page:page
         })
-      } else {
-        // console.log('空');
       }
     }
     var url = '/search/index.php';
