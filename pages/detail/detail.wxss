@@ -74,9 +74,14 @@ swiper{width:100%; height: 900rpx;}
 .evalIcon{width: 100%;margin-bottom: 30rpx;}
 .evalIcon>image{width: 24rpx;height: 22rpx;float: left;margin-right: 10rpx;}
 .evalCon{color: #555555; font-size: 26rpx;margin-bottom: 30rpx;}
-.evalImg{width: 100%;margin-bottom: 30rpx;}
+.evalImg{width: 100%;margin-bottom: 15rpx;}
 .evalImg>image{width: 210rpx;height: 210rpx;float: left;margin:0 10rpx 20rpx 0;}
-.evalTime{width: 100%;font-size: 24rpx;color: #999999;}
-.evalTime>text{float: left; margin-right:20rpx; }
+.evalTime{float: right; font-size: 24rpx;color: #999999;}
 /* 签约按钮 */
 .subBtn{width: 100%;height: 88rpx;background-color: #DC3B31;color: #FFFFFF;text-align: center;line-height: 88rpx;position: fixed;left: 0;bottom: 0;}
+.replySet{width: 100%;padding: 20rpx;background-color: #F5F5F5;color: #555555;font-size: 26rpx;line-height: 42rpx;margin-bottom: 20rpx;}
+.replySet:nth-last-of-type(1){margin-bottom: 0;}
+.replySystemTitle{color: #0087EF;}
+.replyStarTitle{color: #E12234;}
+.replyUserTitle{color: #EF831A;}
+.replySetTitle{}

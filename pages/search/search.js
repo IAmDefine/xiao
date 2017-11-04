@@ -237,6 +237,13 @@ Page({
       search_content: "block",//搜索内容出现
     })
   },
-
+  
+  //跳转详情页面
+  jump_detail: function (e) {
+    var id = e.currentTarget.id;
+    wx.navigateTo({
+      url: '/pages/detail/detail?id=' + id
+    })
+  },
 
 })

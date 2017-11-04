@@ -105,7 +105,37 @@ App({
       }
     })
   },
+  //格式化时间
+  timetransform: function (timestamp) {
+    var d = new Date(timestamp * 1000);
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    if (month.toString().length == 1) {
+      month = "0" + month
+    }
+    if (date.toString().length == 1) {
+      date = "0" + date
+    }
+    return year + "-" + month + "-" + date;
 
+  },
 
+  timetrans: function (timestamp) {
+    var d = new Date(timestamp * 1000);
+    var year = d.getFullYear();
+    var month = d.getMonth() + 1;
+    var date = d.getDate();
+    var hour = d.getHours();
+    var minute = d.getMinutes();
+    if (hour.toString().length == 1) {
+      hour = "0" + hour
+    }
+    if (minute.toString().length == 1) {
+      minute = "0" + minute
+    }
+    return year + "-" + month + "-" + date + "  " + hour + ":" + minute;
+
+  }
 
 })

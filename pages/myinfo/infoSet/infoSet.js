@@ -24,8 +24,9 @@ Page({
     var that = this;
     var myinfo = wx.getStorageSync('myinfo');
     if (myinfo) {
+      var mobile = myinfo.mobile.substring(0, 3) + "****" + myinfo.mobile.substring(7, 11)
       that.setData({
-        mobile: myinfo.mobile
+        mobile: mobile
       })
     }
   },

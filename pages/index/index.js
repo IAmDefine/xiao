@@ -1,7 +1,7 @@
 const app = getApp()
 Page({
   data: {
-    page:"2",
+    page:"1",
     userInfo: '',
     canIUse: wx.canIUse('button.open-type.getUserInfo'),
     starinfo:''
@@ -13,13 +13,11 @@ Page({
       this.setData({
         userInfo: value,
       })
-      var url = '/inter/star/getprogramindex';
+      var url = '/inter/Applet/getindex';
       var postData = { page: 1, showrow:'2'}
       function dosa(res) {
-       console.log(res.data.data)
         if (res.data.status == 1) {
           var info = res.data.data.data
-          // console.log(info)
          that.setData({
            starinfo: info, 
            allpage: res.data.data.totalpage
@@ -47,16 +45,16 @@ Page({
  */
   onReachBottom: function () {
     var that = this;
-    var page = this.data.page++
-    if (page > that.data.allpage*1+1){
+    var page = this.data.page
+    page = page*1 +1;
+    if (page > that.data.allpage){
       return;
     }
-    var url = '/inter/star/getprogramindex';
+    var url = '/inter/Applet/getindex';
     var postData = { page: page, showrow:'2' }
     function pdata(res) {
       if (res.data.status==1) {
         var info = res.data.data.data;
-        console.log(info)
         wx.showToast({
           title: '加载中',
           icon: 'loading',
@@ -65,12 +63,19 @@ Page({
         var main_con = that.data.starinfo
         var a = main_con.concat(info)
         that.setData({
-          starinfo: a
+          starinfo: a,
+          page:page
         })
-      } else {
-        // console.log('空');
       }
     }
     app.yxkRequest(url, postData, pdata)
   },
+
+  //跳转详情
+  detail:function(e){
+    var id = e.currentTarget.id
+    wx.navigateTo({
+      url: '/pages/detail/detail?id='+id,
+    })
+  }
 })

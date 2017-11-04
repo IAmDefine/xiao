@@ -10,8 +10,9 @@
   </view>
 
   <view class='img_con'>
-    <view style="" class='starcon' wx:for="{{starinfo}}" wx:for-item="value" wx:key="id">
-      <image  src="{{value.home_pic}}"></image>
+    <view class='starcon' wx:for="{{starinfo}}" wx:for-item="value" id='{{value.id}}' bindtap='detail'>
+      <image  src="{{value.home_pic}}" wx:if="{{value.home_pic}}" ></image>
+      <image  src="{{value.imgs}}" wx:else ></image>
     </view>
   </view>
 </view>

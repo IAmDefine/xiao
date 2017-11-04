@@ -5,13 +5,27 @@ Page({
    * 页面的初始数据
    */
   data: {
-
+    info:"",//所有作品
   },
 
   /**
    * 生命周期函数--监听页面加载
    */
-  onLoad: function (options) {
+  onLoad: function (e) {
+    var that = this;
+    var url = '/inter/star/workslist';
+    var thistime = app.timetransform(Date.parse(new Date()) / 1000)
+    var postData = { types: "1,2", sid: e.sid, futuretime:thistime}
+    function doSuccess(res){
+      if(res.data.status==1){
+        var info = res.data.data.data;
+        that.setData({
+          info:info
+        })
+      }
+    }
+    app.yxkRequest(url, postData, doSuccess);
+
 
   },
 

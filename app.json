@@ -1,17 +1,36 @@
 {
   "pages": [
+"pages/caseBase/base1/base1",
+    "pages/caseBase/caseBase",<<<<<<< .mine
     "pages/caseBase/base1/base1",
     "pages/caseBase/caseBase",
+
+
+
+
+
+
+
+
+
+=======
+    "pages/index/index",
+    
+    "pages/starNews/starNews",
+    
+    "pages/starNews/starNewsDetail/starNewsDetail",
+    "pages/starNews/leaveMes/leaveMes",
+    
+
+
+
+    "pages/detail/deductiveExper/deductiveExper",
+>>>>>>> .theirs
     "pages/myinfo/infoSet/aboutUs/aboutUs",
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
     "pages/myinfo/telNum/telNum",
-    "pages/starNews/leaveMes/leaveMes",
-    "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/myinfo/myCollect/myCollect",
-    "pages/index/index",
-    "pages/starNews/starNews",
-    "pages/detail/deductiveExper/deductiveExper",
     "pages/detail/detail",
     "pages/detail/detailMovieList/detailMovieList",
     "pages/myinfo/infoCenter/infoCenter",
@@ -21,8 +40,8 @@
     "pages/select_tag/select_tag",
     "pages/select_profession/select_profession",
     "pages/select_info/select_info",
-    "pages/myinfo/myNews/myNews",
-    "pages/search/search"
+    "pages/search/search",
+    "pages/myinfo/myNews/myNews"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -31,32 +50,32 @@
     "navigationBarTextStyle": "black"
   },
   "tabBar": {
-    "color": "#666666",
+    "color": "#ACACAC",
     "selectedColor": "#EB2000",
     "borderStyle": "black",
     "backgroundColor": "#FFFFFF",
     "list": [
       {
-        "selectedIconPath": "images/111.png",
-        "iconPath": "images/111.png",
+        "selectedIconPath": "images/database1.png",
+        "iconPath": "images/database.png",
         "pagePath": "pages/index/index",
         "text": "星库"
       },
       {
-        "selectedIconPath": "images/22.png",
-        "iconPath": "images/22.png",
+        "selectedIconPath": "images/case1.png",
+        "iconPath": "images/case.png",
         "pagePath": "pages/index/index",
         "text": "案例"
       },
       {
-        "selectedIconPath": "images/33.png",
-        "iconPath": "images/33.png",
-        "pagePath": "pages/index/index",
+        "selectedIconPath": "images/the_star1.png",
+        "iconPath": "images/the_star.png",
+        "pagePath": "pages/starNews/starNews",
         "text": "星讯"
       },
       {
-        "selectedIconPath": "images/44.png",
-        "iconPath": "images/44.png",
+        "selectedIconPath": "images/mine1.png",
+        "iconPath": "images/mine.png",
         "pagePath": "pages/myinfo/myinfo",
         "text": "我的"
       }

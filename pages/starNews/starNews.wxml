@@ -1,6 +1,7 @@
 <view class='page'>
   <view class="isNotNullConItem">
     <view class='starInfo'>
+
       <!-- 图片 -->
       <view class='starInfoItem'>
         <view class='starInfoItemCon'>
@@ -9,7 +10,7 @@
           </view>
           <view class='starInfoItemConDetail'>
             <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
+            <view class='starInfoItemConDetailText'>,抽取电影票哦~</view>
             <view class='otherInfoWrap clear'>
               <view class='otherInfoTime clear'>
                 <image src='/images/myCollectTimeIcon.png'></image>
@@ -23,6 +24,7 @@
           </view>
         </view>
       </view>
+      
       <!-- 视频 -->
       <view class='starInfoItem'>
         <view class='starInfoItemCon'>
@@ -48,100 +50,7 @@
           </view>
         </view>
       </view>
-      <!-- 图片 -->
-      <view class='starInfoItem'>
-        <view class='starInfoItemCon'>
-          <view class='starInfoItemPic'>
-            <image src='/images/myNews.png'></image>
-          </view>
-          <view class='starInfoItemConDetail'>
-            <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
-            <view class='otherInfoWrap clear'>
-              <view class='otherInfoTime clear'>
-                <image src='/images/myCollectTimeIcon.png'></image>
-                <text>2017.08.06</text>
-               </view>
-              <view class='otherInfoCom clear'>
-                <image src='/images/myCollectCommentIcon.png'></image>
-                <text>1980</text>
-               </view>
-            </view>
-          </view>
-        </view>
-      </view>
-      <!-- 视频 -->
-      <view class='starInfoItem'>
-        <view class='starInfoItemCon'>
-          <view class='starInfoItemVie'>
-            <image src='/images/myNews.png'class='starInfoItemViePic'></image>
-            <view class='playMsak'>
-              <image src='/images/starNewsPlay.png'></image>
-            </view>
-          </view>
-          <view class='starInfoItemConDetail'>
-            <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
-            <view class='otherInfoWrap clear'>
-              <view class='otherInfoTime clear'>
-                <image src='/images/myCollectTimeIcon.png'></image>
-                <text>2017.08.06</text>
-              </view>
-              <view class='otherInfoCom clear'>
-                <image src='/images/myCollectCommentIcon.png'></image>
-                <text>2017.08.06</text>
-              </view>
-              </view>
-          </view>
-        </view>
-      </view>
-      <!-- 图片 -->
-      <view class='starInfoItem'>
-        <view class='starInfoItemCon'>
-          <view class='starInfoItemPic'>
-            <image src='/images/myNews.png'></image>
-          </view>
-          <view class='starInfoItemConDetail'>
-            <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
-            <view class='otherInfoWrap clear'>
-              <view class='otherInfoTime clear'>
-                <image src='/images/myCollectTimeIcon.png'></image>
-                <text>2017.08.06</text>
-               </view>
-              <view class='otherInfoCom clear'>
-                <image src='/images/myCollectCommentIcon.png'></image>
-                <text>1980</text>
-               </view>
-            </view>
-          </view>
-        </view>
-      </view>
-      <!-- 视频 -->
-      <view class='starInfoItem'>
-        <view class='starInfoItemCon'>
-          <view class='starInfoItemVie'>
-            <image src='/images/myNews.png'class='starInfoItemViePic'></image>
-            <view class='playMsak'>
-              <image src='/images/starNewsPlay.png'></image>
-            </view>
-          </view>
-          <view class='starInfoItemConDetail'>
-            <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
-            <view class='otherInfoWrap clear'>
-              <view class='otherInfoTime clear'>
-                <image src='/images/myCollectTimeIcon.png'></image>
-                <text>2017.08.06</text>
-              </view>
-              <view class='otherInfoCom clear'>
-                <image src='/images/myCollectCommentIcon.png'></image>
-                <text>2017.08.06</text>
-              </view>
-              </view>
-          </view>
-        </view>
-      </view>
+
     </view>
   </view>
   <!-- 按钮  -->
