@@ -39,7 +39,7 @@ Page({
             })
           }else{
             if (value) {
-              this.setData({
+              that.setData({
                 photo: value.photo
               })
             }
@@ -50,7 +50,7 @@ Page({
             })
           }else{
             if (value) {
-              this.setData({
+              that.setData({
                 nickname: value.nickname,
               })
             }
@@ -62,7 +62,7 @@ Page({
       app.yxkRequest(url, postData, doSuccess);
     }else{
       if (value) {
-        this.setData({
+        that.setData({
           nickname: value.nickname,
           photo: value.photo
         })

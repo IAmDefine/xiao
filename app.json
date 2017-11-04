@@ -1,21 +1,15 @@
 {
   "pages": [
     "pages/index/index",
-    
+    "pages/myinfo/myCollect/myCollect",
     "pages/starNews/starNews",
-    
     "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/starNews/leaveMes/leaveMes",
-    
-
-
-
     "pages/detail/deductiveExper/deductiveExper",
     "pages/myinfo/infoSet/aboutUs/aboutUs",
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
     "pages/myinfo/telNum/telNum",
-    "pages/myinfo/myCollect/myCollect",
     "pages/detail/detail",
     "pages/detail/detailMovieList/detailMovieList",
     "pages/myinfo/infoCenter/infoCenter",

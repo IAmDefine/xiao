@@ -30,7 +30,7 @@ Page({
             })
           }else{
             if (value) {
-              this.setData({
+              that.setData({
                 photo: value.photo
               })
             }
@@ -41,14 +41,14 @@ Page({
             })
           }else{
             if (value) {
-              this.setData({
+              that.setData({
                 nickname: value.nickname,
               })
             }
           }
         }else{
           if (value) {
-            this.setData({
+            that.setData({
               nickname: value.nickname,
               photo: value.photo
             })
@@ -79,7 +79,7 @@ Page({
     }else{
       var value = wx.getStorageSync('wxinfo');
       if (value) {
-        this.setData({
+        that.setData({
           nickname: value.nickname,
           photo: value.photo
         })

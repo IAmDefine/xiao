@@ -1,54 +1,58 @@
 <view class='page'>
   <view class='starNewsCaption'>
+
     <!-- 图片 -->
-    <view class='starNewsPicWrap'>
-      <view class='starNewsTitle'>地理热吧c恒公代言车仆，优星库来撒电影票啦地理热吧c恒公代言车仆，优星库来撒电影票啦~!</view>
+     <view class='starNewsPicWrap' wx:if="{{info.Whether==1}}">
+      <view class='starNewsTitle'>{{info.title}}</view>
       <view class='otherInfoTime clear'>
           <image src='/images/myCollectTimeIcon.png'></image>
-          <text>2017.08.06</text>
+          <text>{{info.instime}}</text>
       </view>
       <view class='starNewsPic'>
-        <image src='/images/myNews.png'></image>
+        <image src='{{info.picurl}}'></image>
       </view>
       <view class='starNewsText'>
-        <text>最新电影正在上映！最新电影正在上映！最新电影正在上映！最新电影正在上映！</text>
+        <text>{{info.starnews_con}}</text>
       </view>
-    </view>
+    </view> 
     <!-- 视频 -->
-    <view class='starNewsVideoWrap'>
+    <view class='starNewsVideoWrap' wx:else>
       <view class='videoWrap'>
-        <image src='/images/myNewsNull.png'></image>
-        <view class='videoMask'>
-          <image src='/images/starNewsDetailPlay.png'></image>
-        </view>
+        <!-- <image src='/images/myNewsNull.png'></image> -->
+        <!-- <view class='videoMask'> -->
+        <video class='videoMask' id="myVideo" src="{{info.videourl}}" autoplay="true"></video>
+          <!-- <image src='/images/starNewsDetailPlay.png'></image> -->
+        <!-- </view> -->
       </view>
       <view class='viewConWrap'>
-        <view class='viewTitle'>迪丽热巴成功代言车仆，优星库来撒票来拉拉拉拉拉拉阿拉~</view>
-        <view class='viewCon'>迪丽热巴成功代言车仆，优星库来撒票来拉拉拉拉拉拉阿拉</view>
+        <view class='viewTitle'>{{info.title}}</view>
+        <view class='viewCon'>{{info.starnews_con}}</view>
         <view class='otherInfoTime clear'>
           <image src='/images/myCollectTimeIcon.png'></image>
-          <text>2017.08.06</text>
+          <text>{{info.instime}}</text>
         </view>
       </view>
     </view>
+
     <!-- 操作 -->
     <view class='starNewsOperation clear'>
       <view class='starNewsOperationItem'>
         <view class='starNewsBtn'>
           <image src='/images/starNewsDetail1.png' class='starNewsDetail1'></image>
-          <view>1190</view>
+          <view>{{info.forwarnum}}</view>
         </view>
+        <button open-type='share' class='starNewsDetail1' >转发</button>
       </view>
       <view class='starNewsOperationItem'>
         <view class='starNewsBtn'>
           <image src='/images/starNewsDetail2.png' class='starNewsDetail2'></image>
-          <view>1190</view>
+          <view>{{info.evalnum}}</view>
         </view>
       </view>
       <view class='starNewsOperationItem' bindtap='thumbsClick'>
         <view class='starNewsBtn'>
           <image src='{{thumbsSrc}}' class='starNewsDetail3'></image>
-          <view>1190</view>
+          <view>{{info.zannum}}</view>
         </view>
       </view>
       <view class='starNewsOperationItem' bindtap='collectClick'>
