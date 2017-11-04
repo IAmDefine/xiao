@@ -1,5 +1,7 @@
 {
   "pages": [
+    "pages/caseBase/base1/base1",
+    "pages/caseBase/caseBase",
     "pages/myinfo/infoSet/aboutUs/aboutUs",
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
