@@ -10,7 +10,7 @@
           </view>
           <view class='starInfoItemConDetail'>
             <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>最新电影《秀春到》正在热映，本条信息下恢复,抽取电影票哦~</view>
+            <view class='starInfoItemConDetailText'>,抽取电影票哦~</view>
             <view class='otherInfoWrap clear'>
               <view class='otherInfoTime clear'>
                 <image src='/images/myCollectTimeIcon.png'></image>

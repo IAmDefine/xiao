@@ -54,7 +54,7 @@
 <view style='display:{{search_content}}' class='resPic'>
   <view wx:if="{{star_message}}" class='resPicItem'>
     <image src="{{star_message.home_pic}}" wx:if="{{star_message.home_pic}}" bindtap='jump_detail' id='{{star_message.id}}'></image>
-    <image  src="{{star_message.img}}" wx:else ></image>
+    <image  src="{{star_message.img}}" bindtap='jump_detail' id='{{star_message.id}}' wx:else ></image>
   </view>
   <view wx:else> 没有数据 </view>
 </view>
