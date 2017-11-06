@@ -1,31 +1,12 @@
 {
   "pages": [
-"pages/caseBase/base1/base1",
-    "pages/caseBase/caseBase",<<<<<<< .mine
+    "pages/caseBase/caseBase",    
     "pages/caseBase/base1/base1",
-    "pages/caseBase/caseBase",
-
-
-
-
-
-
-
-
-
-=======
     "pages/index/index",
-    
     "pages/starNews/starNews",
-    
     "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/starNews/leaveMes/leaveMes",
-    
-
-
-
     "pages/detail/deductiveExper/deductiveExper",
->>>>>>> .theirs
     "pages/myinfo/infoSet/aboutUs/aboutUs",
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
