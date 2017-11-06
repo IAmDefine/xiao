@@ -33,7 +33,7 @@
            <view class='starInfoItem' wx:if="{{news}}" wx:for="{{news}}" wx:for-item="value" bindtap='jump_xingxun' id='{{value.id}}'>
             <view class='starInfoItemCon'>
               <view class='starInfoItemPic'>
-                <image src='/images/111.png'></image>
+                <image src='{{value.picurl}}'></image>
               </view>
               <view class='starInfoItemConDetail'>
                 <view class='starInfoItemConDetailTittle'>{{value.title}}</view>
@@ -64,24 +64,13 @@
           <view>
             <image src='/images/myCollectNull.png'></image>
             <view class='inNullText'>
-              <text>您还没有收藏任何艺人哦，</text>
-              <text class='inNullTextLink'>快去挑选吧!</text>
+              <text>{{msg}}</text>
+              <text class='inNullTextLink' bindtap='jump_new'>快去挑选吧!</text>
             </view>
           </view>
         </view>
       </view>
-      <!-- 无内容 -->
-      <view class='isNull'  style='display:none'>
-        <view class='inNullCon'>
-          <view>
-            <image src='/images/myCollectNull.png'></image>
-            <view class='inNullText'>
-              <text>您还没有收藏任何艺人哦，</text>
-              <text class='inNullTextLink'>快去挑选吧!</text>
-            </view>
-          </view>
-        </view>
-      </view>
+
     </view>
   </view>
 </view>

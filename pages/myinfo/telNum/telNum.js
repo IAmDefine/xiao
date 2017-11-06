@@ -134,7 +134,7 @@ Page({
     //   return false;
     // }
     // 手机号、密码、验证码全部输入状态
-    if (ph.test(this.data.phone_value) && ps.test(this.data.password)) {
+    // if (ph.test(this.data.phone_value) && ps.test(this.data.password)) {
       var url = "/inter/index/register";
       var mobile = this.data.phone_value;
       var pass = this.data.password;
@@ -175,18 +175,19 @@ Page({
       }
       //调用注册方法接口  
       app.yxkRequest(url, postData, doSuccess)
-    } else if (!ph.test(this.data.phone_value)) {
-      //   手机号码格式不正确执行的事件
-      this.setData({
-        hidden: "",
-        modal_word: "请填写正确的手机号码"
-      })
-    } else if (!ps.test(this.data.password_value)) {
-      //   密码为空执行事件
-      this.setData({
-        hidden: "",
-        modal_word: "请输入字母和数字组合密码"
-      })
-    }
-  }
+    } 
+    // else if (!ph.test(this.data.phone_value)) {
+    //   //   手机号码格式不正确执行的事件
+    //   this.setData({
+    //     hidden: "",
+    //     modal_word: "请填写正确的手机号码"
+    //   })
+    // } else if (!ps.test(this.data.password_value)) {
+    //   //   密码为空执行事件
+    //   this.setData({
+    //     hidden: "",
+    //     modal_word: "请输入字母和数字组合密码"
+    //   })
+    // }
+  
 })

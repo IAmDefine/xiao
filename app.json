@@ -3,6 +3,11 @@
     "pages/caseBase/caseBase",    
     "pages/caseBase/base1/base1",
     "pages/index/index",
+<<<<<<< .mine
+
+=======
+    "pages/myinfo/myCollect/myCollect",
+>>>>>>> .theirs
     "pages/starNews/starNews",
     "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/starNews/leaveMes/leaveMes",
@@ -11,7 +16,6 @@
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
     "pages/myinfo/telNum/telNum",
-    "pages/myinfo/myCollect/myCollect",
     "pages/detail/detail",
     "pages/detail/detailMovieList/detailMovieList",
     "pages/myinfo/infoCenter/infoCenter",

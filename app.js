@@ -10,18 +10,22 @@ App({
     //   }
     // })
     // 登录
+    // var appid = 'wx2cfc3a917dbe5697';
+    // var AppSecret = '8710ead45bfce4ed619a01d74bb00c71';
+    var appid = 'wx828e3c2633c686de';
+    var AppSecret = '1ca86d3ef1411860161c5cc267860ab1';
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
         var code = res.code;
         wx.request({
-          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=wx2cfc3a917dbe5697&secret=8710ead45bfce4ed619a01d74bb00c71&js_code=' + code + '&grant_type=authorization_code',
+          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + AppSecret+'&js_code=' + code + '&grant_type=authorization_code',
           data: {},
           header: {
             'content-type': 'application/x-www-form-urlencoded'
           },
           success: function (res) {
-            var unionid = res.data['unionid'];
+            var unionid = res.data['openid'];
             wx.setStorage({
               key: "unionid",
               data: unionid

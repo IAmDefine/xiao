@@ -15,6 +15,7 @@ Page({
     two_page:"",//总页数
     t_page:"1",//下一页
     news:"",//收藏的星讯
+    msg:"您还没有收藏任何艺人哦，",//提示语
 
   },
   tabClick:function(e){
@@ -28,7 +29,7 @@ Page({
   /**
    * 生命周期函数--监听页面加载
    */
-  onShow: function (options) {
+  onLoad: function (options) {
     var that = this;
     var myinfo = wx.getStorageSync('myinfo');
     if(myinfo){
@@ -45,14 +46,16 @@ Page({
         }else{
           that.setData({
             dis:"block",
-            collect:""
+            collect:"",
+            msg:"您还没有收藏任何艺人哦，"
           })
         }
       }
       app.yxkRequest(url, postData, doSuccess);
     }else{
       that.setData({
-        dis: "block"
+        dis: "block",
+        msg:"您还没有收藏任何艺人哦，"
       })
     }
 
@@ -68,7 +71,8 @@ Page({
       })
     }else{
       this.setData({
-        dis: "block"
+        dis: "block",
+        msg:"您还没有收藏任何艺人哦，"
       })
     }
   },
@@ -99,14 +103,17 @@ Page({
           })
         } else {
           that.setData({
-            dis: "block"
+            dis: "block",
+            msg:"您还没有收藏过星迅哦，",
+            news:""
           })
         }
       }
       app.yxkRequest(url, postData, doSuccess);
     }else{
       that.setData({
-        dis: "block"
+        dis: "block",
+        msg: "您还没有收藏过星迅哦，"
       })
     }
   },
@@ -191,8 +198,24 @@ Page({
   jump_xingxun:function(e){
     var id = e.currentTarget.id;
     wx.navigateTo({
-      // url: '/pages/detail/detail?id=' + id
+      url: '/pages/starNews/starNewsDetail/starNewsDetail?id=' + id
     })
+  },
+
+  //跳转首页或者是星迅
+  jump_new:function(){
+    var page = this.data.tabArr.btnIndex
+    if(page==0){
+      wx.switchTab({
+        url: '/pages/index/index'
+      })
+    }else{
+      wx.switchTab({
+        url: '/pages/starNews/starNews'
+      })
+    }
   }
+
+
 })
 

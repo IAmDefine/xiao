@@ -3,22 +3,26 @@
     <view class='starInfo'>
 
       <!-- 图片 -->
-      <view class='starInfoItem'>
-        <view class='starInfoItemCon'>
+      <view class='starInfoItem' wx:for="{{info}}" wx:for-item="value">
+        <view class='starInfoItemCon' bindtap='jump' id='{{value.id}}'>
           <view class='starInfoItemPic'>
-            <image src='/images/myNews.png'></image>
+            <image src='{{value.picurl}}'></image>
+            <!-- 视频才显示 -->
+             <view class='playMsak'  wx:if="{{value.Whether==2}}">
+              <image src='/images/starNewsPlay.png'></image>
+            </view>
           </view>
           <view class='starInfoItemConDetail'>
-            <view class='starInfoItemConDetailTittle'>迪丽热巴成功代言车仆,优星库来撒电影票啦！</view>
-            <view class='starInfoItemConDetailText'>,抽取电影票哦~</view>
+            <view class='starInfoItemConDetailTittle'>{{value.title}}</view>
+            <view class='starInfoItemConDetailText'>{{value.starnews_con}}~</view>
             <view class='otherInfoWrap clear'>
               <view class='otherInfoTime clear'>
                 <image src='/images/myCollectTimeIcon.png'></image>
-                <text>2017.08.06</text>
+                <text>{{value.instime}}</text>
                </view>
               <view class='otherInfoCom clear'>
                 <image src='/images/myCollectCommentIcon.png'></image>
-                <text>1980</text>
+                <text>{{value.zannum}}</text>
                </view>
             </view>
           </view>
@@ -26,7 +30,7 @@
       </view>
       
       <!-- 视频 -->
-      <view class='starInfoItem'>
+      <!-- <view class='starInfoItem'>
         <view class='starInfoItemCon'>
           <view class='starInfoItemVie'>
             <image src='/images/myNews.png'class='starInfoItemViePic'></image>
@@ -49,7 +53,7 @@
               </view>
           </view>
         </view>
-      </view>
+      </view> -->
 
     </view>
   </view>
