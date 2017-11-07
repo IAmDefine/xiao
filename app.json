@@ -1,5 +1,9 @@
 {
   "pages": [
+"pages/caseBase/caseBase",    
+    "pages/caseBase/base1/base1",
+
+
     "pages/caseBase/base64/index",
     "pages/caseBase/base63/index",
     "pages/caseBase/base62/index",
@@ -65,27 +69,22 @@
     "pages/caseBase/base02/index",
     "pages/caseBase/base01/index",
     "pages/caseBase/caseBase",
-    "pages/myinfo/changeName/changeName",
-    "pages/myinfo/telNum/telNum",
-    "pages/starNews/leaveMes/leaveMes",
-    "pages/index/index",
     "pages/myinfo/myCollect/myCollect",
     "pages/starNews/starNews",
-    "pages/starNews/starNewsDetail/starNewsDetail",
-    "pages/detail/deductiveExper/deductiveExper",
+    "pages/myinfo/telNum/telNum",
     "pages/myinfo/infoSet/aboutUs/aboutUs",
+    "pages/myinfo/myCollect/myCollect",
+    "pages/starNews/starNewsDetail/starNewsDetail",
     "pages/myinfo/infoSet/infoSet",
     "pages/myinfo/myinfo",
     "pages/detail/detail",
     "pages/detail/detailMovieList/detailMovieList",
-    "pages/myinfo/infoCenter/infoCenter",
     "pages/filter/filter",
     "pages/filtrate_result/filtrate_result",
     "pages/select_tag/select_tag",
     "pages/select_profession/select_profession",
     "pages/select_info/select_info",
-    "pages/search/search",
-    "pages/myinfo/myNews/myNews"
+    "pages/search/search"
   ],
   "window": {
     "backgroundTextStyle": "light",
@@ -96,7 +95,7 @@
   "tabBar": {
     "color": "#ACACAC",
     "selectedColor": "#EB2000",
-    "borderStyle": "black",
+    "borderStyle": "white",
     "backgroundColor": "#FFFFFF",
     "list": [
       {

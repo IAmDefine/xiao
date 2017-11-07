@@ -1,12 +1,11 @@
 <view class='page'>
   <view class='starNewsCaption'>
-
     <!-- 图片 -->
-     <view class='starNewsPicWrap' wx:if="{{info.Whether==1}}">
+    <view class='starNewsPicWrap' wx:if="{{info.Whether==1}}">
       <view class='starNewsTitle'>{{info.title}}</view>
       <view class='otherInfoTime clear'>
-          <image src='/images/myCollectTimeIcon.png'></image>
-          <text>{{info.instime}}</text>
+        <image src='/images/myCollectTimeIcon.png'></image>
+        <text>{{info.instime}}</text>
       </view>
       <view class='starNewsPic'>
         <image src='{{info.picurl}}'></image>
@@ -14,14 +13,14 @@
       <view class='starNewsText'>
         <text>{{info.starnews_con}}</text>
       </view>
-    </view> 
+    </view>
     <!-- 视频 -->
-    <view class='starNewsVideoWrap' wx:else>
+    <view class='starNewsVideoWrap' wx:elif="{{info.Whether==2}}">
       <view class='videoWrap'>
         <!-- <image src='/images/myNewsNull.png'></image> -->
         <!-- <view class='videoMask'> -->
         <video class='videoMask' id="myVideo" src="{{info.videourl}}" autoplay="true"></video>
-          <!-- <image src='/images/starNewsDetailPlay.png'></image> -->
+        <!-- <image src='/images/starNewsDetailPlay.png'></image> -->
         <!-- </view> -->
       </view>
       <view class='viewConWrap'>
@@ -41,7 +40,7 @@
           <image src='/images/starNewsDetail1.png' class='starNewsDetail1'></image>
           <view>{{info.forwarnum}}</view>
         </view>
-        <button open-type='share' class='starNewsDetail1' >转发</button>
+        <button open-type='share' class='starNewsDetail1'>转发</button>
       </view>
       <view class='starNewsOperationItem'>
         <view class='starNewsBtn'>
@@ -63,42 +62,29 @@
       </view>
     </view>
     <!-- 回复内容 -->
-    <view class='replyWrap'>
-      <view class='replyItem'>
-        <view class='replayTitle clear'>
-          <image src='/images/myNews.png'></image>
-          <text>刘德华</text>
+    <view class='replyWrap' wx:if="{{msginfo}}">
+
+      <view class='replyItem' wx:for="{{msginfo}}" wx:for-item="value">
+        <!--2是客户评价 1是平台评价 显示效果不同  -->
+        <view class='replayTitle clear' wx:if="{{value.eval_source==2}}">
+          <image src="{{value.wx_headportr}}" wx:if="{{value.wx_headportr}}"></image>
+          <image src="/images/comment.png" wx:else></image>
+          <text wx:if="{{value.wx_nickname}}">{{value.wx_nickname}}</text>
+          <text wx:else>匿名网友</text>
         </view>
-        <view class='replayCon'>红红火火恍恍惚惚哈哈哈哈哈！</view>
+        <view class='replayTitle clear' wx:if="{{value.eval_source==1}}">
+          <image src="/images/yxk.png"></image>
+          <text style='color:#EB2000;font-size:28rpx;'>官方回复</text>
+        </view>
+        <view class='replayCon'>{{value.evelcon}}</view>
         <view class='replyTime clear'>
-          <text>2017.09.09</text>
-          <text>19:08</text>
+          <text>{{value.instime}}</text>
+          <!-- <text>19:08</text> -->
         </view>
       </view>
-      <view class='replyItem'>
-        <view class='replayTitle clear'>
-          <image src='/images/myNews.png'></image>
-          <text>刘德华</text>
-        </view>
-        <view class='replayCon'>红红火火恍恍惚惚哈哈哈哈哈！</view>
-        <view class='replyTime clear'>
-          <text>2017.09.09</text>
-          <text>19:08</text>
-        </view>
-      </view>
-      <view class='replyItem'>
-        <view class='replayTitle clear'>
-          <image src='/images/myNews.png'></image>
-          <text>刘德华</text>
-        </view>
-        <view class='replayCon'>红红火火恍恍惚惚哈哈哈哈哈！</view>
-        <view class='replyTime clear'>
-          <text>2017.09.09</text>
-          <text>19:08</text>
-        </view>
-      </view>
+
     </view>
   </view>
   <!-- 评论按钮 -->
-  <view class='subBtn'>评论</view>
+  <view class='subBtn' bindtap='discuss'>评论</view>
 </view>

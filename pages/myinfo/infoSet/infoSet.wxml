@@ -9,7 +9,7 @@
       <text>客服电话</text>
       <text class='phone'>010-85952988</text>
     </view>
-    <view class='setItem mbn clear'>
+    <view class='setItem mbn clear' bindtap='we'>
       <text>关于优星库</text>
       <image src='/images/myInfoIcon_right.png'></image>
     </view>

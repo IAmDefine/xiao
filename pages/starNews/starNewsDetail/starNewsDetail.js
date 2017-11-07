@@ -11,7 +11,10 @@ Page({
     thumbsClickFlag:1,
 
     info:"",//内容
-    id:""
+    id:"",//星迅id
+    msginfo: '',//评论信息
+    allpage: '',//总页数
+    page:"1",//当前评论页
   },
   // 点赞
   thumbsClick:function(){
@@ -36,17 +39,7 @@ Page({
     }
     
     app.yxkRequest(url, postData, doSuccess);
-    // if (this.data.thumbsClickFlag) {
-    //   this.setData({
-    //     thumbsSrc: '/images/starNewsDetail3Checked.png',
-    //     thumbsClickFlag: 0,
-    //   })
-    // } else {
-    //   this.setData({
-    //     thumbsSrc: '/images/starNewsDetail3Unchecked.png',
-    //     thumbsClickFlag: 1,
-    //   })
-    // }
+
   },
   // 收藏
   collectClick:function(){
@@ -62,7 +55,6 @@ Page({
       //加入收藏
       var id = this.data.id
       this.addcollect(id);
-
     }else{
       this.setData({
         collectSrc: '/images/starNewsDetail4Unchecked.png',
@@ -96,7 +88,6 @@ Page({
     var url = '/inter/starsnews/lookgive';
     var pd = { snid: e.id, wxopenid: wx.getStorageSync('unionid')}
     function dos(res){
-      console.log(res)
       if(res.data.status==1){
         that.setData({
           thumbsSrc: '/images/starNewsDetail3Checked.png',
@@ -105,24 +96,25 @@ Page({
       }
     }
     app.yxkRequest(url, pd, dos);
-    
+
+    //查询评价信息
+    var url = '/inter/starsnews/listsleaveinfo';
+    var snid = e.id;
+    var postData = {types:'1',snid:snid,state:'3',showrow:"5"}
+    function domsg(res){
+      if(res.data.status==1){
+        var info = res.data.data.data
+        for(let i in info){
+          info[i].instime = app.timetrans(info[i].instime);
+        }
+        that.setData({
+          msginfo:info,
+          allpage: res.data.data.totalPage
+        })
+      }
+    }
+    app.yxkRequest(url, postData, domsg);
   },
-
-  /**
-   * 生命周期函数--监听页面初次渲染完成
-   */
-  onReady: function () {
-
-  },
-
-  /**
-   * 生命周期函数--监听页面显示
-   */
-  onShow: function () {
-
-  },
-
-
 
   /**
    * 页面相关事件处理函数--监听用户下拉动作
@@ -232,4 +224,63 @@ Page({
       app.yxkRequest(url, postData, doSuccess);
     }
   },
+
+  //点击评价
+  discuss:function(e){
+    var that = this;
+    var myinfo = wx.getStorageSync('myinfo');
+    if(!myinfo){
+      wx.showModal({
+        title: '绑定手机才可以评论！',
+        content: '是否绑定？',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '/pages/myinfo/telNum/telNum',
+            })
+          }
+        }
+      })
+      return;
+    }
+    var id = this.data.id;
+    wx.navigateTo({
+      url: '/pages/starNews/eval/eval?id='+id,
+    })
+  },
+
+  //上拉加载
+  onReachBottom: function () {
+    var that = this;
+    var page = this.data.page
+    page = page * 1 + 1;
+    if (page > that.data.allpage) {
+      return;
+    }
+    var url = '/inter/starsnews/listsleaveinfo';
+    var snid = that.data.id;
+    var postData = { types: '1', snid: snid, state: '3', showrow: "5",page:page }
+    function pdata(res) {
+      if (res.data.status == 1) {
+        var info = res.data.data.data;
+        for (let i in info) {
+          info[i].instime = app.timetrans(info[i].instime);
+        }
+        wx.showToast({
+          title: '加载中',
+          icon: 'loading',
+          duration: 500
+        })
+        var main_con = that.data.msginfo
+        var a = main_con.concat(info)
+        that.setData({
+          msginfo: a,
+          page: page
+        })
+      }
+    }
+    app.yxkRequest(url, postData, pdata)
+  },
+
+
 })

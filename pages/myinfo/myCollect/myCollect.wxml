@@ -1,15 +1,15 @@
 <view class='page'>
   <!-- 有内容 -->
   <view class='isNotNull'>
-    <view class='isNotNullCaption clear' >
+    <view class='isNotNullCaption clear'>
       <view class='isNotNullCaptionItem' bindtap='click_star'>
-        <view class='clickMark'  data-index='0'  bindtap='tabClick'></view>
+        <view class='clickMark' data-index='0' bindtap='tabClick'></view>
         <text class="{{tabArr.btnIndex=='0'?'ischeckedCon':'notcheckedCon'}}">星库</text>
         <view class='partingLine'>|</view>
         <view class="ischeckedIcon {{tabArr.btnIndex=='0'?'':'isDisappear'}}"></view>
       </view>
       <view class='isNotNullCaptionItem' bindtap='click_news'>
-        <view class='clickMark'  data-index='1'  bindtap='tabClick'></view>
+        <view class='clickMark' data-index='1' bindtap='tabClick'></view>
         <text class="{{tabArr.btnIndex=='1'?'ischeckedCon':'notcheckedCon'}}">星讯</text>
         <view class="ischeckedIcon {{tabArr.btnIndex=='1'?'':'isDisappear'}}"></view>
       </view>
@@ -22,7 +22,6 @@
             <image src='{{value.home_pic}}' wx:if="{{value.home_pic}}"></image>
             <image src='{{value.imgs}}' wx:else></image>
           </view>
-
         </view>
       </view>
       <!-- 星讯 -->
@@ -30,10 +29,14 @@
         <view class='starInfo'>
 
 
-           <view class='starInfoItem' wx:if="{{news}}" wx:for="{{news}}" wx:for-item="value" bindtap='jump_xingxun' id='{{value.id}}'>
+          <view class='starInfoItem' wx:if="{{news}}" wx:for="{{news}}" wx:for-item="value" bindtap='jump_xingxun' id='{{value.id}}'>
             <view class='starInfoItemCon'>
               <view class='starInfoItemPic'>
                 <image src='{{value.picurl}}'></image>
+
+                <view class='playMsak' wx:if="{{value.Whether==2}}">
+                  <image src='/images/starNewsPlay.png'></image>
+                </view>
               </view>
               <view class='starInfoItemConDetail'>
                 <view class='starInfoItemConDetailTittle'>{{value.title}}</view>
@@ -45,21 +48,16 @@
                   </view>
                   <view class='otherInfoCom clear'>
                     <image src='/images/myCollectCommentIcon.png'></image>
-                    <text>{{value.zannum}}</text>
+                    <text>{{value.evalnum}}</text>
                   </view>
                 </view>
               </view>
             </view>
           </view>
-
-
-
-
-
         </view>
       </view>
       <!-- 无内容 -->
-      <view class='isNull'  style='display:{{dis}}'>
+      <view class='isNull' style='display:{{dis}}'>
         <view class='inNullCon'>
           <view>
             <image src='/images/myCollectNull.png'></image>
