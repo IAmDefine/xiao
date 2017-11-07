@@ -1,0 +1,8 @@
+page{background-color: #FFFFFF;}
+.page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
+.page view{box-sizing: border-box;}
+.baseWrap{width: 100%;padding:0 20rpx 20rpx 20rpx;}
+.baseWrap view{width: 100%;}
+.baseTitle{font-size: 32rpx;color: #222222;margin: 17rpx 0;}
+.basePic>image{width: 100%; }  
+.baseCon{color: #555555;font-size: 26rpx;margin-bottom: 18rpx;}

@@ -1,20 +1,22 @@
 <view class='page'>
   <view class='caseWrap'>
     <view class='case' wx:for='{{caseData}}' wx:for-item='data'>
-      <view class='baseCasePic' style='background-image:url("{{data.picLink}}")'></view>
-      <view class='caseMask'>
-        <view class='caseMaskCheckWrap clear'>
-          <view class='caseMaskCheckWrapMask'></view>
-          <view class='caseMaskCheck clear'>
-            <image src='/images/caseBase.png'></image>
-            <text>{{data.pageView}}</text>
+      <navigator url='{{data.link}}'>
+        <view class='baseCasePic' style='background-image:url("{{data.picLink}}")'></view>
+        <view class='caseMask'>
+          <view class='caseMaskCheckWrap clear'>
+            <view class='caseMaskCheckWrapMask'></view>
+            <view class='caseMaskCheck clear'>
+              <image src='/images/caseBase.png'></image>
+              <text>{{data.pageView}}</text>
+            </view>
+          </view>
+          <view class='caseConWrap'>
+            <view class='caseConMask'></view>
+            <view class='caseCon'>{{data.title}}</view>
           </view>
         </view>
-        <view class='caseConWrap'>
-          <view class='caseConMask'></view>
-          <view class='caseCon'>{{data.title}}</view>
-        </view>
-      </view>
+      </navigator>
     </view>
   </view>
 </view>
