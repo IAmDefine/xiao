@@ -1,18 +1,11 @@
+// pages/caseBase/caseBass.js
 Page({
+
+  /**
+   * 页面的初始数据
+   */
   data: {
-    caseData:[{
-      picLink:'/images/11.jpg',
-      pageView:'8646',
-      title:'萧蔷、焦恩俊代言《古龙群侠传》手游今日全平台首发',
-    }, {
-        picLink: 'https://img2.youxingku.cn/20171103/1509691766-1298.png',
-      pageView: '3847',
-      title: '段奕宏代言方太 演绎智能厨房的温度生活',
-      }, {
-        picLink: 'https://img2.youxingku.cn/20171103/1509691782-4648.png',
-        pageView: '5354',
-        title: '老男孩刘烨代言贪玩传世 快点进来GET IN！',
-      },],
+  
   },
 
   /**
