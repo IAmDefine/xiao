@@ -1,6 +1,6 @@
 <view class='content'>
   <view class="div" style="width:{{deviceWidth}}">
-    <view class="num">已选行业类别
+    <view class="num">已选特质
       <text>{{num}}个</text>
     </view>
     <view class="tex_container">
@@ -16,18 +16,18 @@
   </view>
   <view class='left_view'>
 
-    <view class="sel_all">
+    <!-- <view class="sel_all">
       <view class="checkbox" bindtap="sel_all">
         <icon style="display:{{all_dis}}" type="success_no_circle" size="15" color="red" />
       </view>
       全部
-    </view>
+    </view> -->
 
     <scroll-view scroll-y="true" class="scroll" style="height:{{deviceHeight}}px;">
       <view class="box_text {{left_style==item.id?'style':''}}" wx:for="{{one_class}}" bindtap="one_class" id="{{item.id}}">
-        <view class="checkbox" bindtap="select" data-sid="{{item.sid}}" data-value="{{item.values}}">
-          <icon style="display:{{item.icon}}" type="success_no_circle" size="15" color="red" />
-        </view>
+        <!-- <view class="checkbox" bindtap="select" data-sid="{{item.sid}}" data-value="{{item.values}}">
+           <icon style="display:{{item.icon}}" type="success_no_circle" size="15" color="red" /> 
+        </view> -->
         <view>{{item.values}}</view>
       </view>
     </scroll-view>

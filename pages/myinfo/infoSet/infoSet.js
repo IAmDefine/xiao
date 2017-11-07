@@ -45,6 +45,13 @@ Page({
     wx.makePhoneCall({
       phoneNumber: '010-85952988' 
     })
+  },
+
+  //关于我们
+  we:function(){
+    wx.navigateTo({
+      url: '/pages/myinfo/infoSet/aboutUs/aboutUs',
+    })
   }
 
 })

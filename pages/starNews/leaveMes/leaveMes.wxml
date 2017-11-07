@@ -30,8 +30,8 @@
       </view>
     </view>
     <view class='activeRequirementWrap'>
-      <textarea placeholder='您对提供艺人的服务有什么要求呢？'></textarea>
+      <textarea placeholder='您对提供艺人的服务有什么要求呢？' bindinput='descs'></textarea>
     </view>
-    <view class='subBtn'>提交</view>
+    <view class='subBtn' bindtap='up'>提交</view>
   </view>
 </view>

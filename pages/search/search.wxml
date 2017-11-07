@@ -36,7 +36,7 @@
         <view class="hot_title">
           <view class="hot_con">热门搜索</view>
           <view class="hot_icon" bindtap="hot_button">
-           <image src='/images/search_fresh.png'></image>
+            <image src='/images/search_fresh.png'></image>
           </view>
         </view>
         <view class="hot_box">
@@ -50,13 +50,13 @@
       </view>
     </view>
   </view>
-<!--查询出的内容  -->
-<view style='display:{{search_content}}' class='resPic'>
-  <view wx:if="{{star_message}}" class='resPicItem'>
-    <image src="{{star_message.home_pic}}" wx:if="{{star_message.home_pic}}" bindtap='jump_detail' id='{{star_message.id}}'></image>
-    <image  src="{{star_message.img}}" bindtap='jump_detail' id='{{star_message.id}}' wx:else ></image>
-  </view>
-  <view wx:else> 没有数据 </view>
-</view>
 
+  <!--查询出的内容  -->
+  <view style='display:{{search_content}}' class='resPic'>
+    <view wx:if="{{star_message}}" class='resPicItem'>
+      <image src="{{star_message.home_pic}}" wx:if="{{star_message.home_pic}}" bindtap='jump_detail' id='{{star_message.id}}'></image>
+      <image src="{{star_message.img}}" bindtap='jump_detail' id='{{star_message.id}}' wx:else></image>
+    </view>
+    <view class='detail' wx:else> 没有数据 </view>
+  </view>
 </view>

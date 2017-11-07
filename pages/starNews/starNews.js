@@ -79,4 +79,27 @@ Page({
     }
     app.yxkRequest(url, postData, pdata)
   },
+
+  //点击我要找艺人
+  needs:function(e){
+    var that = this;
+    var myinfo = wx.getStorageSync('myinfo');
+    if (!myinfo) {
+      wx.showModal({
+        title: '绑定手机才可以发布！',
+        content: '是否绑定？',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '/pages/myinfo/telNum/telNum',
+            })
+          }
+        }
+      })
+      return;
+    }
+    wx.navigateTo({
+      url: '/pages/starNews/leaveMes/leaveMes',
+    })
+  }
 })

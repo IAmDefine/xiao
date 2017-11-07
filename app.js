@@ -1,12 +1,12 @@
 var md5 = require('./utils/md5.js');
 App({
   https: "http://demo.api.youxingku.cn",
+  // https: "https://api.youxingku.cn",
   onLaunch: function () {
     var that = this;
     // wx.authorize({
     //   scope: 'scope.userInfo',
     //   success() {
-
     //   }
     // })
     // 登录

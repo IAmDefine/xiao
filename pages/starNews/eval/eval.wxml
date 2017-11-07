@@ -1,0 +1,10 @@
+<view class='page'>
+  <view class='evalWrap'>
+    <view class='evalCon'>
+      <textarea placeholder='请输入评论信息~' bindinput="b_input"></textarea>
+    </view>
+    <view class='evalBtnWrap'>
+      <view class='evalBtn' bindtap='up'>确定</view>
+    </view>
+  </view>
+</view>

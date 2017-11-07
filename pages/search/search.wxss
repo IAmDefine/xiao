@@ -294,39 +294,4 @@ page{
 .resPic{width: 100%;height: 100%;position: fixed;left: 0;top: 100rpx; box-sizing: border-box;padding: 0 20rpx;background-color: #F5F5F5;}
 .resPicItem{width: 100%;height: 980rpx;margin-bottom: 20rpx;}
 .resPicItem>image{width:100%;height: 100%; }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+.detail{color:#555555;margin-left:40%;margin-top: 45%;}

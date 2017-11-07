@@ -1,7 +1,7 @@
 <view class='page'>
   <view class='infoPicWrap clear'>
     <image src='{{photo}}' wx:if="{{photo}}"></image>
-     <image src='/images/33.png' wx:else></image> 
+     <image src='/images/detail_me.png' wx:else></image> 
     <text wx:if="{{nickname}}">{{nickname}}</text>
      <text wx:else>游客</text> 
   </view>  
@@ -66,7 +66,7 @@
       <view class='selectChoiceInWrap'>
         <view class='selectChoice'>
           <view class='selectChoiceIcon'>
-            <image src='/images/myInfoIcon1.png' class='myInfoIcon4'></image>
+            <image src='/images/myInfoIcon5.png' class='myInfoIcon5'></image>
           </view>
           <view class='selectChoiceCon infoNewsTips'>
             <text>设置</text>

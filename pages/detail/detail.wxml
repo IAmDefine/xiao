@@ -320,7 +320,7 @@
 
       <view class='evalItem' wx:for="{{msginfo}}" wx:for-item="value">
         <view class='evalPic clear'>
-          <image src='{{value.blogo}}'></image>
+          <image src='/images/comment.png' wx:if="{{!value.blogo}}"></image>
           <text>{{value.names}}</text>
         </view>
         <view class='evalIcon clear' wx:if="{{value.starnum==5}}">
@@ -338,7 +338,7 @@
           <image src='/images/detailEvalIcon.png'></image>
           <text class='evalTime'>{{value.instime}}</text>          
         </view>
-        <view class='evalIcon clear' wx:if="{{value.starnum==3||value.starnum==2||value.starnum==1}}">
+        <view class='evalIcon clear' wx:if="{{value.starnum==3||value.starnum==2||value.starnum==1||value.starnum==''}}">
           <image src='/images/detailEvalIcon.png'></image>
            <image src='/images/detailEvalIcon.png'></image>
           <image src='/images/detailEvalIcon.png'></image>
@@ -392,9 +392,6 @@
         </view>
 </view>
       </view>
-     
-
-
     </view>
   </view>
   <view class='subBtn' bindtap='sign'>立即签约</view>
