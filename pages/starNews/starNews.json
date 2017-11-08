@@ -1,3 +1,4 @@
 {
-  "navigationBarTitleText": "星讯"
+  "navigationBarTitleText": "星讯",
+  "enablePullDownRefresh":"true"
 }

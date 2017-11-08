@@ -9,13 +9,6 @@ Page({
     passwd: ""
   },
 
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
   //获取手机号
   phone: function (e) {
     this.setData({

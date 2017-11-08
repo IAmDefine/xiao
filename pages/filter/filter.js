@@ -43,8 +43,6 @@ Page({
           area_v.push(res.data.data.data[i].values)
           area_s.push(res.data.data.data[i].sid)
         }
-
-    // console.log(area_s)
         that.setData({
           area_v: area_v,
           area_s: area_s,

@@ -80,6 +80,15 @@ Page({
     app.yxkRequest(url, postData, pdata)
   },
 
+  onPullDownRefresh:function(e){
+    wx.showToast({
+      title: '加载中',
+      icon: 'loading',
+      duration: 500
+    })
+    this.onLoad()
+    wx.stopPullDownRefresh()
+  },
   //点击我要找艺人
   needs:function(e){
     var that = this;
