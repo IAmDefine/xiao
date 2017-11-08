@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>古天乐四度牵手新标 再续璀璨篇章</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033591-5481.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>魅力男神古天乐与新标家居携手，担任其品牌门窗产品的代言人。古天乐时尚、绅士、健康的形象，完美地诠释了新标家居的品牌内涵。古天乐与新标家居“巨星+巨匠”的强强联手，令其在众多消费者心目中温馨爱家的生活理念更进一步升级，成为家家户户开启乐享生活的新格局。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033599-4448.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>作为知名品牌，新标家居此次邀请古天乐倾情代言，不单考虑到他是实力演技派，更重要的是古天乐给人带来一种踏实、稳重的优质偶像力量，他本身阐释的生活理念与新标家居的品牌理念相得益彰。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033606-5114.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>从集无数荣耀嘉奖于一身的实力演员，到行善不张扬、默默无闻做好事的欢乐行者，古天乐的偶像力量成为众多人学习的榜样。这次，古天乐将与新标家居携手谱写一个更加璀璨的篇章。</view>
   </view>
 </view>

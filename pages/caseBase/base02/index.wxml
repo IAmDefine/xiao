@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>“香”约百年 李晨演绎品质香氛</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034872-9722.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>知名演员李晨出任高端汽车香薰品牌——香百年的品牌形象大使，香百年将与李晨携手共同向人们展示一个全新的品牌形象以及传递时尚健康的品牌声音。众所周知，李晨不只是一位实力演技派，同时也是一名赛车手，他与香百年的携手不仅是对品牌形象的一次全新演绎，更为品牌内涵注入了更多的专业元素，与消费者产生共鸣。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510034879-7461.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近年来，李晨不仅演艺事业飞速发展，对公益事业的热衷也赢得了众多消费者的信任与赞扬。而香百年在不断创新产品、提升品质的同时，积极致力于社会公益事业，打造健康高品质的车用香水领军品牌，李晨与香百年的携手不仅是形象的契合，更是对彼此理念的认同，而双方演绎全新的汽车香氛精彩也令人倍加期待。    </view>
   </view>
 </view>

@@ -1,9 +1,21 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>萧蔷、焦恩俊代言《古龙群侠传2》手游今日全平台首发</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510024134-2526.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>长剑醉，浪子归。黑桃互动古龙正版授权武侠力作《古龙群侠传2》手游今日全平台快意首发。更有古龙浪子情侣萧蔷（林诗音）、焦恩俊（李寻欢）十八年后再度同框，倾情代言。一场古龙江湖腥风血雨即刻掀起，先随着李寻欢和林诗音一起探探这江湖深浅吧！</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024143-7616.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>《古龙群侠传2》手游在收罗了古龙全系列素材元素的基础上完美的将玩法与古龙剧情无缝融合。并且在此次的全平台首发版本中，最全面的为古龙迷玩家们提供了丰富多样的系统玩法。剧情主线、夜闯侯府、单挑青龙会、独战英侠谱，深入紫金山，踏平楼兰魔窟，血战孔雀山庄。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024149-7864.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>还有玩家亲身体验游历玩法、烹饪玩法、挖宝玩法。更有群侠聚集比武擂台——武林大会。除此之外，江湖第一帮派的头衔也在激烈的竞争中。全新古龙江湖，快意闯荡，这番前所未有的潇洒人生你怎能错过？</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024156-6596.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>喝最烈的酒，恋最美的人。全新古龙江湖《古龙群侠传2》手游首发开启，快意江湖等你来闯，惊喜福利等你来拿！快上车吧！</view>
   </view>
 </view>

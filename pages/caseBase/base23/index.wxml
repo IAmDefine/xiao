@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>健康呵护 享活力好心情林志玲结缘“月如意”</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032919-8527.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>集演员、模特、主持人三栖身份于一身的林志玲，个性温婉、知性、优雅、高贵，既有女神的特质，又具邻家女孩的亲和，一颦一笑、一举一动间都释放着无穷的魅力。前不久，气质女神林志玲与月如意品牌建立合作关系，以其亲切甜美的女神形象代言中国女性护理用品，出任月如意品牌代言人。</view>
+    <view class='baseCon'>此次，女神林志玲与月如意携手同行，不仅将品牌的贴心、柔美、大气的属性展现得恰到好处，同时其严于律己、追求完美的态度也是和品牌一直倡导的匠心精神做产品，将每一个细节做到极致，给消费者带来极致呵护的理念非常吻合。而正是因为这份细腻的呵护，让林志玲为品牌未来的发展之路注入全新的活力，为千万女性带来真正舒适健康的呵护。</view>
   </view>
 </view>

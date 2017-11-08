@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>陆毅代言纯粹往事 分享健康美味</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032128-9993.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，陆毅将出任国内生态食品领导企业秦皇岛原滋味食品旗下品牌“纯粹往事”面粉、挂面产品代言人。</view>
+    <view class='baseCon'>多年来，原滋味始终坚持秉承原生、健康、生态的生产理念，积极实践中国农业产业化发展。而“纯粹往事”作为原滋味不断推进产业化发展的旗舰品牌，其产品更因其富含营养有利于人体健康等优势而备受关注。</view>
+    <view class='baseCon'>陆毅因主演多部热播大剧而倍受观众肯定，近来相继参加《爸爸去哪儿》、《为她而战》等热播家庭综艺节目，陆毅的幸福家庭生活被人们所熟悉，他健康居家的形象也因此而深入人心。陆毅的倾力代言不仅将为“纯粹往事”带来更多的关注度，同时也将有助于健康饮食、营养美味的品牌内涵的诠释表达。</view>
   </view>
 </view>

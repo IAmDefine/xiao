@@ -1,9 +1,38 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>“老男孩”刘烨贪玩来袭 快点进来get it!</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510035203-6974.png' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>作为一名演员，刘烨细心挖掘每一个角色，</view>
+    <view class='baseMid'>成功塑造了许多深入人心的经典形象。</view>
+    <view class='baseMid'>从《解救吾先生》中骁勇善战的刑警队长，</view>
+    <view class='baseMid'>到《追凶者也》里倔强耿直的汽修工；</view>
+    <view class='baseMid'>从《火线三兄弟》中风趣幽默的“万人迷”，</view>
+    <view class='baseMid'>到《北平无战事》里硬朗帅气的飞行员；</view>
+    <view class='baseMid'>他的每一个角色都深刻到位，颇受好评。</view>
+    <view class='baseMid'>而这样一个事业有成的男人，</view>
+    <view class='baseMid'>还是个好丈夫、好爸爸，</view>
+    <view class='baseMid'>拥有一个幸福美满的家庭，羡煞旁人。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510035211-2558.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>三金影帝、火华社社长、微博先生、逗趣奶爸…</view>
+    <view class='baseMid'>刘烨在过去拥有众多头衔。</view>
+    <view class='baseMid'>但从今日起，刘烨又多了一个新头衔，</view>
+    <view class='baseMid'>那就是《贪玩传世》代言人。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510035218-4984.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>刘烨的这次代言，</view>
+    <view class='baseMid'>完全符合《贪玩传世》有激情、有情谊、更有故事的调性，</view>
+    <view class='baseMid'>刘烨本身就是一个“老男孩”，</view>
+    <view class='baseMid'>让“老男孩”来代言贪玩，不是恰如其分么？</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510036051-9648.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>看到这，你们是不是也想跟着刘烨</view>
+    <view class='baseMid'>开启一段传世之旅呢？</view>
+    <view class='baseMid'>哈哈，《贪玩传世》燥起来！</view>
   </view>
 </view>

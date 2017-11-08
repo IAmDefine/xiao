@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>郑则仕签约璞玉 实力助阵品质门窗</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510023339-9573.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，上海璞玉门业有限公司牵手香港金像影帝郑则仕，邀请其担任璞玉品牌门窗产品形象大使。郑则仕的倾力代言也成为璞玉门窗铸造品牌过程中至关重要的一步。</view>
+    <view class='baseCon'>郑则仕作为演员是毋庸置疑的演技实力派，凭借其精湛的演技淋漓尽致的诠释了多类型的经典角色，曾凭借《何必有我》、《三个受伤的警察》等电影将金像奖在内的多项影帝殊荣收入囊中。而璞玉门业自成立以来始终专注于门业研发设计、生产制造，秉承着“专业、专注、专一”的准则打造优良品质门窗，在业内享有极高的评价。</view>
+    <view class='baseCon'>郑则仕主演的《肥猫寻亲记》等“肥猫”系列影视剧曾在内地掀起收视热潮，他憨厚亲和的形象也因此深入人心，被观众亲昵的称为“肥猫”。而近年来他出演的多部影视剧更获得了不俗的收视，成为在内地最具辨识度的香港演员之一。郑则仕的倾力代言将会为璞玉品牌注入更加亲和、可信赖的元素。</view>
   </view>
 </view>

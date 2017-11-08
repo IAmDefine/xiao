@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>陈紫函阿凡果携手打造多样健康美丽</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034515-7178.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>陈紫函与维倩生物继阿凡果酵素梅合作后再度携手，担任阿凡果品牌酵素果冻、酵素果产品形象大使,将阿凡果打造成倡导健康美丽的微商领导品牌。</view>
+    <view class='baseCon'>阿凡果作为品质微商的积极倡导者和实践者，率先发起品质化行动，不仅产品包装、工艺等环节全面升级，更研发出适合更多人群的酵素果冻等系列产品。此前邀请时尚女王陈紫函代言意在向消费者传递阿凡果倡导的健康美丽的品牌理念。而在新产品的代言人选择上，陈紫函毫无悬念的成为最佳代言人，这不仅能更好的保证阿凡果品牌在消费者心目中的一致性，更重要的是陈紫函在各年龄层女性消费者心中都有着极高的知名度和美誉度。</view>
   </view>
 </view>

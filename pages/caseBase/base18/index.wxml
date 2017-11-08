@@ -1,9 +1,39 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>古天乐又有新身份，这一次是车仆的形象大使</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033280-5947.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>汽车美容行业领军品牌——车仆，</view>
+    <view class='baseMid'>正式宣布古天乐成为新任形象大使！</view>
+    <view class='baseMid'>这是古天乐又一个全新的身份嗷～</view>
+    <view class='baseMid'>惊不惊喜？意不意外？开不开心？</view>
+     <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033286-4713.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>官方正式公布古天乐担任</view>
+    <view class='baseMid'>车仆品牌形象大使！</view>
+    <view class='baseMid'>到底是什么样的魅力，</view>
+    <view class='baseMid'>让这位实力与颜值并存的演技派，</view>
+    <view class='baseMid'>成为了车仆品牌形象大使呢？</view>
+     <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033295-7373.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>其实很简单，除了形象和口碑，</view>
+    <view class='baseMid'>古天乐在影视圈一直以“专业、敬业、负责”而著称，</view>
+    <view class='baseMid'>这与车仆“诚信、专业、负责”的核心价值观相契合。</view>
+    <view class='baseMid'>再者，</view>
+    <view class='baseMid'>古天乐以其亲切、阳光、乐观、正能量的性格魅力，</view>
+    <view class='baseMid'>受到广大网友的喜爱！</view>
+    <view class='baseMid'>受到广大网友的喜爱！
+尤其是他在慈善公益方面的投入和理念都是车仆十分欣赏的，
+</view>
+    <view class='baseMid'>这也是古天乐与品牌一拍即合的原因之一。</view>
+     <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033301-5717.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>世界上最美好的相遇，</view>
+    <view class='baseMid'>不就是我遇到你，而你刚好也适合我么。</view>
+    <view class='baseMid'>这也许就是古天乐与车仆的缘分～</view>
   </view>
 </view>

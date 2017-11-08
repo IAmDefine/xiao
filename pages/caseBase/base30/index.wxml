@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>立威廉携手梵婕缇深度诠释年轻态度</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032399-7446.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>立威廉，集演员、模特、奶爸多栖身份于一身的超人气男神。他俊美健硕的容貌和身材、暖心帅气的醉心微笑和阳光开朗的个人魅力受到护肤品牌梵婕缇的青睐。前不久，人气男神立威廉与护肤品牌梵婕缇正式签约，成为该品牌的代言人。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032406-7364.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>立威廉像是从田园梦幻里走出来的王子，他帅气暖萌的健康形象，与梵婕缇品牌的理念“天然、安全、健康、美肤”如出一辙。荧屏上，他是帅气多金的霸道总裁；生活中，他是好老公、好爸爸的暖心榜样。有着超高人气和口碑的立威廉，在此次与梵婕缇的成功签约中，不仅展现了男神的强大个人魅力和感召力，还进一步突出其品牌的特色，为年轻的爱美女性提供天然健康的护肤观念、安全有效的护肤产品和全面的服务与帮助。</view>
   </view>
 </view>

@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>沙溢胡可再度牵手桃花季   续写居家生活哲学</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510026281-5997.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>作为中国市场快速成长的家居服品牌代表，桃花季从未停止过引领高品位居家生活风向标的步伐，不断带给消费者舒适时尚的居家生活哲学。近日，恩爱夫妻沙溢胡可与桃花季家居服再一次成功续签，延续良好的合作关系，出任其品牌的形象大使。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510026294-3333.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>沙溢胡可，诠释居家生活的最佳代言人。荧幕上，他们是专业严谨的演员，努力为观众塑造精彩的角色；生活里，他们是幸福恩爱的夫妻，注重对舒适和高品质家居生活的追求。而如今已是“1+1=4”幸福模式的他们，使得他们对于舒适和优质家居生活有了更高的追求。因而，沙溢胡可与桃花季家居服品牌的再度牵手，不仅诠释了新一季的家居服时尚，还续写新一段的居家生活篇章。</view>
   </view>
 </view>

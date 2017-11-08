@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>吕一签约澳美嘉 分享甜美滋味</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031899-1856.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，吉林澳锐特酒业诚邀著名演员吕一担任该企业旗下品牌澳美嘉含酒精果味饮料产品形象大使。吕一一向以清纯甜美的形象出现，这恰巧与澳美嘉品牌的形象定位十分相近，而她亲和自然的表现风格也能为澳美嘉更加轻松的获得消费者的喜爱和认可。</view>
+    <view class='baseCon'>舞蹈专业出身的吕一因被著名导演徐克选中而进入演艺圈，而后相继主演《雪在烧》、《谁怜天下慈母心》、《新一剪梅》等多部作品，获得了业内的一致认可。在2015年度大剧《平凡的世界》中，吕一不仅将“秀莲”一角诠释的感人至深，成功征服了观众的心。她的倾情代言将为澳美嘉扩大在消费群体中的知名度带来极大的助力。</view>
   </view>
 </view>

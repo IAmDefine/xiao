@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>让风尚自由漫步  许绍雄的独特魅力</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510026347-7586.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>皮鞋是时尚男士们最费心思的服饰之一。俗话说，男人风度始于足下，男人的气质缘于皮鞋。由此可见，皮鞋对男士的整体造型起着十分重要的作用。2016年8月，香港知名演员许绍雄出任帕达索皮鞋品牌的形象大使。许绍雄的倾情助阵将令品牌理念得以更加完整的诠释，让成熟稳重的绅士魅力绽放。</view>
+    <view class='baseCon'>许绍雄作为香港实力派老戏骨，无论其外表形象还是举手投足间都传递着轻松欢乐的幽默因子，其天生一幅喜剧色彩的脸孔，亲和力十足，备受观众喜爱。剧中，他的存在往往能缓解紧张的气氛，使剧集有张有弛，是当之无愧的“最佳男配角”。因而，由他代言的帕索达品牌，不仅能提升品牌知名度，更是注入“许绍雄”独特的魅力风范，实力见证！</view>
   </view>
 </view>

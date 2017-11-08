@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>高圆圆携手飞亚达新品 表白浪漫七夕</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033833-9844.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>高圆圆出席代言品牌飞亚达郑州新品发布会，助力郑州百货大楼第八届钟表节开幕式。高圆圆佩戴四叶草系列新品腕表优雅出席，浪漫演绎“时光流转，为爱表达”的幸福主题。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033839-3631.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>作为品牌代言人，高圆圆不只与飞亚达的格调相近，对品牌理念更是十分认同。活动中，“幸福女神”高圆圆还担任起了“考官”的角色，考验起了大家对“四叶草”的四重寓意的理解，更在现场送出了10款刻有其亲笔签名的四叶草系列腕表，为现场观众的情意表白助力。代表着名誉、财富、真爱、健康的四叶草腕表也为即将到来的浪漫七夕更添了一分甜蜜幸福。</view>
   </view>
 </view>

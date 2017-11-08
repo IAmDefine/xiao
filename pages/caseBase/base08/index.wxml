@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>陈紫函签约罗克镜片 开启时尚视界</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034403-3264.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，陈紫函与江苏新罗光学眼镜正式签约，出任该企业旗下“罗克”品牌镜片产品形象大使。陈紫函与罗克镜片的携手合作，势必将品牌带入一个充满活力的时尚化发展格局。</view>
+    <view class='baseCon'>新罗光学坚持品牌发展战略，而旗下的多个镜片品牌个性清晰、各具特色。罗克镜片秉承“健康、科技、责任”的理念，其极富创新性的设计理念更能满足现代人对镜片健康时尚的双重需求。陈紫函的倾情代言也能够更加形象化的传递品牌的这一特质。近年来，陈紫函主演的《古剑奇谭》、《只因单身在一起》等多部剧集均获得极高的收视成绩。与此同时，她在时尚领域的表现也同样精彩，演艺时尚的跨界发展为她积累了极高的人气和口碑，同样也将为罗克品牌代言更多的关注与认同。</view>
   </view>
 </view>

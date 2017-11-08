@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>黄小蕾签约维倩脱毛膏形象大使</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032974-5677.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>明明看上去美艳动人，性格却是直爽干脆；过去，她是美丽和率真的化身；如今，她是辣妈和蕾女的代名词。她是维倩脱毛膏最新签约的形象大使——黄小蕾。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032982-2193.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>马年年末刚刚晋升为母亲的黄小蕾，产后依旧清丽如初,如今早已回归荧幕。独到的见地和有效的美容方法，让黄小蕾的网络公众平台聚集了大批年轻女性，俨然成为女性护肤保养的代言人。凭借黄小蕾的形象定位，相信维倩脱毛膏致力于女士美容护肤的理念将会成功走进消费者的视野。</view>
   </view>
 </view>

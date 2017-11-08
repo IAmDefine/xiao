@@ -1,9 +1,14 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>双“冠”联手  潘晓婷实力代言</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510025797-5691.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>前不久，“九球天后”潘晓婷与冠邦门窗正式签订合约，成为其品牌的形象代言人。</view>
+    <view class='baseCon'>作为中国台球冠军王，潘晓婷收获了10次九球世界冠军，开创了一个新的时代。而在生活中，她是全能跨界女王，喜欢赛车、喜欢艺术、热爱生活。潘晓婷的倾情代言，不仅仅诠释了冠邦门窗的技术之美，还传达了时尚、艺术的居家生活追求，塑造其在消费者心目中高端、时尚的品牌形象。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510025804-2779.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>“一面技术•一面艺术”是潘晓婷与冠邦门窗的契合之处，“九球天后”具有时尚的艺术气质，更是台球界顶级技术的典范。在未来的品牌化战略道路上，冠邦门窗能够携手“九球天后”潘晓婷深度合作，为消费者打造更具高品质的家居生活。</view>
   </view>
 </view>

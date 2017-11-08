@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>方青卓爱心无极限为萌宠之家倾情代言</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034008-5447.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>随着社会发展、人民生活水平的提高，宠物已经成为了一个家庭必不可少的一员，而且养宠物的理念也发生了很大的变化，宠物被赋予了更多的情感色彩。前不久，实力派老戏骨方青卓与“麦乐斯”宠物医院签订代言协议，出任其品牌的形象大使，为宠物营造一个温馨友爱的快乐之家。</view>
+    <view class='baseCon'>方青卓，中国第七届电视剧飞天奖最佳女主角、新世纪百位女杰。曾先后在《皇嫂田桂花》、《最后一班车》、《雪野》、《新还珠格格》等影视剧中扮演重要角色。荧屏上，她是尽职尽责的实力派演员；生活中，她是热情开朗、浑身充满正能量的爱“宠”人士。有实力又有口碑的方青卓，在真实平淡的生活中为大众树立良好的品牌形象，积极引导人与宠物之间的和谐关系。</view>
   </view>
 </view>

@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>健康生活轻松享 爱戴的美丽秘诀</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032845-9142.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>随着人们对健康保健的重视，越来越多的人都知道了益生菌对人体的重要性，日常生活中常常想办法补充这种对人体有着保健作用的微生物。“灵歌天后”爱戴出任丽尔维美旗下品牌“益生菌粉”新品形象的形象大使，为众多爱美女性展示了现代健康美丽生活的概念和方法，带来了清新自然、健康美丽的新时尚。</view>
+    <view class='baseCon'>歌手爱戴自出道以来就以性感形象示人，积极向上、具有国际范儿的，并且在影、视、歌、主持等多领域都有不俗的表现。众所周知，爱戴自2015年晋升为时尚辣妈，健康美丽内外兼修，是众多年轻妈妈在追求美丽道路上的最佳榜样。因而，爱戴的倾情助阵也将令品牌产品的“健康”理念得以更加完美的诠释，轻松享魅力生活。</view>
   </view>
 </view>

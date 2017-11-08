@@ -158,7 +158,7 @@ Page({
     }, {
         picLink: 'https://img2.youxingku.cn/20171106/1509957150-7412.jpg',
         pageView: '512',
-        title: '刘小小签约雪兰山预调酒 青春活力一起来',
+        title: '刘筱筱签约雪兰山预调酒 青春活力一起来',
         link: 'base32/index',        
       }, {
         picLink: 'https://img2.youxingku.cn/20171106/1509957158-6487.jpg',

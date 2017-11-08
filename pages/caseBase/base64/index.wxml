@@ -1,9 +1,36 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>重磅！百威食品独得“皇上”陈建斌恩宠</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510019237-7258.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>是的！你没有看错！</view>
+    <view class='baseMid'>咱们的“皇上”陈建斌与百威食品正式签约，</view>
+    <view class='baseMid'>成为其品牌的形象大使！</view>
+    <view class='baseMid'>陈建斌，真实健康，认真、专注、敬业的态度，</view>
+    <view class='baseMid'>与百威食品用心打造健康食品、坚持品质至上的特质不谋而合。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510019262-5844.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>作为国内影帝级实力派演员，</view>
+    <view class='baseMid'>陈建斌凭借认真、健康、硬朗的公众形象，</view>
+    <view class='baseMid'>在社会上的影响力、公信度不断提升，深受观众喜爱。</view>
+    <view class='baseMid'>戏里陈建斌是一人之上万人之下的雍正皇帝；</view>
+    <view class='baseMid'>戏外与妻子蒋勤勤的幸福美满家庭一直为人所羡，</view>
+    <view class='baseMid'>堪称“爱家”的典范。</view>
+    <view class='baseMid'>就像百威食品，</view>
+    <view class='baseMid'>通过真挚的食材与传统工艺的完美融合，以独具匠心的包装风格，
+</view>
+    <view class='baseMid'>为万家团圆、和谐美满的中秋佳节奉上最自然、朴实的祝福。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510019274-2985.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>不忘初心，始终如一</view>
+    <view class='baseMid'>集演员、导演双重身份于一身的陈建斌引领潮流风向标，</view>
+    <view class='baseMid'>助力各项公益与慈善事业，是不忘初心的正能量典范。</view>
+    <view class='baseMid'>这些特质，正如百威食品，多年来秉承着用心打造健康食品，</view>
+    <view class='baseMid'>有家、有情、有百威的品牌理念，重拾传统细腻的中秋味道。</view>
+    <view class='baseMid'>当真实纯粹的陈建斌遇到至情至味的百威食品，</view>
+    <view class='baseMid'>这缘分来得更加妙不可言！！</view>
   </view>
 </view>

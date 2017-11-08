@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>大张伟代言手游《无敌OL》 魔性演绎最暗黑诸葛亮</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034312-2626.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，《无敌OL》邀请到人气偶像大张伟重磅加盟，成为其游戏代言人，这也是我们继“金庸群侠”、“我的麻将女友”、“蓝月传奇”等游戏后的又一次全程操盘游戏代言。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510034326-4297.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>《无敌OL》不仅突破了以往传统卡牌游戏的单一、呆板、社交性差等束缚，在探寻用户体验的角度上更是做出了新的突破，将卡牌人物实体化，视觉更为立体化。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510034332-3278.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>众所周知，大张伟纵横娱乐圈的多个领域，歌唱，搞笑，主持，表演无一不精。此次在手游《无敌OL》里，大张伟演绎暗黑风格的诸葛亮，其诙谐有趣、生动活泼的风格，与游戏本身特点结合得恰到好处，进一步突出其游戏的特色。2017年，大张伟更是携《天天向上》、《二十四小时2》等热门综艺燃爆荧屏，成为观众印象中“最熟悉的面孔”。</view>
   </view>
 </view>

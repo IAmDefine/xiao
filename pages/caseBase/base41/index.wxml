@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>品质铺垫“京”彩人生 于震实力代言</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031023-9563.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>随着现代生活工作的节奏越走越快，人们对自然健康的家居环境需求越来越高。目前，实力派演员于震出任京齐力陶瓷品牌的形象推广大使，助力品牌全面升级，再创行业高峰。</view>
+    <view class='baseCon'>近来，于震主演了《炮神》、《人民检察官》、《不可能完成的任务》等多部热播大剧，开启了霸屏黄金档模式。凭借着扎实的演技以及对角色的精准把控，于震将角色刻画得生动立体，完美塑造了一个个令人难忘的荧屏形象，深受观众喜爱。</view>
+    <view class='baseCon'>值得一提的是，演而优则导的实力派演员于震，除了首次跨界执导的新型高能抗战剧《不可能完成的任务》在江苏卫视热播外，其自导自演的电视剧《大地惊雷》也正在紧张地后期制作当中。真可谓佳作不断，精彩纷呈！</view>
   </view>
 </view>

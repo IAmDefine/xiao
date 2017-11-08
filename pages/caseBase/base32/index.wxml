@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>刘筱筱签约雪兰山预调酒 青春活力一起来</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032213-7677.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，新生代小花旦刘筱筱与吉林雪兰山葡萄酒业有限责任公司正式签约，担任“雪兰山”品牌果味预调酒形象大使。</view>
+    <view class='baseCon'>刘筱筱因在民国大剧《十月围城》中饰演的女一号区舒云一角而倍受瞩目，之后相继参演《宫锁连城》、《美人制造》等大热剧集，成为90后新生代演员中屈指可数的高人气演员。刘筱筱活力十足的青春气息正是雪兰山真我、自然理念的最佳表达。</view>
+    <view class='baseCon'>不仅如此，刘筱筱塑造的俏皮机智的角色形象极具感染力，她也因此被网友们誉为新一代“娇蛮女神”。而她主演的抗战爱情喜剧《憨媳从军》也将于2015年开播，届时也将再掀一轮幽默抗战的收视热潮。刘筱筱将快乐与时尚两种特质合二为一，也令雪兰山的品牌内涵更加的丰富多元。</view>
   </view>
 </view>

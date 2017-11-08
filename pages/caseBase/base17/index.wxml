@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>古天乐携手飞亚达独家揭秘《冲上云霄》</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033478-6972.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，飞亚达品牌代言人古天乐，佩戴飞行系列腕表帅气“空降”长沙。作为品牌代言人兼《冲上云霄》的主演，古天乐幽默地以电影中的机长身份、磁性的声线帅气亮相，在寒冷的冬日引爆了星城长沙的热情。他携手飞亚达带来的电影《冲上云霄》的独家幕后花絮，更让到场粉丝悦享一场视觉饕餮盛宴。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033485-8727.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>此次，古天乐在电影中出演航空公司CEO，但他笑称自己饰演的并不是大家想象的“霸道总裁”而是更动人心弦的“温柔总裁”。 电影中古天乐饰演的Branson与佘诗曼饰演的潘家诗演绎了一段动人情愫。而两人在剧中也分别佩戴的飞亚达“飞行系列”腕表与“心弦系列”腕表，将时间与爱带入了令人向往的云端。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033491-1821.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>飞行寓意人生，或经历风雪、或起伏不定，但只要坚定信念，终能走到人生的巅峰，冲上云霄！</view>
   </view>
 </view>

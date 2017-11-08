@@ -1,9 +1,36 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>轻享优质睡眠   陈紫函代言吉宁床垫</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510026600-6111.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>你们收到风了吗？</view>
+    <view class='baseMid'>百变女神陈紫函最近有点忙哦！</view>
+    <view class='baseMid'>言归正传，直接进入主题。</view>
+    <view class='baseMid'>陈紫函与吉宁床垫正式签约，</view>
+    <view class='baseMid'>成为其品牌的形象大使。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510026921-1363.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>荧屏上，她是角色百变的实力派，</view>
+    <view class='baseMid'>从《倚天屠龙记》、《白蛇传》、《神雕侠侣》，</view>
+    <view class='baseMid'>到《活佛济公》、《古剑奇谭》等一系列作品，</view>
+    <view class='baseMid'>“高产女王”陈紫函荧屏“剧”精彩，</view>
+    <view class='baseMid'>人气口碑双爆棚。</view>
+    <view class='baseMid'>荧屏下，她是率真可爱、温和自然的幸福女人，</view>
+    <view class='baseMid'>拥有令人羡慕的美满家庭。</view>
+    <view class='baseMid'>她注重生活品质，享受居家乐趣，</view>
+    <view class='baseMid'>传递着她的快乐与幸福的同时，</view>
+    <view class='baseMid'>也为消费者树立了一个健康自然的睡眠风向标。</view>    
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510026931-3555.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>一个是对产品有着精益求精的优质床垫品牌，</view>
+    <view class='baseMid'>一个是对生活的细腻和对演戏的执着的实力派，</view>
+    <view class='baseMid'>此次牵手，陈紫函的高人气将会提升品牌的知名度，</view>
+    <view class='baseMid'>让更多消费者认识到吉宁床垫。</view>
+    <view class='baseMid'>此外，陈紫函温婉迷人，亲切居家的气质形象，</view>
+    <view class='baseMid'>也与吉宁床垫的品牌魅力高度吻合，</view>
+    <view class='baseMid'>两者合作，必会将吉宁床垫品牌推向一个新高度。</view>    
   </view>
 </view>

@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>甜品佳人陈紫函签约酷Q冰淇淋形象大使</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510025620-9745.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，陈紫函在北京出席签约仪式，正式担任酷Q冰淇淋形象大使。酷Q冰淇，健康低脂、柔软细腻。酷Q冰淇淋在色香味上的极致追求，以及在品质口感上的推陈出新，在年轻受众群中拥有极高知名度、动态频繁且影视作品繁盛的颜值女神陈紫函无疑是酷Q冰淇淋形象大使的绝佳人选。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510025626-6234.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>2014年是陈紫函事业全面开花的一年，积累下非凡人气的她在2015年亦有多部作品即将问世，相信酷Q冰淇淋将会同陈紫函一起，在新的一年开启更加精彩的未来。</view>
   </view>
 </view>

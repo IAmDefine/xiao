@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>释小龙续约康宝 粉刷健康生活</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510025952-3957.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，康宝涂料续约功夫明星释小龙担任品牌形象大使。释小龙与康宝涂料连续多年携手，为其品牌形象的树立和社会认同感的提升带来了极大的助力。</view>
+    <view class='baseCon'>近年来，人们对家居环境的健康安全更为重视，对涂料的选择更加注重健康品质。而以功夫明星身份出道的释小龙，少年英雄的荧屏形象深入人心，他代表的阳光、健康与康宝所坚持的品牌理念极为相符。释小龙的代言也令康宝品牌的发展如虎添翼，在激烈的市场竞争中稳步前进。双方的再次合作也将继续巩固康宝在消费者心目中的健康形象，并进一步提高他们品牌的认同感。</view>
   </view>
 </view>

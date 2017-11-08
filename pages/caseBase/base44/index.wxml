@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>取自然之美，装点爱家  李晨领跑魅力家居</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510026409-5915.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>随着时代的发展，绿色，环保，健康的居住环境必不可少，家居装修的环保要求也在不断上升。低碳，环保，绿色的材料，为消费者打造健康，优美，安全的居住环境成为众多家装品牌努力追求的目标。2016年，实力演员李晨出任华夏家装博览会的形象代言人。李晨的加入，不仅是该品牌的营销创举，更是品牌战略升级的重要象征。</view>
+    <view class='baseCon'>李晨，演技与实力并存的优质偶像。随着《奔跑吧，兄弟》、《挑战者联盟》、《欢乐喜剧人》等多部综艺的热播，李晨各项魅力指标展现无遗。此次他以靠谱守护、居家暖男的能力者为品牌注入可信赖的个性内涵。无论是真人秀中的能力者，还是荧屏上的可信赖的兄长、好友，力量与温暖完美结合的李晨成为了无数粉丝心中暖心的坚实存在。</view>
   </view>
 </view>

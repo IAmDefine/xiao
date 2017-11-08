@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>首艾国际携手周海媚 打造美妆教育航母</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510025871-8483.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，首艾国际邀请到冻龄女神周海媚出任首艾品牌连锁学校的形象大使，同时授权她担任学校的名誉校长。随着美妆时尚行业的蓬勃发展，人们对于妆容也有着更加专业化的需求，因此首艾国际在国内设立多所教育学院，并联合诸多国际知名院校携手打造美妆行业的教育航母。周海媚的代言将令首艾学校与国际接轨的时尚美妆教育更能为东方人所接受。</view>
+    <view class='baseCon'>周海媚曾主演《倚天屠龙记》、《天地豪情》等多部TVB年度大剧，近年来她又因出演《武媚娘传奇》、《抓住彩虹的男人》等热播大剧而收获了极高的人气，同时她美丽依旧的容颜也赢得了人们的惊叹与羡慕。她的代言将为首艾国际倡导的时尚美妆潮流做出完美诠释，同时也将为未来的美妆产业打造更多的时尚力量。</view>
   </view>
 </view>

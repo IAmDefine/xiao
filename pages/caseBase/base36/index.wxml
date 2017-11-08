@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>美丽新行动 陈紫函任“MLAY 品牌光子脱毛美容仪产品形象大使</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031864-4683.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，著名影星陈紫函签约担任“MLAY" 品牌光子脱毛美容仪产品形象大使。从荧屏的“谍战剧女王”，到观众心目中的“古装女王”，再到如今的“性感女神”，明艳大气、富有灵动的个人形象使陈紫函成为“美丽”一词当之无愧的代言人。</view>
+    <view class='baseCon'>同时，作为演艺界的性感女神，事业上的工作狂魔，陈紫函在人气与事业上的步步高升，也为其自身的代言价值提供更有力的优势。</view>
   </view>
 </view>

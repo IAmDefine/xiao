@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>快乐定制 享受生活 王迅牵手“美佳加”</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032690-2542.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>随着门窗市场的个性化需求不断凸显，门窗等家居建材产品间的竞争也愈发明显。2016年7月，王迅出任美佳加门窗品牌的形象代言人。而王迅的倾情助阵不仅提升品牌知名度，其欢乐、实在的幽默形象更是为品牌注入众多的个性内涵。</view>
+    <view class='baseCon'>2016年，对于王迅而言是演艺事业爆发的一年，在真人秀《极限挑战2》中，王迅化身人气、运气爆棚的“松鼠迅”，凭借着重感情、讲义气、珍惜、感恩的情义以及与男人帮的逗趣搞笑合作，在周日荧屏上给观众带去笑声和欢乐。</view>
+    <view class='baseCon'>从“欢乐松鼠”的神助功，到科技达人的严谨脑回路，再到新晋球员的“拼命三郎”形象，游走在众多角色中的王迅始终收放自如、游刃有余，在给观众留下深刻印象的同时，也奠定了演技实力派的头衔。王迅演艺之路也越走越宽，加盟出演的《深夜食堂》、《东北往事之破马张飞》、《废柴老爸》、《麻烦家族》等影视作品也将轮番亮相大小荧屏，佳作不断，荧屏精彩！</view>
   </view>
 </view>

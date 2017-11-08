@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>轻松出行，乐享出发  于震为电动车代言</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510030949-3582.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近年来电动车市场发展迅速，其节能环保、轻便简单等诸多便利因素迅速吸引了广大消费者的喜爱，成为了人们轻松出行的最佳选择。日前，实力派演员于震出任可爱鸟电动车品牌的形象大使。于震的倾情助阵，也将为可爱鸟品牌内涵注入更高的能量，增添无限乐趣。</view>
+    <view class='baseCon'>因出演了众多观众耳熟能详的抗战题材剧，于震俘获了不少观众的心，更是被冠以“抗战硬汉”的称号。近期，于震首次执导并领衔主演的大型高能抗战剧《不可能完成的任务》在江苏卫视圆满收官。</view>
+    <view class='baseCon'>从《炮神》到《不可能完成的任务》，再到即将播出的《大地惊雷》，于震扎实的演技每一次都能给观众带来强大的视觉享受。对于一个具有多年演艺经验的实力派演员来说，于震给观众呈现一个又一个的视觉盛宴。</view>
   </view>
 </view>

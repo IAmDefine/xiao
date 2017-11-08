@@ -3,6 +3,8 @@ page{background-color: #FFFFFF;}
 .page view{box-sizing: border-box;}
 .baseWrap{width: 100%;padding:0 20rpx 20rpx 20rpx;}
 .baseWrap view{width: 100%;}
-.baseTitle{font-size: 32rpx;color: #222222;margin: 17rpx 0;}
-.basePic>image{width: 100%; }  
-.baseCon{color: #555555;font-size: 26rpx;margin-bottom: 18rpx;}
+.baseTitle{font-size: 32rpx;color: #222222;margin: 17rpx 0 41rpx 0;font-weight: bolder;}
+.basePic{margin-top: 30rpx;}
+.basePic>image{width: 100%;}  
+.baseCon{color: #555555;font-size: 26rpx;line-height: 44rpx;text-align: left;text-indent: 54rpx;}
+.baseMid{font-size: 26rpx;color: #555555;text-align: center;line-height: 44rpx;}

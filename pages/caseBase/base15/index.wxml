@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>古天乐飞亚达携手筑梦 共塑慈善新风尚</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033691-9219.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>10月11日，飞亚达“青蓝使命”慈善发布会于南京举行，品牌代言人古天乐到场助阵，并为“以我时光，筑你梦想”2015青蓝使命慈善宣传片揭幕。古天乐化身公益暖男，呼吁大家帮助偏远山区的老师们实现他们的教育梦想。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033697-3228.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>多年来，飞亚达致力于慈善事业，2014年启动“青蓝使命”慈善项目旨在帮助云贵地区特岗、特困教师坚守他们心中筑就孩子的梦想。2014年品牌两位代言人古天乐和高圆圆，亲自参与设计了两款“慈善特别腕表”，飞亚达也将两款腕表的销售所得捐献给“中国教师发展基金会”，帮助他们实现自己的教育使命。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510033703-4395.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>今年，古天乐再次与飞亚达踏上筑梦慈善之旅，他佩戴自己参与设计的摄影师系列慈善同款腕表，与到场嘉宾共同见证用镜头记录珍藏的云南地区贫困儿童和教师的梦想。</view>
   </view>
 </view>

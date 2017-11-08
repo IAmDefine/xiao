@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>享洁净新生活 马伊琍为品质家居代言</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510024671-1131.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>新时代的女性，如何为家人打造健康洁净的生活环境？如何用心营造时尚、温馨、幸福的和谐家庭？日前，实力演员马伊琍将出任爱格家居品牌的形象代言人。马伊琍的倾情助阵也将令家居品牌的爱家理念得以更加完美的诠释，畅享净彩美好新生活。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024530-4916.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近年来，马伊琍主演了《奋斗》、《还珠格格》、《北上广不相信眼泪》等多部脍炙人口的影视剧，凭借着精致细腻的演技，完美塑造了一个个令人难忘的荧屏形象。荧屏上，她是尽职尽责的实力演员；生活中，她是尽心尽力的贤内助。在现实中，为大众树立了贤妻的典范，积极引导品质家居生活，以公众人物的影响力传播“爱孩子，爱家庭”的满满正能量。</view>
   </view>
 </view>

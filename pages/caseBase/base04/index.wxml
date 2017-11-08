@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>A-Lin代言谜色  芳香迷人从“头”开始</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034714-2922.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>“谜色”洗发护发品牌代言人——天生歌姬A-Lin黄丽玲，A-Lin因参加湖南卫视《我是歌手》而人气飙升，随后斩获多项港台地区最受欢迎女歌手音乐大奖。她低沉性感的嗓音、细腻感性的演唱令人沉醉，她的倾情代言也将为“谜色”的品牌发展插上一双魅惑动人的翅膀。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510034723-7949.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>谜色专多年来坚持搜罗全球最具特色的芳香文化和理念，通过萃取天然植物炮制精致芳香，力求在洗发护发的同时能够愉悦人的心情。而A-Lin不仅拥有令人羡慕的柔顺秀丽长发，她性感的外形和温柔的性格也诠释了现代女性的独特魅力。同时她对情歌的完美演绎也成为人们调整心情的方式之一，与谜色的品牌理念极为契合。</view>
   </view>
 </view>

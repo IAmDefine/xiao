@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>李晨续约森迈地板 品质生活一路奔跑</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032469-7449.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，晨晟木业续约李晨继续担任旗下森迈品牌地板的形象大使。近年来李晨的演艺事业不断发展，他优雅健康、活力向上的形象更加深入人心，与森迈地板倡导绿色环保，引领生活潮流的前瞻理念极为契合。</view>
+    <view class='baseCon'>与此同时，李晨积极倡导陪伴家人、环境保护等社会活动也赢得了社会大众的赞誉，他的公益之举也感召着森迈地板更加积极的投身“打造健康生活”的社会公益事业，承担起行业领军品牌的社会责任，促使森迈的品牌美誉度有了极大的提升。</view>
+    <view class='baseCon'>随着明星真人秀《奔跑吧，兄弟》等的热播，李晨的人气进一步的高涨，也为森迈地板赢得了更多消费者的关注。2015年李晨主演的《秀才遇到兵》、《三个奶爸》、电影《鬼吹灯之精绝古城》等多部热议作品将相继播出，代言人持续高热度的曝光也将促进森迈地板的品牌发展一路向上奔跑。</view>
   </view>
 </view>

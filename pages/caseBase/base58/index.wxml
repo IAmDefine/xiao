@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>熊黛林代言玛伦萨家居服 悠享时尚家居生活</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510023940-1858.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，玛伦萨家居服邀请到一位品牌的时尚诠释者——优雅女神熊黛林。熊黛林不仅拥有高贵、优雅的外形，她对时尚的完美展现、从容豁达的内心都深得现代女性的认可。此次玛伦萨携手熊黛林将使其精致生活的品牌理念中增添更多鲜活的时尚元素。</view>
+    <view class='baseCon'>多年来玛伦萨专注于高端家居服市场，深入体会现代人追求生活品质、向往自由休闲的心理需求，提出“8小时以外的精致生活”的理念，并将高雅、靓丽、休闲、舒适等理念融入产品设计，在追求舒适自然的同时更能衬托出女性的知性优雅。</view>
+    <view class='baseCon'>熊黛林从魅力绽放的秀场女王到转战影视的华美转身，不仅展现出更加多面的生活化形象，更将其对时尚的敏锐感知融入到角色塑造上，展现出现代女性的家居生活。熊黛林的代言将其品牌理念更加形象化的诠释，并将促使玛伦萨品牌形象更具现代风尚。</view>
   </view>
 </view>

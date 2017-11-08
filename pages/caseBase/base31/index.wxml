@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>刘涛携手“巧媳妇” 演绎厨房美学</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032326-5249.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，全能优质女神刘涛与“巧媳妇”刀具品牌正式签约，成为新一代形象大使。刘涛温婉自然的亲和形象和积极乐观的生活态度与巧媳妇推崇的品质生活不谋而合，其时尚、优雅、端庄的风尚姿态更是精彩演绎了厨房美学。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032333-1738.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>刘涛，兼具着现代气息和传统美德的完美融合，既前卫又典雅，既大胆开拓又柔情似水。穿上古装的刘涛温婉大气、秀雅绝俗；在新剧《欢乐颂2》中换上一身职业装的她，又立刻帅气十足。在多种角色和身份之间自在转换的刘涛，携手巧媳妇刀具品牌演绎精致与品味结合的厨房传奇神话。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032338-3979.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>作为厨具行业的领军品牌，巧媳妇深知消费者的需求，通过科技+艺术的完美结合，为消费者打造一件件充满优雅、精致、品味的厨具。巧媳妇刀具宣布刘涛担任形象大使的时，正值刘涛《欢乐颂2》即将首播，签约她相当于是预先卡位了代言人商业价值集中爆发的绝佳档期。</view>
   </view>
 </view>

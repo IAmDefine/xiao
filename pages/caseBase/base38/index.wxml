@@ -1,9 +1,43 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>魅力绽放！董璇与金桂福的珠宝情缘</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031482-1667.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>如果你无法准确描述“幸福女人”的定义，</view>
+    <view class='baseMid'>那么她大概就是众多女性为之羡慕的模样：</view>
+    <view class='baseMid'>投身于自己所爱的事业，</view>
+    <view class='baseMid'>有着愿与之共度一生的伴侣，</view>
+    <view class='baseMid'>更为从容自得生活状态，</view>
+    <view class='baseMid'>可以说诞下爱女后的她，</view>
+    <view class='baseMid'>甚至比孕前更为明艳动人。</view>
+    <view class='baseMid'>哈哈哈，你们大概猜到她是谁了吧？</view>
+    <view class='baseMid'>没错，她就是“璇美人”董璇！</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510031489-8751.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>一颦一笑优雅动人，举手投足惊艳众人。</view>
+    <view class='baseMid'>董璇，温婉时尚、优雅大气的气质，</view>
+    <view class='baseMid'>一如金桂福时尚珠宝的光耀魅力。</view>
+    <view class='baseMid'>也正因为如此，</view>
+    <view class='baseMid'>她又收获了一个全新的身份，</view>
+    <view class='baseMid'>那就是金桂福珠宝的形象大使。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510031495-8975.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>作为央视上榜的优秀品牌，</view>
+    <view class='baseMid'>金桂福一直以时尚创意和珠宝级品质而闻名。</view>
+    <view class='baseMid'>而如何在现有基础上再次腾飞，实现品牌的形象升级，</view>
+    <view class='baseMid'>金桂福选择了明星代言的助阵模式，</view>
+    <view class='baseMid'>为品牌形象强力背书！</view>
+    <view class='baseMid'>这无疑给金桂福珠宝注入一股新气息。</view>
+    <view class='baseMid'>同时透过工艺和品质来传达一种精致生活态度，</view>
+    <view class='baseMid'>这样的品牌定位也受到了形象大使董璇的高度认可！</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510031503-4628.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>而今，董璇与金桂福珠宝携手，</view>
+    <view class='baseMid'>为你开启这场璀璨奢美的光耀之门，</view>
+    <view class='baseMid'>愿你们也能成为生命里最闪耀的主角！</view>
   </view>
 </view>

@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>李晨携手智能锁 领跑质感生活</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032527-2137.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>专属空间的安全锁护，品质生活的智能先行，日前，实力演员李晨出任智能锁品牌大使。随着现象级真人秀《奔跑吧，兄弟》以及多部热播影视作品的高强度曝光，李晨时尚绅士和运动系男神的双重特质展现无遗，而他作为超高人气的正能量实力偶像成为众多品牌的优质代言，此次他以强健守护、时尚亲和的能力者形象为智能锁品牌注入质感安全的个性内涵。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032536-6219.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近年来智能设备不再是科技发烧友的专利，而逐渐成为人们日常生活的一部分，智能锁以高科技的时尚便捷融合精工品质的安全性能迅速植入生活中各类场景。时尚精致的外形、轻松便捷的内芯、匠心专注的品格，李晨与品牌将联手演绎出“用一把锁，恋一个家，爱一个人”的品牌心语，领跑全新时代的智能家居品牌生活。</view>
   </view>
 </view>

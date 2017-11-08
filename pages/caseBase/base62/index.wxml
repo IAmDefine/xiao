@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>赵奕欢签约思薇诗 诠释天然美肤</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510023517-9426.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>近日，广州佐润化妆品旗下品牌思薇诗护肤品邀请青春女神赵奕欢担任品牌形象大使。赵奕欢凭借主演《青春期》、《包笑公堂》、《校花驾到》等多部超高点击量网络剧而积累了极高的人气，她的倾力助阵将为思薇诗护肤品的知名度和关注度带来进一步提升。不仅如此，赵奕欢姣好的容貌和灵气十足的演技，给人一种天然舒服的感受，而这也是对思薇诗所坚持的“魅力来自天然”护肤理念的极佳诠释。</view>
+    <view class='baseCon'>思薇诗秉承天然萃取、重研发、重品质的企业理念，追求天然与科技的无缝结合，严格原料挑选标准、天然科学的萃取方法以及独特的配方，在美丽与优雅中传递自信、独立与奢华。赵奕欢的代言也将为思薇诗品牌护肤品融入更多时尚青春的品牌元素。</view>
   </view>
 </view>

@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>向智而行，从容于芯   王珞丹的“飞”常之约</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510024396-5419.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>应时尚腕表品牌“飞亚达”之约，气质美女王珞丹出席一场以“向智而行，从容于芯”为主题的轻智能腕表发布会。活动当天，王珞丹以一袭白色裤装时尚亮相，清新利落而又拥有现代都市气息。</view>
+    <view class='baseCon'>王珞丹，美貌与智慧并存的实力演技派。从《奋斗》、《我的青春谁做主》到《后会无期》、《烈日灼心》，王珞丹刻画了众多独立、勇敢、坚强的荧屏人物。凭借其出色表现，王珞丹成为炙手可热的当红花旦。</view>
+    <view class='baseCon'>作为“飞亚达”品牌挚友的王珞丹，在发布会上，亲自演示了轻智能腕表概念款解锁架势席车门的功能，还热情讲解了腕表解锁后备箱的功能，并介绍了该系列通用的交通卡支付，消息提醒和智能防丢等便捷功能，人气高涨。</view>
   </view>
 </view>

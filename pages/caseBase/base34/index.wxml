@@ -1,9 +1,14 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>吕良伟续约可爱鸟 分享品质骑行生活</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032007-2744.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，著名演员吕良伟续约天津知名电动车品牌可爱鸟，继续出任其形象大使。</view>
+    <view class='baseCon'>吕良伟从影数十年，塑造了诸多性格鲜明的角色，拥有极高的知名度。近年来他出演的《木府风云》、《新乌龙山剿匪记》等十余部影视作品堪称口碑佳作。在演艺事业不断前行的同时，吕良伟同样积极投身社会慈善事业，也因此而倍受赞誉。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510031996-4425.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近来电动车市场时尚之风盛行，可爱鸟对品牌内涵的塑造也更加倾向于时尚、柔和、质感等元素的表达。可爱鸟的这一发展趋势和吕良伟在形象上兼具品质、时尚的多元定位相不谋而合。吕良伟的继续代言不仅有利于保持品牌形象连贯性，也能为可爱鸟丰富更加多元的品牌文化。</view>
   </view>
 </view>

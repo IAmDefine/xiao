@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>高圆圆代言朵拉朵尚  天然呵护肌肤</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033889-3742.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>优雅女神高圆圆与手工皂品牌朵拉朵尚签约，担任旗下手工皂品牌代言人。高圆圆以优雅高贵的气质、清新雅致的容颜成为演艺界不可复制的女神，而幸福甜蜜的新婚生活也让她的自然之美更加迷人。高圆圆亲和不张扬的美丽与朵拉朵尚倡导的“天然”理念如出一辙，她的代言也更能赢得消费者的对品牌内涵的认同。朵拉朵尚始终秉承“比天然更自然”的理念，以天然为本，专注探索植物深藏的美丽秘诀，让肌肤享受天然、安全、有效的清洁和保养。</view>
+    <view class='baseCon'>过去的一年，高圆圆主演的《一生一世》、《单身那女2》、《咱们结婚吧》三部影片为她的演艺事业交出了一份亮眼的成绩单；纽约时装周、品牌发布秀、时尚封面、街拍大片，高圆圆的时尚之旅同样精彩。拥有极强影响力的高圆圆不仅能够为朵拉朵尚吸引更多女性消费者的关注，更将助力将其打造成手工皂第一品牌。</view>
   </view>
 </view>

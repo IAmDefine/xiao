@@ -1,9 +1,18 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>于震陈紫函双星代言 实力开启品牌新纪元</view>
+    <view class='baseCon'>明星具有一定的人气和社会影响力，是人们关注的焦点，对于中福石油而言，实力与魅力并存的演技派偶像是他们开创发展新篇章的强大力量。目前，实力派演员于震、陈紫函出任中福石油品牌的形象代言人。于震、陈紫函的倾情代言，将更深刻地体现了品牌传播的理念与原则，实力开启石油行业双星代言新格局。</view>    
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510023635-7314.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>有着“谍战天王”、“荧屏硬汉”的于震近年来为观众奉献了无数经典角色，无论是《炮神》中浴血抗战的炮兵奇才，还是《人民检察官》中自律严谨的优秀检察官，都与品牌传递的工匠精神相得益彰。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510023649-9981.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>时尚、百变、气质、智慧集于一身的陈紫函，从《古剑奇谭》到《天天有喜2之人间有爱》，她在演艺道路上不懈努力的励志经历令人十分感动。中福石油正是看中陈紫函传递正能量的特质、希望通过双方的合作，共同促进各自形象的建立与丰富。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510023658-7637.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>中福石油此次同时携手于震、陈紫函，一方面体现出品牌在石油行业的影响力，另一方面精准的品牌定位、极具热度的品牌代言人将开启石油行业新格局，开创发展新篇章，为行业市场及消费者，带来一种亲切而独特的品牌传播效应。</view>
   </view>
 </view>

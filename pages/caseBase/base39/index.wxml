@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>孟广美续签通天酒业   浪漫精致生活完美绽放</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031290-4694.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>2016年8月，风尚女神孟广美与知名红酒品牌通天酒业再次牵手，继续担任其品牌的形象代言人。孟广美优雅知性的气质，与红酒高贵、典雅的品质相得益彰，完美传递出品牌所焕发出来的美感与光芒。孟广美的倾情代言，将再一次谱写了通天酒业作为红酒产业领航者的新格局。</view>
+    <view class='baseCon'>孟广美集模特、演员、主持人等多重身份于一身，其知性与性感共存，率性与风情兼具。值得一提的是，从孟广美与通天酒业有缘牵手以来，品牌知名度和渠道覆盖率大增，此次再次携手合作，不仅能进一步加大品牌知名度，持续创新发展，也进一步巩固了通天酒业在行业市场的标杆地位，为描绘未来的美好蓝图做好了充分的准备。</view>
   </view>
 </view>

@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>苗圃携手骏辉硅藻泥 描绘健康家装新风尚</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510031193-9571.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>当硅藻泥的环保品质碰撞艺人的明星光环会为生活带来怎样的美妙体验？日前，北京骏辉建材邀请风尚女星苗圃出任旗下“骏辉”品牌硅藻泥形象大使。骏辉硅藻泥着力打造环保壁材行业第一品牌，而苗圃的倾情助阵也令品牌战略加速发展，双方的携手将带来一场健康家装的时尚体验。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510031201-2731.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>苗圃因《范府大院》、《走西口》等多部口碑大剧为人所熟知，而后因在年度大剧《穆桂英挂帅》中饰演穆桂英而积累了极高人气。骏辉在坚守硅藻泥环保健康特质的同时，也在不断推出更符合现代生活需求的时尚风格新品。苗圃的加盟，不仅拉近品牌与消费者之间的距离，更有助于品牌公信力的提升。</view>
   </view>
 </view>

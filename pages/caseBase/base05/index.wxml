@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>陈妍希出任“麻将女友” 甜美开局棋牌新玩法</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510034648-9144.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>2016手游市场风云再燃，手游《我的麻将女友》打出清新大招——甜美系女神陈妍希，这也是继“金庸群侠”后我们又一次操盘全民系手游代言。《我的麻将女友》在传统棋牌游戏的基础上进行跨越式革新，27种技能的全新玩法将为游戏玩家打造全新的棋牌体验。全新的玩法规则同时搭配清新可爱的游戏氛围，这跟陈妍希清新独特的气质正相符。</view>
+    <view class='baseCon'>从《那些年，我们一起追的女孩》中的“国民初恋”沈佳宜，到《秦时明月》的“妙手医仙”端木蓉，陈妍希主演的多部影视作品均获得极高的关注及收视成绩，而她清新独特的气质更是成为年轻粉丝心中的亲和女神。温柔甜美的笑容、跨界全能的演艺事业都将为《我的麻将女友》注入星光动力。</view>
   </view>
 </view>

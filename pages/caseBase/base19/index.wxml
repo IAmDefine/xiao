@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>胡可签约丽媛瓷砖 演绎东方美学</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033156-3625.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，演员胡可与佛山市丽媛陶瓷科技有限公司在京签约，出任该企业旗下“丽媛瓷砖”品牌瓷砖产品形象大使。胡可的倾情助阵不仅将进一步提升丽媛瓷砖的品牌格调，同时也将令品牌的东方美学更加形象的传递。</view>
+    <view class='baseCon'>胡可一向以知性优雅的风格亮相荧屏，从出道时的亲和女主持，到影视作品中的魅力女性，再到真人秀中的温柔居家星妈，她将东方女性的传统之美融入现代生活，与丽媛瓷砖所体现的品牌气质如出一辙。</view>
+    <view class='baseCon'>胡可与丽媛瓷砖的相约携手，不仅由于二者的格调极为相似，更是对彼此居家生活理念的认同。家庭幸福、事业独立，胡可俨然成为现代人的生活理想型，与丽媛瓷砖精准把握家居装饰潮流不谋而合，完美诠释出现代生活风尚。</view>
   </view>
 </view>

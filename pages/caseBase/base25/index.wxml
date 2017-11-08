@@ -1,9 +1,13 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>蒋欣代言博皓电动牙刷炫白皓齿展自信笑颜</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032779-6961.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>日前，著名演员蒋欣出任深圳瑞圣电子科技有限公司旗下“prooral博皓”电动牙刷品牌形象大使。蒋欣的倾情助阵也将令博皓电动牙刷的品牌理念加以更加完美的诠释，让魅力笑颜尽显健康自信。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032785-3779.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近年来，蒋欣在影视事业中开启了巅峰模式，她以精致细腻的演绎以及对角色的精准把控，完美塑造了一个个让人难忘的荧屏形象，使之收获了大批粉丝和人气。除此之外，蒋欣在真人秀《我去上学啦》中尽显青春活力气息，更是赢得了年轻观众网友的青睐。此次，蒋欣倾情助阵博皓电动牙刷，不仅有效地加深了市场消费者对品牌的认知，增加品牌效应，更是有利于丰富品牌的内涵。</view>
   </view>
 </view>

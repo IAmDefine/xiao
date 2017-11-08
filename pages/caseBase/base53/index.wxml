@@ -1,9 +1,17 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>汪东城助阵“黑桃互动”  燃爆Coser漫友热情</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510025490-4363.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>2016年6月，手游《新世纪福音战士OL》诚意邀请了有着“cos届小王子”美誉的汪东城，化身主播，前往黑桃互动EVA手游基地探班，全程直播了全球最大初号机的制作现场，引来全球众多的EVA粉丝们的关注。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510025506-6877.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>汪东城，影视歌综艺多栖发展的全能优质偶像，因在热播偶像剧《终极一班》中出演汪大东一角，其帅气、阳光、热血的形象备受粉丝追捧。从模特儿到演员，从歌手到综艺喜剧咖，汪东城一路走来亦在不断地挑战自己。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510025512-8191.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>近来，在综艺节目《全员加速中2》、《偶滴歌神啊》中，汪东城凭借卓越的口才和搞笑的艺能吸引众人的眼球。舞台中精湛歌舞技艺，综艺中优质艺能感，表演中真是从容，汪东城逐渐彰显其独特的个人魅力，完美蜕变为一名全能优质偶像。</view>
   </view>
 </view>

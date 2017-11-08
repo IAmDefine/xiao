@@ -1,9 +1,39 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>吴越携手精邦家具  演绎生活美学</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510024971-7536.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseMid'>她的人，就和她的角色一样，</view>
+    <view class='baseMid'>端庄、知性，又些小文艺，</view>
+    <view class='baseMid'>而她就是实力女演员——吴越！</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024981-4792.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>从《中国往事》坚强独立的晚月；</view>
+    <view class='baseMid'>到《远远的爱》里柔情细腻的冷玉萱；</view>
+    <view class='baseMid'>从《恋爱的犀牛》敢爱敢恨的明明；</view>
+    <view class='baseMid'>到热播剧《我的前半生》中的凌玲；</view>
+    <view class='baseMid'>吴越凭借着精致细腻的演技，</view>
+    <view class='baseMid'>将角色刻画得生动立体。</view>    
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024989-7353.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>不拍戏时，她便认认真真地生活。</view>
+    <view class='baseMid'>把生活过的如素人一样简单纯净，</view>
+    <view class='baseMid'>在自己的故事里，活出恰好的味道。</view>
+    <view class='baseMid'>这一次，吴越与精邦家具品牌牵手，</view>
+    <view class='baseMid'>精邦家具品牌的形象大使。</view>    
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510024995-7389.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseMid'>最纯粹的演员携手最原生态的新材料</view>
+    <view class='baseMid'>碰撞出最靠谱的品质绿色生活。</view>
+    <view class='baseMid'>如果说有谁能完美映衬精邦家具的韵味，</view>
+    <view class='baseMid'>那么非吴越莫属。</view>
+    <view class='baseMid'>简单、纯粹、不骄不躁，</view>
+    <view class='baseMid'>千帆过尽，沉淀下来的只是本真。</view>
+    <view class='baseMid'>戏里戏外，吴越仿佛一股清流，</view>
+    <view class='baseMid'>简单纯粹地做自我。</view>    
   </view>
 </view>

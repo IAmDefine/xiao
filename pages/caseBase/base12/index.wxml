@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>分享美味 李菁菁倾情代言酱菜</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033928-4925.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>口感浓郁、味道香醇的酱菜是大众餐桌上一道传统餐桌佐肴。前不久，著名演员李菁菁出任新阳酱菜品牌的形象大使。李菁菁的倾情助阵也将令其品牌理念得以更完整的诠释，让品种繁多，口味多样的酱菜溢香万家。</view>
+    <view class='baseCon'>演员李菁菁通过《金婚》、《憨媳当家》、《新女婿时代》等脍炙人口的影视剧而被观众熟知。无论其外表形象还是举手投足间都传递着朴实、轻松的符号，这也很好地代表了酱菜“健康、绿色、安全”的消费需求，凸显了新阳酱菜品牌的质量理念。近年来，李菁菁除了参演多部影视剧外，更是活跃在卫视及各地电视频道，时而搞笑客串，时而出任温情演绎，是观众朋友们喜闻乐见的知名演员。</view>
   </view>
 </view>

@@ -1,9 +1,15 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>浪漫满屋！陈德容与皮阿诺的风尚之约</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510032613-8593.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>应家居品牌“皮阿诺”之约，“琼女郎”陈德容出席了皮阿诺“上市星助力，粤购粤精彩”活动。活动当天，陈德容一袭蓝裙端庄优雅，美颜盛世无可挑剔。</view>
+    <view class='basePic'>
+       <image src='https://img2.youxingku.cn/20171107/1510032622-5922.jpg' mode="widthFix"></image> 
+    </view>
+    <view class='baseCon'>皮阿诺秉承着“高雅、时尚、浪漫”的家居设计理念，用科学的功能设计、精湛的工艺为消费者提供更好，更有品味，更高品质的家居产品，演绎科学艺术家居极致之美，引领高品味生活。</view>
+    <view class='baseCon'>一袭蓝裙美如画，一个回眸便惊艳了时光。活动上，陈德容的冻龄美颜不仅看呆了众人，更是唤起了现场小伙伴如潮水般汹涌的“回忆杀”。值得一提的是，在活动现场，她倾情演唱了电视剧《一帘幽梦》同名主题曲，“我有一帘幽梦，不知与谁能共……”，将活动气氛推向高潮。</view>
+    <view class='baseCon'>此次，陈德容的倾情助阵，不仅对皮阿诺高雅、时尚、浪漫的梦想进行了完美的诠释，更是引领品牌行业新风尚。</view>
   </view>
 </view>

@@ -1,9 +1,11 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>于荣光助力零度男鞋   步步精彩</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510023792-7876.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>于荣光，集演员、导演、制片人多栖身份于一体的实力派。他秉直、刚毅的个人形象，成熟、稳健的气质受到知名品牌零度男鞋的青睐。前不久，实力演技派于荣光与零度男鞋正式签约，成为该品牌的形象代言人。</view>
+    <view class='baseCon'>不容置疑，一个合适的形象代言人能为产品和企业增光添彩，零度男鞋立足实际，精准的产品形象定位，借用实力派于荣光的知名度和影响力，塑造良好的品牌形象，提高市场占有率，这也为品牌全新升级起了顺风扬帆之效。</view>
+    <view class='baseCon'>作为一名演员，于荣光细心挖掘每一个角色，娴熟的演技、扎实的表演功底，将角色的内心世界刻画得生动立体，完美塑造了一个个令人难忘的荧屏形象，广受好评。演技出众、气质不凡的于荣光，在此次与零度男鞋的签约中，不仅展现了实力演技派的强大个人魅力和感召力，还进一步突出其品牌的特色，可谓是步步精彩！</view>
   </view>
 </view>

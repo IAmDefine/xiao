@@ -1,9 +1,10 @@
 <view class='page'>
   <view class='baseWrap'>
-    <view class='baseTitle'></view>
+    <view class='baseTitle'>唤醒肌肤 深沉活力 李晨的颜值新“净”界</view>
     <view class='basePic'>
-       <image src='' mode="widthFix"></image> 
+       <image src='https://img2.youxingku.cn/20171107/1510033099-5831.jpg' mode="widthFix"></image> 
     </view>
-    <view class='baseCon'></view>
+    <view class='baseCon'>2016年，人气偶像李晨迎来了他小宇宙爆发般的“井喷之年”，影剧综三栖全面开花。电影《梦想合伙人》、《我不是潘金莲》闪耀大银幕，电视剧《好家伙》自播出以来，好评如潮。综艺节目《奔跑吧兄弟4》、《挑战者联盟2》、《喜剧总动员》，圈粉无数。未来，李晨还将用《军师联盟》、《霸天狼》等佳作，证明自己在演艺事业上的厚积薄发。作品带动人气，人气拉高商业价值。男神李晨与碧斯诺兰护肤品牌建立合作关系，以其强健守护、时尚亲和的暖男形象为品牌注入高质、安全的个性内涵。</view>
+    <view class='baseCon'>荧屏上“大黑牛”的稳重可靠，镜头背后潮范十足的时尚达人，李晨在硬汉和暖男间自如切换。他温暖体贴、刚毅不屈的正能量形象与碧斯诺兰护肤气质极为相近，同时也将品牌所传递的高质护肤理念完美展现。</view>
   </view>
 </view>
