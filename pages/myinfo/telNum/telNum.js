@@ -58,11 +58,24 @@ Page({
       var postData = { mobile: that.data.phone_value};
       function doSuccess(res){
         if(res.data.status==1){
-          wx.showToast({
-            title: '手机已存在',
-            icon: 'success',
-            duration: 2000
+
+          wx.showModal({
+            title: '手机号已存在！',
+            content: '是否绑定？',
+            success: function (res) {
+              if (res.confirm) {
+                wx.redirectTo({
+                  url: '/pages/myinfo/bindNum/binidNum',
+                })
+              }
+            }
           })
+          return;
+          // wx.showToast({
+          //   title: '手机已存在',
+          //   icon: 'success',
+          //   duration: 2000
+          // })
         }else{
           // 手机号码格式正确执行倒计时等事件
           countdown(that);
@@ -159,7 +172,11 @@ Page({
         var info = res.data;
         if (info.status == 1) {
           var id = res.data.data.id
-        var myinfo = { "wx_headportr": "", "wx_nickname": "", "mobile": mobile,id:id }
+          if (wxinfo){
+            var myinfo = { "wx_headportr": wxinfo.photo, "wx_nickname": wxinfo.nickname, "mobile": mobile, id: id }
+          }else{
+            var myinfo = { "wx_headportr": "", "wx_nickname": "", "mobile": mobile, id: id }
+          }
         wx.setStorage({
           key: "myinfo",
           data: myinfo

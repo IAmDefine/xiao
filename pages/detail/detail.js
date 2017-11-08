@@ -24,6 +24,17 @@ Page({
   collectClick:function(){
     var myinfo = wx.getStorageSync('myinfo');
     if(!myinfo){
+      wx.showModal({
+        title: '绑定手机才可以收藏！',
+        content: '是否绑定？',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '/pages/myinfo/telNum/telNum',
+            })
+          }
+        }
+      })
       return;
     }
     if(this.data.collectFlag){
@@ -230,9 +241,7 @@ Page({
     wx.navigateTo({
       url: '/pages/detail/detailMovieList/detailMovieList?types='+types+"&sid="+sid
     })
-    
   },
-
   //跳转近期上线
   jump_new:function(e){
     var sid = this.data.sid;
@@ -253,7 +262,7 @@ Page({
   sign:function(){
     wx.showModal({
       title: '提示',
-      content: '请下载优.星库APP或登录网页进行购买',
+      content: '请下载优星库APP或登录网页进行签约',
       cancelText:"联系客服",
       confirmText:"取消",
       cancelColor:"#EB2000",

@@ -37,6 +37,7 @@ Page({
     var that = this;
     var snid = that.data.id;
     var evelcon = that.data.msg_detail;//留言内容
+    var evelcon = escape(evelcon);//加密评论信息，为了防止输入表情无法存储
     if (!evelcon){
       wx.showToast({
         title: '请输入内容！',

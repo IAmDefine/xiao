@@ -57,17 +57,17 @@
     <view class="weui-cell weui-cell_access filterCle bort clear" bindtap='click_industry'>
       <text>适用行业</text>
       <view class="weui-cell__bd"></view>
-      <view class="weui-cell__ft weui-cell__ft_in-access">{{show_value}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access textShow">{{show_value}}</view>
       <image src='/images/myInfoIcon_right.png' class='filterClePic'></image>
     </view>
     <view class="weui-cell weui-cell_access filterCle clear" bindtap='select_profession'>
       <text class="weui-cell__bd">艺人职业</text>
-      <view class="weui-cell__ft weui-cell__ft_in-access">{{select_profession_value}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access textShow">{{select_profession_value}}</view>
       <image src='/images/myInfoIcon_right.png' class='filterClePic'></image>
     </view>
     <view class="weui-cell weui-cell_access bigbob filterCle clear" bindtap='tag'>
       <text class="weui-cell__bd">艺人特质</text>
-      <view class="weui-cell__ft weui-cell__ft_in-access">{{tag_value}}</view>
+      <view class="weui-cell__ft weui-cell__ft_in-access textShow">{{tag_value}}</view>
       <image src='/images/myInfoIcon_right.png' class='filterClePic'></image>
     </view>
   </view>

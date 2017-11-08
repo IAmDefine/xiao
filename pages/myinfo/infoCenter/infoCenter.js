@@ -23,7 +23,6 @@ Page({
     var that = this;
     var value = wx.getStorageSync('wxinfo');
 
-
     //查询个人信息
     var myinfo = wx.getStorageSync('myinfo');
     if (myinfo) {

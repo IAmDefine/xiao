@@ -1,11 +1,11 @@
 page{background-color: #F5F5F5;}
 .page{border-top: 1rpx solid #EAEAEA; color:#333333;font-size: 28rpx; font-family: '微软雅黑';}
-.page view{box-sizing: border-box;}
+ .page view{box-sizing: border-box;} 
 .myNewsWrap{width: 100%;padding: 0 0 0 30rpx;background-color: #FFFFFF;border-top: 1rpx solid #EAEAEA;border-bottom: 1rpx solid #EAEAEA;margin-top: 20rpx;}
 .myNews{min-height: 140rpx;position: relative;padding-left: 110rpx;}
 .myNewsTipsWrap{position: absolute;left: 0;top: 0;height: 100%;display: flex;align-items: center;}
 .myNewsTipsWrap>image{width: 88rpx;height: 87rpx;}
-.myNewsConWrap{width: 100%;height: 140rpx;padding: 30rpx 0;border-bottom: 1rpx solid #EAEAEA;}
+.myNewsConWrap{width: 100%;padding: 30rpx 0;border-bottom: 1rpx solid #EAEAEA;}
 .myNewsTittleCon{color: #333333;font-size: 28rpx;float: left;}
 .myNewsTittleTime{color: #999999;font-size: 24rpx;float: right;}
 .myNewsDetail{color: #999999;font-size: 26rpx;margin-right: 30rpx;}

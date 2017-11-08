@@ -63,7 +63,6 @@
     </view>
     <!-- 回复内容 -->
     <view class='replyWrap' wx:if="{{msginfo}}">
-
       <view class='replyItem' wx:for="{{msginfo}}" wx:for-item="value">
         <!--2是客户评价 1是平台评价 显示效果不同  -->
         <view class='replayTitle clear' wx:if="{{value.eval_source==2}}">
@@ -82,7 +81,6 @@
           <!-- <text>19:08</text> -->
         </view>
       </view>
-
     </view>
   </view>
   <!-- 评论按钮 -->

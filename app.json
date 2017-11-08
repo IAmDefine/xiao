@@ -1,8 +1,14 @@
 {
   "pages": [
+    "pages/index/index",
+    "pages/starNews/leaveMes/leaveMes",
+    "pages/starNews/eval/eval",
+    "pages/myinfo/changeName/changeName",
+    "pages/myinfo/infoCenter/infoCenter",
+    "pages/myinfo/bindNum/binidNum",
+    "pages/myinfo/myNews/myNews",
     "pages/caseBase/caseBase",
     "pages/starNews/starNews",
-    "pages/index/index",
     "pages/caseBase/base01/index",
     "pages/caseBase/base02/index",
     "pages/caseBase/base03/index",
