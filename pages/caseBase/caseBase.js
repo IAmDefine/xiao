@@ -21,7 +21,7 @@ Page({
         title: 'A-Lin代言谜色  芳香迷人从“头”开始',
         link:'base04/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956738-8425.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110062-3689.jpg',
         pageView: '145',
         title: '陈妍希出任“麻将女友” 甜美开局棋牌新玩法',
         link:'base05/index',        
@@ -51,17 +51,17 @@ Page({
         title: '段奕宏代言方太 演绎智能厨房的温度生活',
         link: 'base10/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956912-6273.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110402-5626.jpg',
         pageView: '535',
         title: '方青卓爱心无极限为萌宠之家倾情代言',
         link: 'base11/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956921-4655.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110102-9758.jpg',
         pageView: '6422',
         title: '分享美味 李菁菁倾情代言酱菜',
         link: 'base12/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956929-2698.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110141-2738.jpg',
         pageView: '2112',
         title: '高圆圆代言朵拉朵尚  天然呵护肌肤',
         link: 'base13/index',        
@@ -71,7 +71,7 @@ Page({
         title: '高圆圆携手飞亚达新品 表白浪漫七夕',
         link: 'base14/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956947-6881.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110181-6169.jpg',
         pageView: '442',
         title: '古天乐飞亚达携手筑梦 共塑慈善新风尚',
         link: 'base15/index',        
@@ -91,7 +91,7 @@ Page({
         title: '古天乐又有代言新身份 这一次是车仆的形象大使',
         link: 'base18/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509956989-4243.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110217-3384.jpg',
         pageView: '6335',
         title: '胡可签约丽媛瓷砖 演绎东方美学',
         link: 'base19/index',        
@@ -111,12 +111,12 @@ Page({
         title: '黄小蕾签约维倩脱毛膏形象大使',
         link: 'base22/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957053-6874.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110242-3551.jpg',
         pageView: '1485',
         title: '健康呵护 享活力好心情林志玲结缘“月如意”',
         link: 'base23/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957062-5662.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110423-1972.jpg',
         pageView: '2422',
         title: '健康生活轻松享 爱戴的美丽秘诀',
         link: 'base24/index',        
@@ -126,7 +126,7 @@ Page({
         title: '蒋欣代言博皓电动牙刷炫白皓齿展自信笑颜',
         link: 'base25/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957089-2347.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110440-2876.jpg',
         pageView: '42',
         title: '快乐定制 享受生活 王迅牵手“美佳加”',
         link: 'base26/index',        
@@ -146,7 +146,7 @@ Page({
         title: '李晨续约森迈地板 品质生活一路奔跑',
         link: 'base29/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957128-1155.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110268-5299.jpg',
         pageView: '41',
         title: '立威廉携手梵婕缇深度诠释年轻态度',
         link: 'base30/index',        
@@ -156,7 +156,7 @@ Page({
         title: '刘涛携手“巧媳妇” 演绎厨房美学',
         link: 'base31/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957150-7412.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110299-7548.jpg',
         pageView: '512',
         title: '刘筱筱签约雪兰山预调酒 青春活力一起来',
         link: 'base32/index',        
@@ -241,7 +241,7 @@ Page({
         title: '释小龙续约康宝 粉刷健康生活',
         link: 'base48/index',        
       }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957337-5743.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110334-5351.jpg',
         pageView: '3532',
         title: '首艾国际携手周海媚 打造美妆教育航母',
         link: 'base49/index',        
@@ -286,7 +286,7 @@ Page({
         title: '萧蔷、焦恩俊代言《古龙群侠传2》手游今日全平台首发',
         link: 'base57/index',        
     }, {
-        picLink: 'https://img2.youxingku.cn/20171106/1509957413-9252.jpg',
+        picLink: 'https://img2.youxingku.cn/20171108/1510110382-9991.jpg',
         pageView: '2466',
         title: '熊黛林代言玛伦萨家居服 悠享时尚家居生活',
         link: 'base58/index',        
