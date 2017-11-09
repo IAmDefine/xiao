@@ -24,17 +24,17 @@ Page({
         picLink: 'https://img2.youxingku.cn/20171108/1510110062-3689.jpg',
         pageView: '145',
         title: '陈妍希出任“麻将女友” 甜美开局棋牌新玩法',
-        link:'base05/index',        
+        link:'base05/index',
     }, {
         picLink: 'https://img2.youxingku.cn/20171106/1509956745-7767.jpg',
         pageView: '545',
         title: '陈妍希携曼秀雷敦新片来袭 清新草本为美丽加分',
-        link:'base06/index',        
+        link:'base06/index',
       }, {
         picLink: 'https://img2.youxingku.cn/20171106/1509956753-7175.jpg',
         pageView: '908',
         title: '陈紫函阿凡果携手打造多样健康美丽',
-        link:'base07/index',        
+        link:'base07/index',
     }, {
         picLink: 'https://img2.youxingku.cn/20171106/1509956770-7123.jpg',
         pageView: '755',

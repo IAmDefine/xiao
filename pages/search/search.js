@@ -112,7 +112,7 @@ Page({
       //成功执行函数
       function doSuccess(res) {
         if(res.data.result.items[0]){
-          var info = res.data.result.items[0].fields;
+          var info = res.data.result.items;
              that.setData({
                'star_message': info
             })
@@ -179,7 +179,7 @@ Page({
     //成功执行函数
     function doSuccess(res) {
       if (res.data.result.items[0]) {
-        var info = res.data.result.items[0].fields;
+        var info = res.data.result.items;
         that.setData({
           'star_message': info,
           'search_con': seek
@@ -212,13 +212,11 @@ Page({
       wx.setStorageSync('history', history);
     }
     var url = "/search/index.php";
-   
     var postData = { keys: hot}
-    
     //成功执行函数
     function doSuccess(res) {
       if (res.data.result.items[0]) {
-        var info = res.data.result.items[0].fields;
+        var info = res.data.result.items;
         that.setData({
           'star_message': info,
           'search_con': hot

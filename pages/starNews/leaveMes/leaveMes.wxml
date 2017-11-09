@@ -25,7 +25,7 @@
             <text>您的联系电话是？</text>
           </view>
           <view class='leaverMesConUp' style='display:{{phoneStatusR}}'>{{phoneCon}}</view>
-          <input class='leaverMesCon' placeholder='{{phoneHolder}}' style='display:{{phoneStatusF}}' focus='{{phoneFocusStatus}}' bindblur='phoneBlur' value='{{phoneValue}}' bindfocus='phoneFocus'></input>
+          <input class='leaverMesCon' type='number' placeholder='{{phoneHolder}}' style='display:{{phoneStatusF}}' focus='{{phoneFocusStatus}}' bindblur='phoneBlur' value='{{phoneValue}}' bindfocus='phoneFocus'></input>
         </view>
       </view>
     </view>

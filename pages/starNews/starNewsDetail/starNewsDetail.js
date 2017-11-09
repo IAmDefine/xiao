@@ -6,10 +6,8 @@ Page({
   data: {
     collectSrc:'/images/starNewsDetail4Unchecked.png',
     collectSrcFlag:1,
-
     thumbsSrc:'/images/starNewsDetail3Unchecked.png',
     thumbsClickFlag:1,
-
     info:"",//内容
     id:"",//星迅id
     msginfo: '',//评论信息
@@ -18,6 +16,7 @@ Page({
   },
   // 点赞
   thumbsClick:function(){
+    console.log(11)
     var that = this;
     if (this.data.thumbsClickFlag==0){
       return;
@@ -26,6 +25,7 @@ Page({
     var wxopenid = wx.getStorageSync('unionid');
     var postData = { snid: this.data.id, wxopenid: wxopenid};
     function doSuccess(res){
+      console.log(res)
       if(res.data.status==1){
         var oldinfo = that.data.info;
         var num = oldinfo.zannum*1+1;
@@ -45,6 +45,17 @@ Page({
   collectClick:function(){
     var myinfo = wx.getStorageSync('myinfo');
     if (!myinfo) {
+      wx.showModal({
+        title: '绑定手机才可以收藏！',
+        content: '是否绑定？',
+        success: function (res) {
+          if (res.confirm) {
+            wx.navigateTo({
+              url: '/pages/myinfo/telNum/telNum',
+            })
+          }
+        }
+      })
       return;
     }
     if (this.data.collectSrcFlag){
@@ -86,7 +97,8 @@ Page({
     app.yxkRequest(url, postData, doSuccess);
     //查询是否点过赞
     var url = '/inter/starsnews/lookgive';
-    var pd = { snid: e.id, wxopenid: wx.getStorageSync('unionid')}
+    var openid = wx.getStorageSync('unionid');
+    var pd = { snid: e.id, wxopenid: openid};
     function dos(res){
       if(res.data.status==1){
         that.setData({
@@ -106,6 +118,7 @@ Page({
         var info = res.data.data.data
         for(let i in info){
           info[i].instime = app.timetrans(info[i].instime);
+          info[i].evelcon = unescape(info[i].evelcon);
         }
         that.setData({
           msginfo:info,
@@ -265,6 +278,7 @@ Page({
         var info = res.data.data.data;
         for (let i in info) {
           info[i].instime = app.timetrans(info[i].instime);
+          info[i].evelcon = unescape(info[i].evelcon); //解密评论信息，主要是为了显示发布的表情
         }
         wx.showToast({
           title: '加载中',

@@ -8,21 +8,12 @@ Page({
     photo:"",
     nickname:""
   },
-
-  /**
-   * 生命周期函数--监听页面加载
-   */
-  onLoad: function (options) {
-
-  },
-
   /**
    * 生命周期函数--监听页面显示
    */
   onShow: function () {
     var that = this;
     var value = wx.getStorageSync('wxinfo');
-
 
     //查询个人信息
     var myinfo = wx.getStorageSync('myinfo');

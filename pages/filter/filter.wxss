@@ -53,3 +53,4 @@ align-items:center;
 .filterCle>text{float: left;}
 .filterCle>image{float: right;margin:35rpx 30rpx 0 0;width: 12rpx;height: 20rpx; }
 .filterCle >.filterClePic{margin-top: 0;}
+.textShow{text-overflow: ellipsis;white-space: nowrap;overflow: hidden; max-width: 70%;}

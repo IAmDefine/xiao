@@ -1,31 +1,24 @@
 var md5 = require('./utils/md5.js');
 App({
-  https: "http://demo.api.youxingku.cn",
-  // https: "https://api.youxingku.cn",
+  https: "https://api.youxingku.cn",
   onLaunch: function () {
     var that = this;
-    // wx.authorize({
-    //   scope: 'scope.userInfo',
-    //   success() {
-    //   }
-    // })
     // 登录
-    // var appid = 'wx2cfc3a917dbe5697';
-    // var AppSecret = '8710ead45bfce4ed619a01d74bb00c71';
-    var appid = 'wx828e3c2633c686de';
-    var AppSecret = '1ca86d3ef1411860161c5cc267860ab1';
+    var appid = 'wx2cfc3a917dbe5697';
+    var AppSecret = '8710ead45bfce4ed619a01d74bb00c71';
     wx.login({
       success: res => {
         // 发送 res.code 到后台换取 openId, sessionKey, unionId
         var code = res.code;
         wx.request({
-          url: 'https://api.weixin.qq.com/sns/jscode2session?appid=' + appid + '&secret=' + AppSecret+'&js_code=' + code + '&grant_type=authorization_code',
-          data: {},
+          url: 'https://api.youxingku.cn/wxauth/index.php',
+          data: {code:code},
+          method: 'POST',
           header: {
             'content-type': 'application/x-www-form-urlencoded'
           },
           success: function (res) {
-            var unionid = res.data['openid'];
+            var unionid = res.data.data;
             wx.setStorage({
               key: "unionid",
               data: unionid
@@ -139,7 +132,5 @@ App({
       minute = "0" + minute
     }
     return year + "-" + month + "-" + date + "  " + hour + ":" + minute;
-
   }
-
 })

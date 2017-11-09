@@ -7,8 +7,8 @@
           <view class='caseMaskCheckWrap clear'>
             <view class='caseMaskCheckWrapMask'></view>
             <view class='caseMaskCheck clear'>
-              <image src='/images/caseBase.png'></image>
-              <text>{{data.pageView}}</text>
+              <!-- <image src='/images/caseBase.png'></image> -->
+              <!-- <text>{{data.pageView}}</text> -->
             </view>
           </view>
           <view class='caseConWrap'>

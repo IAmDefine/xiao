@@ -7,7 +7,7 @@
           <view class="search_icon">
             <image src="/images/search_icon.png"></image>
           </view>
-          <input type="text" placeholder="请输入艺人姓名" class="search" placeholder-style="color:#B0B0B0" bindconfirm="search_submit" bindinput="input_value" value="{{search_con}}" />
+          <input type="text" placeholder="请输入艺人姓名" class="search" placeholder-style="color:#B0B0B0" bindconfirm="search_submit" bindinput="input_value" value="{{search_con}}" bindblur="submit_click" confirm-type='search'/>
         </view>
         <view class="submit_button" style="background-color:{{submit_bg}};font-family:'微软雅黑'" bindtap="submit_click">{{submit_value}}</view>
       </form>
@@ -53,10 +53,10 @@
 
   <!--查询出的内容  -->
   <view style='display:{{search_content}}' class='resPic'>
-    <view wx:if="{{star_message}}" class='resPicItem'>
-      <image src="{{star_message.home_pic}}" wx:if="{{star_message.home_pic}}" bindtap='jump_detail' id='{{star_message.id}}'></image>
-      <image src="{{star_message.img}}" bindtap='jump_detail' id='{{star_message.id}}' wx:else></image>
+    <view wx:if="{{star_message}}" class='resPicItem' wx:for="{{star_message}}" wx:for-item="value">
+      <image src="{{value.fields.home_pic}}" wx:if="{{value.fields.home_pic}}" bindtap='jump_detail' id='{{value.fields.id}}'></image>
+      <image src="{{value.fields.img}}" bindtap='jump_detail' id='{{value.fields.id}}' wx:else></image>
     </view>
-    <view class='detail' wx:else> 没有数据 </view>
+     <view class='detail' wx:if="{{!star_message}}"> 没有数据 </view> 
   </view>
 </view>
