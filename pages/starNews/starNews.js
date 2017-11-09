@@ -86,7 +86,7 @@ Page({
       icon: 'loading',
       duration: 500
     })
-    this.onLoad()
+    this.onLoad();
     wx.stopPullDownRefresh()
   },
   //点击我要找艺人
